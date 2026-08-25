@@ -30,7 +30,7 @@ und Lösungsvorschläge in Problem-Threads.
 
 Alle Beiträge von Drittanbietern erfordern eine unterzeichnete Lizenzvereinbarung für Mitwirkende (Contributor License Agreement, CLA).
 Die Vereinbarung gibt Adobe die Erlaubnis, Ihre Beiträge als Teil zu verteilen
-des Projekts. [Unterschreiben Sie die ](https://opensource.adobe.com/cla.html). Sie müssen
+des Projekts. [Unterschreiben Sie die &#x200B;](https://opensource.adobe.com/cla.html). Sie müssen
 Senden Sie die Adobe-CLA nur einmal.
 
 ## Code-Überprüfungen
@@ -47,4 +47,4 @@ Beteiligte.
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme nicht in diesem Problem-Tracker melden. Stattdessen ([ Adobe-Sicherheit kontaktieren](https://helpx.adobe.com/de/security/alertus.html).
+Sicherheitsprobleme nicht in diesem Problem-Tracker melden. Stattdessen ([&#x200B; Adobe-Sicherheit kontaktieren](https://helpx.adobe.com/de/security/alertus.html).

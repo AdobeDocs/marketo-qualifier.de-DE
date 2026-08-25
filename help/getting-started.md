@@ -4,9 +4,16 @@ description: Erfahren Sie, wie Sie die einmalige Admin-Einrichtung für Sales Qu
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 1054
@@ -29,7 +36,7 @@ Zwei Benutzergruppen in Adobe Admin Console steuern den Zugriff auf Sales Qualif
 >
 >Der Administrator, der die Gruppen erstellt, muss die beiden folgenden Anforderungen erfüllen:
 >
->* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-]**Zugriff auf**[!UICONTROL  Admin Console hat.
+>* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-**Zugriff auf** Admin Console hat.
 >* Sie müssen das Adobe Experience Platform-Produkt verwenden oder Systemadministrator sein. Andernfalls wird Adobe Experience Platform nicht in der Produktliste angezeigt.
 
 ### Sales Qualifier-Benutzer
@@ -53,7 +60,7 @@ Administratoren, die CRM-Verbindungen, das [Wissenscenter](knowledge-center.md) 
 1. Öffnen Sie **[!UICONTROL Benutzer]**, wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus und fügen Sie die Administratoren hinzu.
 1. Vergewissern Sie sich, dass alle Admins auch Mitglieder der `Sales Qualifier` sind.
 
-Die Mitgliedschaft in beiden Gruppen macht **[!UICONTROL Admin-Einstellungen]** im linken Navigationsbereich unter **[!UICONTROL Administration]** sichtbar. Standardbenutzer arbeiten mit den Feldern, Filtern und Playbooks, die Administratoren konfigurieren. Die konfigurierte Opt-out-Fußzeile wird automatisch auf die ausgehenden E-Mails angewendet. Standardbenutzer können diese Einstellungen nicht ändern. Weitere Informationen finden [ unter ](user-roles-permissions.md) und Berechtigungen .
+Die Mitgliedschaft in beiden Gruppen macht **[!UICONTROL Admin-Einstellungen]** im linken Navigationsbereich unter **[!UICONTROL Administration]** sichtbar. Standardbenutzer arbeiten mit den Feldern, Filtern und Playbooks, die Administratoren konfigurieren. Die konfigurierte Opt-out-Fußzeile wird automatisch auf die ausgehenden E-Mails angewendet. Standardbenutzer können diese Einstellungen nicht ändern. Weitere Informationen finden [&#x200B; unter &#x200B;](user-roles-permissions.md) und Berechtigungen .
 
 >[!NOTE]
 >
