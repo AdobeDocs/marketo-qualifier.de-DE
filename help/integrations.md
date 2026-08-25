@@ -1,0 +1,200 @@
+---
+title: Integrationen verwalten
+description: Erfahren Sie, wie Sie in Sales Qualifier eine Verbindung zu Outlook herstellen, CRM-Verbindungen verwalten, eingehende Felder zuordnen, Aktivitäten synchronisieren und das globale E-Mail-Opt-out konfigurieren.
+feature: Agentic AI, Sales Insights, Account Journeys
+role: User, Admin
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+workflow-type: tm+mt
+source-wordcount: 1412
+ht-degree: 1%
+
+---
+
+
+# Integrationen
+
+Outlook verbinden, um E-Mails zu senden, Antworten von Interessenten zu erkennen und Meetings zu planen. Um Leads, Kontakte, Konten, Opportunities, Aktivitäten und Eigentümer für Account Qualification Agent (AQA) und ausgehende Workflows verfügbar zu machen, können Sie Sales Qualifier auch mit Salesforce oder Microsoft Dynamics 365 verbinden. Sales Qualifier liest CRM-Daten, kann Outreach-Aktivitäten und den Opt-out-Status zurück in das CRM schreiben und kann Outreach-Aktivitäten mit Marketo synchronisieren. Andernfalls werden CRM-Datensätze nicht geändert.
+
+In diesem Artikel wird erläutert, wie Sie Outlook verbinden, eine CRM-Verbindung verwalten, Felder zuordnen, Aktivitäten synchronisieren und E-Mail-Opt-outs konfigurieren. Informationen zum erstmaligen Verbinden eines CRM-Systems finden Sie unter [Erste Schritte](getting-started.md#connect-your-crm).
+
+>[!IMPORTANT]
+>
+>Die Outlook-Verbindung erfolgt pro Vertreter. Die CRM- und Compliance-Einstellungen, die weiter unten in diesem Artikel beschrieben werden, gelten für die gesamte Organisation. Um auf diese organisationsweiten Einstellungen zuzugreifen, müssen Sie der `Sales Qualifier` und `Sales Qualifier Admins` Benutzergruppen angehören. Standardbenutzer können die konfigurierten CRM-Daten und -Filter verwenden, aber die Einstellungen nicht ändern. Siehe [Benutzerrollen und Berechtigungen](user-roles-permissions.md).
+
+## Outlook verbinden
+
+Jeder Mitarbeiter verbindet sein eigenes Outlook-Konto:
+
+1. Wählen Sie **[!UICONTROL Outlook verbinden]**.
+1. Melden Sie sich mit Ihrem Microsoft-Konto an.
+1. Überprüfen und genehmigen Sie den angeforderten Zugriff.
+
+Mit der -Verbindung kann Sales Qualifier über Ihr Postfach senden, erkennen, wann ein Interessent antwortet, und Meetings in Ihrem Kalender planen.
+
+Wenn Sie eine Verbindung herstellen, genehmigen Sie den Zugriff, der Sales Qualifier Folgendes ermöglicht:
+
+* Antworten von Interessenten erkennen.
+* Erstellen und Senden von E-Mails in Ihrem Namen.
+* Verwenden Sie Ihren Kalender, um Besprechungen zu planen.
+* Zeitzone und Arbeitszeit des Postfachs für die Planung lesen
+* Automatisch angemeldet bleiben, damit diese Funktionen weiterhin funktionieren, ohne dass Sie sich erneut anmelden müssen.
+
+### Outlook-Genehmigungen (falls erforderlich)
+
+Standardmäßig ist keine Administratoraktion erforderlich. Jeder Vertreter genehmigt den Zugriff für sich selbst, wenn er Outlook verbindet.
+
+Wenn Ihr Unternehmen das Benutzereinverständnis für Drittanbieter-Apps in Microsoft 365 oder Microsoft Entra deaktiviert hat, muss ein Microsoft 365- oder Entra-Administrator Sales Qualifier einmal für das gesamte Unternehmen genehmigen. Der Administrator schließt diese Genehmigung ab, bevor die Mitarbeiter ihre Outlook-Konten verbinden. Nach der unternehmensweiten Genehmigung kann jeder Mitarbeiter eine Verbindung zu seinem Konto herstellen.
+
+### So verarbeitet Sales Qualifier Ihre Postfachdaten
+
+Sales Qualifier liest nur Antworten auf gesendete E-Mails, nicht den Rest Ihres Posteingangs. Er speichert keine eingehenden Anhänge oder E-Mails außerhalb eines aktiven Engagements. Gespeicherte Anmeldedaten werden verschlüsselt.
+
+## CRM-Einstellungen öffnen
+
+Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Admin-Einstellungen]** aus. Die Einstellungen sind in zwei Gruppen unterteilt:
+
+| Gruppe | Elemente |
+| --- | --- |
+| **[!UICONTROL Integrationen]** | **[!UICONTROL CRM-Verbindungen]**, **[!UICONTROL Knowledge Center]** |
+| **[!UICONTROL Compliance]** | **[!UICONTROL E-Mail-Einstellungen]** |
+
+Informationen zum Wissenszentrum finden Sie unter [Wissenszentrum](knowledge-center.md).
+
+## CRM-Verbindungen verwalten
+
+Wählen Sie **[!UICONTROL CRM-Verbindungen]** aus. Die Seite enthält Karten für **[!UICONTROL Salesforce]** **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Jede Karte zeigt einen der folgenden Status an:
+
+| Status | Bedeutung |
+| --- | --- |
+| **[!UICONTROL Verbunden]** | Die Verbindung ist aktiv und authentifiziert. |
+| **[!UICONTROL Nicht aktiv]** | Für dieses CRM ist keine Verbindung konfiguriert. |
+| **[!UICONTROL Berechtigungen erforderlich]** | Die Verbindung ist authentifiziert, aber erforderliche Bereiche fehlen. Die Karte listet die fehlenden Bereiche auf. |
+
+>[!NOTE]
+>
+>Es kann immer nur ein CRM aktiv sein. Wenn ein CRM verbunden ist, ist die andere Karte deaktiviert. Trennen Sie das aktive CRM, bevor Sie ein anderes verbinden.
+
+Eine nicht konfigurierte Karte zeigt **[!UICONTROL Verbinden]**. Eine konfigurierte Karte zeigt **[!UICONTROL Verwalten]** und ein **[!UICONTROL Mehr]**-Menü mit **[!UICONTROL Konfiguration bearbeiten]** und **[!UICONTROL Trennen]**.
+
+### Verbinden oder Bearbeiten einer Verbindung
+
+1. Wählen Sie auf der CRM-Karte **[!UICONTROL Verbinden]** oder wählen Sie **[!UICONTROL Mehr]** > **[!UICONTROL Konfiguration bearbeiten]**, um eine vorhandene Verbindung zu aktualisieren.
+1. Geben Sie die Anmeldedaten von Ihrem CRM-Administrator ein.
+
+   >[!BEGINTABS]
+
+   >[!TAB Salesforce]
+
+   Geben Sie **[!UICONTROL Client-ID (Consumer Key)]**, **[!UICONTROL Instanz-URL]** und **[!UICONTROL Client Secret]** ein. Verwenden Sie das Formular für die kanonische Instanz-URL `https://{{mydomain}}.my.salesforce.com`.
+
+   >[!TAB Microsoft Dynamics]
+
+   Geben Sie **[!UICONTROL Client-ID (Consumer Key)]**, **[!UICONTROL Mandanten-ID]**, **[!UICONTROL Microsoft Dynamics-Instanz-]** und **[!UICONTROL Client Secret]** ein. Verwenden Sie das Formular für die kanonische Instanz-URL `https://{{mydomain}}.crm.dynamics.com`.
+
+   >[!ENDTABS]
+
+1. Wählen Sie **[!UICONTROL Verbinden]** (oder **[!UICONTROL Speichern]** beim Bearbeiten) aus.
+
+Wenn Sales Qualifier die Anmeldeinformationen ablehnt, identifiziert es die Ursache, z. B. ungültige oder abgelaufene Anmeldeinformationen, fehlende Berechtigungen oder einen nicht erkannten Dynamics-Mandanten. Korrigieren Sie den Wert und versuchen Sie es erneut.
+
+>[!IMPORTANT]
+>
+>Senden Sie keine Kundengeheimnisse per E-Mail. Verwenden Sie den genehmigten sicheren Kanal Ihres Unternehmens, um Anmeldeinformationen mit Personen zu teilen, die sie in Sales Qualifier eingeben.
+
+### Verbindung trennen
+
+1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Mehr]** > **[!UICONTROL Verbindung trennen]** aus.
+1. Überprüfen Sie die Warnung und wählen Sie **[!UICONTROL Trennen]** zur Bestätigung aus.
+
+>[!WARNING]
+>
+>Wenn Sie die Verbindung zu einem CRM trennen, werden die Interaktionspläne für alle Interessenten in Ihrem Unternehmen angehalten. Neue Interessenten werden erst dann mit Ihrem CRM synchronisiert, wenn Sie die Verbindung wiederherstellen.
+
+## CRM-Felder zuordnen (eingehende Zuordnung) {#map-crm-fields-inbound-mapping}
+
+Eingehende Zuordnungen steuern, welche CRM-Felder Sales Qualifier importiert und wo sie angezeigt werden. Felder werden in Abschnitte gruppiert und jeder Abschnitt gehört zu einem Entitätstyp.
+
+1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Eingehende]**&quot; die Option **[!UICONTROL Abschnitt hinzufügen]** aus.
+1. Wählen **im Schritt** Auswählen“ den Entitätstyp aus und klicken Sie dann auf **[!UICONTROL Weiter]**:
+
+   | Entität | Wo die zugehörigen Felder angezeigt werden |
+   | --- | --- |
+   | **[!UICONTROL Interessenten]** | Die **[!UICONTROL Person]** eines Interessenten. |
+   | **[!UICONTROL Kontakte]** | Der Kontaktdatensatz. |
+   | **[!UICONTROL Konten]** | Die Registerkarte **[!UICONTROL Konto]**. Siehe [Konten](accounts.md). |
+   | **[!UICONTROL Opportunities]** | Die Opportunity-Details des Kontos. |
+
+1. Geben Sie einen **[!UICONTROL Abschnittsnamen“]** eine optionale **[!UICONTROL Beschreibung]** ein. Klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Suchen Sie im Schritt **[!UICONTROL Feld hinzufügen]** nach den zu importierenden CRM-Feldern und wählen Sie diese aus. Klicken Sie dann auf **[!UICONTROL Weiter]**. Jedes Feld zeigt seinen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]**.
+1. Aktivieren **[!UICONTROL in]** Abschnitten **[!UICONTROL Kontakte]** und **[!UICONTROL Opportunities]** für jedes Feld, das die [ in der Liste Interessenten](prospects.md) benötigen, **[!UICONTROL Filterable]**.
+
+   Ein Feld kann nicht als filterbar festgelegt werden, wenn sein Datentyp keine Filterung unterstützt oder wenn es bereits in einem anderen Abschnitt verwendet wird.
+
+   In **[!UICONTROL Meine Opportunity-Kontakte]** werden filterbare Opportunity-Felder als separate Spalten mit Bezeichnungen wie &quot;**[!UICONTROL (Opportunity)]** angezeigt. Das Suffix unterscheidet Opportunity-Attribute von Feldern des zugehörigen Kontakts.
+
+1. Bestätigen Sie **[!UICONTROL Schritt]** Vorschau“ Ihre Auswahl und wählen Sie &quot;**[!UICONTROL &quot;]**.
+
+Um einen Abschnitt später zu ändern, wählen **[!UICONTROL auf]** Abschnittskarte die Option „Bearbeiten“ aus. Um einen Abschnitt zu entfernen, klicken **[!UICONTROL auf]** Abschnittskarte auf „Entfernen“. Um ein einzelnes Feld zu entfernen, wählen Sie die Löschaktion in der Zeile Feld aus. Bestätigen Sie jede Entfernung.
+
+## Aktivitätssynchronisierung konfigurieren (ausgehende Zuordnung) {#configure-activity-sync-outbound-mapping}
+
+Die Aktivitätssynchronisierung schreibt Outreach-Aktivitäten von Sales Qualifier in Ihr CRM und Marketo. Die Aktivitäten „Gesendet“, „Geöffnet“, „Klickt“ und „Antwort“ enthalten den Namen des Interaktionsplans. Vertriebsmitarbeiter können die Aktivitäten im CRM sehen, während Marketing-Teams die Marketo-Aktivitäten in den Timelines für Lead-Bewertung und Interaktion verwenden können.
+
+1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Ausgehende Zuordnung]** .
+1. Aktivieren Sie **[!UICONTROL Aktivitätssynchronisierung]**. Die Einstellung wird sofort gespeichert.
+
+Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Sales Qualifier weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit dem CRM oder Marketo.
+
+>[!NOTE]
+>
+>Für die Aktivitätssynchronisierung ist ein Schreibzugriff in Ihrem CRM erforderlich. Wenn die erforderliche Berechtigung fehlt, ist der Switch deaktiviert und Sales Qualifier fordert Sie auf, sich an Ihren Administrator zu wenden. Wenden Sie sich an Ihren CRM-Administrator, um Schreibzugriff auf die Aktivität zu gewähren.
+
+## Marketo-Interaktionsfilter aktivieren {#turn-on-marketo-engagement-filtering}
+
+Mit der Marketo-Interaktionsfilterung können Kundeninteraktionen anhand ihrer Live-[!DNL Marketo]-Interaktion, wie z. B. E-Mail-Öffnungen und Klicks, gefunden und priorisiert werden. Siehe [Filtern nach Marketo-Interaktion](prospects.md#filter-by-marketo-engagement).
+
+Ein Administrator aktiviert die Filterung der Marketo-Interaktion für die entsprechende Organisation und Sandbox. Sobald sie aktiviert ist, schließt ein Marketer eine einmalige Einrichtung in [!DNL Marketo] ab.
+
+So fließen Sie die Aktivitäten einer Smart Campaign in Sales Qualifier:
+
+1. Öffnen Sie in [!DNL Marketo] die Smart-Kampagne, deren Aktivität in Sales Qualifier einfließen soll.
+1. Fügen Sie dem Smart Campaign-Fluss den Schritt Webhook aufrufen hinzu.
+
+Sobald der Webhook-Schritt eingerichtet ist, fließt die Aktivität aus dieser Smart Campaign in Sales Qualifier ein, und die Kundenbetreuer können ihre Interessenten daran filtern.
+
+Die Filterung der Interaktion mit Marketo ist in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
+
+## Konfigurieren des globalen E-Mail-Opt-outs {#configure-global-email-opt-out}
+
+Mit der Opt-out-Einstellung wird an jede ausgehende E-Mail eine Fußzeile zur Abmeldung angehängt. Standardbenutzer können sie für eine einzelne E-Mail nicht deaktivieren.
+
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Admin-Einstellungen]** aus.
+1. Wählen Sie **[!UICONTROL E-Mail]** Einstellungen unter **[!UICONTROL Compliance]** aus.
+1. Aktivieren Sie **[!UICONTROL Ausschluss-Link in jeder E-Mail]**.
+1. Geben **[!UICONTROL in der Opt]** out-Nachrichtenvorlage den Fußzeilentext ein. Schließen Sie das `{opt_out_link}`-Token ein, in dem der anklickbare Abmelde-Link angezeigt werden soll.
+
+   Beispiel: `If you'd prefer not to receive these emails, you can {opt_out_link}.`
+
+Einstellung und Vorlage werden automatisch gespeichert.
+
+Wenn ein Interessent den Link auswählt, sendet Sales Qualifier keine E-Mails mehr an diesen Interessenten und synchronisiert den Opt-out-Status mit dem verbundenen CRM.
+
+## CRM-Zugriffsbereich
+
+Sales Qualifier liest die erforderlichen CRM-Entitäten und schreibt nur einen definierten Datensatz zurück:
+
+* **Lesen** - Benutzer, Kontakte, Besitzerzuordnungen, Leads, Konten, Chancen und Aktivitäten.
+* **Write** - Protokollierte Outreach-Aktivitäten (wenn [Aktivitätssynchronisierung](#configure-activity-sync-outbound-mapping) aktiviert ist) und Abmeldestatus.
+
+Ihr CRM-Administrator bereitet den API-Zugriff in Salesforce oder Dynamics vor. Ein Sales Qualifier-Administrator verbindet dann das CRM, ordnet eingehende Felder zu und entscheidet, ob die Aktivitäten synchronisiert werden sollen. Für die erstmalige Verbindung ist ein schreibgeschützter Zugriff erforderlich. Aktivitätssynchronisierung und Opt-out-Writeback erfordern den entsprechenden Schreibzugriff.
+
+>[!MORELIKETHIS]
+>
+>* [Erste Schritte](getting-started.md)
+>* [Benutzerrollen und -berechtigungen](user-roles-permissions.md)
+>* [Konten](accounts.md)
