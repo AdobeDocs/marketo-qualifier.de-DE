@@ -4,13 +4,10 @@ description: Erfahren Sie, wie Sie CRM-Felder, Aktivitätssynchronisierung, E-Ma
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 670
 ht-degree: 0%
@@ -70,7 +67,7 @@ Zugeordnete Felder werden in den entsprechenden Bereichen von Sales Qualifier an
 
 1. Wählen Sie **[!UICONTROL CRM-Verbindungen]** die Option **[!UICONTROL Verwalten]** für das verbundene CRM aus.
 1. Öffnen Sie **[!UICONTROL Ausgehende Zuordnung]**.
-1. Aktivieren Sie **[!UICONTROL Aktivitätssynchronisierung]** um Sales Qualifier-Outreach-Aktivitäten mit dem CRM und Marketo zu synchronisieren. Die Aktivitäten „Gesendet“, „Geöffnet“, „Klickt“ und „Antwort“ enthalten den Namen des Interaktionsplans.
+1. Aktivieren Sie **[!UICONTROL Aktivitätssynchronisierung]** um Sales Qualifier-Outreach-Aktivitäten mit dem CRM und Marketo zu synchronisieren. Die Aktivitäten „Gesendet“, „Geöffnet“, „Klickt“ und „Antwort“ enthalten den Namen des ausgehenden Workflows.
 
 Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Sales Qualifier weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit dem CRM oder Marketo.
 

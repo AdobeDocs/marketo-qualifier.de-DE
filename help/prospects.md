@@ -4,16 +4,12 @@ description: Erfahren Sie, wie Sie Ihre Interessentenliste in Sales Qualifier er
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -27,6 +23,7 @@ Wählen **[!UICONTROL Interessenten]** in der linken Navigationsleiste aus, um d
 
 * **[!UICONTROL Leads]** - Leads, die Ihnen im verbundenen CRM zugewiesen sind.
 * **[!UICONTROL Kontakte]** - Kontakte, die Ihnen im verbundenen CRM zugewiesen sind.
+* **[!UICONTROL Marketing-Highlights]** - Interessenten mit Live-Marketo-Aktivitäten wie E-Mail-Öffnungen oder -Klicks.
 * **[!UICONTROL Personenliste]** - Interessenten, die Sie manuell importieren oder hinzufügen.
 
 ## Interessentenliste erstellen
@@ -40,6 +37,9 @@ In der Liste potenzieller Kunden werden Personen aus mehreren Quellen zusammenge
 So fügen Sie potenzielle Kunden hinzu, die nicht aus Ihrem CRM stammen:
 
 1. Wählen Sie auf **[!UICONTROL Seite]** Interessenten“ die Option **[!UICONTROL Personenliste]** aus.
+
+   ![Personenliste](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. Wählen Sie **[!UICONTROL + Personen hinzufügen]** dann **[!UICONTROL CSV importieren]** oder **[!UICONTROL Person hinzufügen]**.
 
    * Laden Sie für einen CSV-Import eine CSV-Datei im `firstname,email` Format hoch.
@@ -52,7 +52,7 @@ So fügen Sie potenzielle Kunden hinzu, die nicht aus Ihrem CRM stammen:
 
 Wählen Sie **[!UICONTROL Filter]** aus, um die Liste einzugrenzen. Sie können nach folgenden Kriterien filtern:
 
-* Status des Interaktionsplans
+* Status des ausgehenden Workflows
 * Erstellt von
 * Stellenbezeichnung
 * Konto

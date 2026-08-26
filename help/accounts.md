@@ -3,14 +3,10 @@ title: Konten in Sales Qualifier
 description: Erfahren Sie, wie Sie Account Intelligence in Sales Qualifier überprüfen können, einschließlich KI-Forschung, aktueller Nachrichten, Chancen und engagierter Kontakte, um die Kontaktaufnahme zu priorisieren.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -57,7 +53,7 @@ Das Bedienfeld **[!UICONTROL Kontoübersicht]** fasst den Account basierend auf 
 
 Verwenden Sie die Schaltflächen unter der Übersicht, um zwischen Kontoansichten zu wechseln. Die verfügbaren Ansichten hängen von Ihrem CRM und Ihrer Konfiguration ab:
 
-| Anzeigen | Was angezeigt wird |
+| Ansicht | Was angezeigt wird |
 | --- | --- |
 | **[!UICONTROL Opportunities]** | Offene, mit dem Account verknüpfte Opportunities mit jeweils zugehörigen Schlüsselfeldern. Wählen Sie **[!UICONTROL Alle anzeigen]**, um die vollständige Liste in einer Tabelle anzuzeigen. Opportunity-Details wie Phase, Typ und Abschlussdatum können auch verwendet werden, um die Kontakte des Kontos unter &quot;**[!UICONTROL Opportunity-Kontakte“]** filtern, wenn ein Administrator diese Felder filterbar macht. |
 | **[!UICONTROL Top-Mitglieder]** | Die am häufigsten kontaktierten Kontakte des Kontos, sortiert nach Interaktion. Jeder Kontakt zeigt seinen Jobtitel, seine E-Mail-Adresse, seinen Interaktionswert und die Dringlichkeitsanzeige an. |
@@ -67,7 +63,7 @@ Verwenden Sie die Schaltflächen unter der Übersicht, um zwischen Kontoansichte
 
 Führen Sie in **[!UICONTROL Ansicht]** Top-Mitglieder“ eine der folgenden Aktionen für einen Kontakt aus:
 
-* **[!UICONTROL Zum Interaktionsplan hinzufügen]** - Registrieren Sie den Kontakt in einem [Interaktionsplan](outbound-workflows.md).
+* **[!UICONTROL Zu ausgehendem Workflow hinzufügen]** - Registrieren Sie den Kontakt in einem [ausgehenden Workflow](outbound-workflows.md).
 * **[!UICONTROL Zu Marketo-Kampagne hinzufügen]** - Trigger einer [!DNL Marketo] für den Kontakt.
 
 ## Konto recherchieren
@@ -86,7 +82,7 @@ Account Intelligence ist am wertvollsten, wenn sie prägt, was Sie senden:
 
 * Referenzieren Sie ein aktuelles Nachrichtenelement oder Forschungssignal, um Ihre Eröffnung relevant zu machen, anstatt eine allgemeine Tonhöhe zu verwenden.
 * Überprüfen Sie die offenen Opportunities und den Pipeline-Wert, um zu entscheiden, ob Sie das Konto priorisieren möchten.
-* Verwenden Sie **[!UICONTROL Top-Mitglieder]** um zu identifizieren, an wen Sie sich wenden müssen, und registrieren Sie sie dann für einen Interaktionsplan.
+* Verwenden Sie **[!UICONTROL Top-Mitglieder]** um zu identifizieren, an wen sie sich wenden sollen, und registrieren Sie sie dann für einen ausgehenden Workflow.
 * Bitten Sie [AI Chat](ai-assistant.md) vor einem Anruf die Positionierung für das Konto zu entwickeln.
 
 >[!MORELIKETHIS]
