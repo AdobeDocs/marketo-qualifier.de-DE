@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -96,6 +96,8 @@ Eine nicht konfigurierte Karte zeigt **[!UICONTROL Verbinden]**. Eine konfigurie
 
    Geben Sie **[!UICONTROL Client-ID (Consumer Key)]**, **[!UICONTROL Instanz-URL]** und **[!UICONTROL Client Secret]** ein. Verwenden Sie das Formular für die kanonische Instanz-URL `https://{{mydomain}}.my.salesforce.com`.
 
+   ![Salesforce-Verbindung](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
    >[!TAB Microsoft Dynamics]
 
    Geben Sie **[!UICONTROL Client-ID (Consumer Key)]**, **[!UICONTROL Mandanten-ID]**, **[!UICONTROL Microsoft Dynamics-Instanz-]** und **[!UICONTROL Client Secret]** ein. Verwenden Sie das Formular für die kanonische Instanz-URL `https://{{mydomain}}.crm.dynamics.com`.
@@ -117,7 +119,7 @@ Wenn Sales Qualifier die Anmeldeinformationen ablehnt, identifiziert es die Ursa
 
 >[!WARNING]
 >
->Wenn Sie die Verbindung zu einem CRM trennen, werden die Interaktionspläne für alle Interessenten in Ihrem Unternehmen angehalten. Neue Interessenten werden erst dann mit Ihrem CRM synchronisiert, wenn Sie die Verbindung wiederherstellen.
+>Wenn Sie die Verbindung zu einem CRM trennen, werden ausgehende Workflows für alle Interessenten in Ihrem Unternehmen angehalten und es werden keine neuen Interessenten mit Ihrem CRM synchronisiert, bis Sie die Verbindung wiederherstellen.
 
 ## CRM-Felder zuordnen (eingehende Zuordnung) {#map-crm-fields-inbound-mapping}
 
@@ -148,7 +150,7 @@ Um einen Abschnitt später zu ändern, wählen **[!UICONTROL auf]** Abschnittska
 
 ## Aktivitätssynchronisierung konfigurieren (ausgehende Zuordnung) {#configure-activity-sync-outbound-mapping}
 
-Die Aktivitätssynchronisierung schreibt Outreach-Aktivitäten von Sales Qualifier in Ihr CRM und Marketo. Die Aktivitäten „Gesendet“, „Geöffnet“, „Klickt“ und „Antwort“ enthalten den Namen des Interaktionsplans. Vertriebsmitarbeiter können die Aktivitäten im CRM sehen, während Marketing-Teams die Marketo-Aktivitäten in den Timelines für Lead-Bewertung und Interaktion verwenden können.
+Die Aktivitätssynchronisierung schreibt Outreach-Aktivitäten von Sales Qualifier in Ihr CRM und Marketo. Die Aktivitäten „Gesendet“, „Geöffnet“, „Klickt“ und „Antwort“ enthalten den Namen des ausgehenden Workflows. Vertriebsmitarbeiter können die Aktivitäten im CRM sehen, während Marketing-Teams die Marketo-Aktivitäten in den Timelines für Lead-Bewertung und Interaktion verwenden können.
 
 1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus.
 1. Öffnen Sie die Registerkarte **[!UICONTROL Ausgehende Zuordnung]** .
@@ -160,20 +162,13 @@ Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Sales Qualifier 
 >
 >Für die Aktivitätssynchronisierung ist ein Schreibzugriff in Ihrem CRM erforderlich. Wenn die erforderliche Berechtigung fehlt, ist der Switch deaktiviert und Sales Qualifier fordert Sie auf, sich an Ihren Administrator zu wenden. Wenden Sie sich an Ihren CRM-Administrator, um Schreibzugriff auf die Aktivität zu gewähren.
 
-## Marketo-Interaktionsfilter aktivieren {#turn-on-marketo-engagement-filtering}
+## Einrichten von Marketing-Highlights {#turn-on-marketo-engagement-filtering}
 
-Mit der Marketo-Interaktionsfilterung können Kundeninteraktionen anhand ihrer Live-[!DNL Marketo]-Interaktion, wie z. B. E-Mail-Öffnungen und Klicks, gefunden und priorisiert werden. Siehe [Filtern nach Marketo-Interaktion](prospects.md#filter-by-marketo-engagement).
+Mit den Marketing-Highlights können Mitarbeiter Interessenten anhand ihrer Live-[!DNL Marketo]-Interaktionen wie E-Mail-Öffnungen und -Klicks finden und priorisieren. Siehe [Filtern nach Marketing-Highlights](prospects.md#filter-by-marketing-highlights).
 
-Ein Administrator aktiviert die Filterung der Marketo-Interaktion für die entsprechende Organisation und Sandbox. Sobald sie aktiviert ist, schließt ein Marketer eine einmalige Einrichtung in [!DNL Marketo] ab.
+Ein Administrator führt ein einmaliges Setup durch, bei dem [!DNL Marketo] für die entsprechende Organisation und Sandbox mit Sales Qualifier verbunden wird. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [&#x200B; Schritte finden Sie unter „Einrichten &#x200B;](marketing-highlights-setup.md) Marketing-Highlights“.
 
-So fließen Sie die Aktivitäten einer Smart Campaign in Sales Qualifier:
-
-1. Öffnen Sie in [!DNL Marketo] die Smart-Kampagne, deren Aktivität in Sales Qualifier einfließen soll.
-1. Fügen Sie dem Smart Campaign-Fluss den Schritt Webhook aufrufen hinzu.
-
-Sobald der Webhook-Schritt eingerichtet ist, fließt die Aktivität aus dieser Smart Campaign in Sales Qualifier ein, und die Kundenbetreuer können ihre Interessenten daran filtern.
-
-Die Filterung der Interaktion mit Marketo ist in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
+Marketing-Highlights sind in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
 
 ## Konfigurieren des globalen E-Mail-Opt-outs {#configure-global-email-opt-out}
 

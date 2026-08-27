@@ -1,6 +1,6 @@
 ---
 title: Interessenten in Sales Qualifier
-description: Erfahren Sie, wie Sie Ihre Interessentenliste in Sales Qualifier erstellen, filtern und überprüfen können, um die Kontaktaufnahme zu priorisieren.
+description: Erfahren Sie, wie Sie Ihre Interessentenliste aus CRM-Quellen erstellen, importieren und manuell hinzufügen, Interessentendetails filtern und in Sales Qualifier überprüfen.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ Wählen **[!UICONTROL Interessenten]** in der linken Navigationsleiste aus, um d
 
 * **[!UICONTROL Leads]** - Leads, die Ihnen im verbundenen CRM zugewiesen sind.
 * **[!UICONTROL Kontakte]** - Kontakte, die Ihnen im verbundenen CRM zugewiesen sind.
+* **[!UICONTROL Marketing-Highlights]** - Interessenten mit Live-Marketo-Aktivitäten wie E-Mail-Öffnungen oder -Klicks.
 * **[!UICONTROL Personenliste]** - Interessenten, die Sie manuell importieren oder hinzufügen.
 
 ## Interessentenliste erstellen
@@ -40,6 +41,9 @@ In der Liste potenzieller Kunden werden Personen aus mehreren Quellen zusammenge
 So fügen Sie potenzielle Kunden hinzu, die nicht aus Ihrem CRM stammen:
 
 1. Wählen Sie auf **[!UICONTROL Seite]** Interessenten“ die Option **[!UICONTROL Personenliste]** aus.
+
+   ![Personenliste](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. Wählen Sie **[!UICONTROL + Personen hinzufügen]** dann **[!UICONTROL CSV importieren]** oder **[!UICONTROL Person hinzufügen]**.
 
    * Laden Sie für einen CSV-Import eine CSV-Datei im `firstname,email` Format hoch.
@@ -52,7 +56,7 @@ So fügen Sie potenzielle Kunden hinzu, die nicht aus Ihrem CRM stammen:
 
 Wählen Sie **[!UICONTROL Filter]** aus, um die Liste einzugrenzen. Sie können nach folgenden Kriterien filtern:
 
-* Status des Interaktionsplans
+* Status des ausgehenden Workflows
 * Erstellt von
 * Stellenbezeichnung
 * Konto
@@ -63,18 +67,18 @@ Administratoren können auch zugeordnete CRM-Felder als Filter verfügbar machen
 
 In **[!UICONTROL Meine Opportunity-Kontakte]** können Sie Kontakte auch nach Feldern aus den zugehörigen Opportunities filtern, wie Stadium, Typ und Abschlussdatum. Opportunity-Felder haben Bezeichnungen wie **[!UICONTROL Phase (Opportunity)]** die sie von Kontaktfeldern unterscheiden. Ihr Administrator steuert, welche Opportunity-Felder als Filter verfügbar sind.
 
-### Nach Marketo-Interaktion filtern
+### Nach Marketing-Highlights filtern
 
 Finden Sie Interessenten und priorisieren Sie sie anhand ihrer Live-[!DNL Marketo]-Interaktion, z. B. Öffnungen und Klicks von E-Mails, Web-Besuche, ausgefüllte Formulare und interessante Momente. Die Interaktion erfolgt praktisch in Echtzeit.
 
-So filtern Sie potenzielle Kunden nach Marketo-Interaktion:
+So filtern Sie Interessenten nach Marketing-Highlights:
 
 1. Wählen Sie **[!UICONTROL Filter]** aus.
-1. Fügen Sie einen [!DNL Marketo] Interaktionsfilter hinzu und legen Sie den Aktivitätstyp, die Kampagne oder andere Attribute fest, um sich auf die Interaktion zu konzentrieren, die von Bedeutung ist.
+1. Fügen Sie einen Filter Marketing-Highlights hinzu und legen Sie den Aktivitätstyp, die Kampagne oder andere Attribute fest, um sich auf die wichtige Interaktion zu konzentrieren.
 
 Jeder Interessent zeigt seine neuesten [!DNL Marketo] Aktivitäten zusammen mit dem aktuellen Verlauf an.
 
-Die Filterung der Marketo-Interaktion ist in allen Produktionsregionen verfügbar. Ihr Administrator aktiviert sie für Ihre Organisation und Sandbox, und ein Marketing-Experte führt eine einmalige Einrichtung in [!DNL Marketo] durch. Siehe [Marketo-Interaktionsfilter aktivieren](integrations.md#turn-on-marketo-engagement-filtering).
+Marketing-Highlights sind in allen Produktionsregionen verfügbar. Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit Sales Qualifier verbindet. Siehe [Einrichten von Marketing-](integrations.md#turn-on-marketo-engagement-filtering)&quot;.
 
 ## Details des potenziellen Kunden überprüfen
 

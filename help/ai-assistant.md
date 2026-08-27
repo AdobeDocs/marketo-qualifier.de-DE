@@ -12,7 +12,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 1%
@@ -26,7 +26,7 @@ Der KI-Chat beantwortet Fragen in natürlicher Sprache basierend auf Ihrem Verka
 
 ## KI-Chat öffnen
 
-Wählen Sie die unverankerte **[!UICONTROL AI-Chat]**-Schaltfläche aus, um das Chat-Bedienfeld zu öffnen. Das Bedienfeld wird neben der aktuellen Seite geöffnet, sodass Sie einen Interessenten, ein Konto oder einen Interaktionsplan im Auge behalten können. Ziehen Sie die Kante des Bedienfelds, um die Größe zu ändern. Um das Bedienfeld zu schließen, wählen Sie erneut **[!UICONTROL AI-]**) aus.
+Wählen Sie die unverankerte **[!UICONTROL AI-Chat]**-Schaltfläche aus, um das Chat-Bedienfeld zu öffnen. Das Bedienfeld wird neben der aktuellen Seite geöffnet, sodass Sie einen Interessenten, ein Konto oder einen ausgehenden Workflow anzeigen können. Ziehen Sie die Kante des Bedienfelds, um die Größe zu ändern. Um das Bedienfeld zu schließen, wählen Sie erneut **[!UICONTROL AI-]**) aus.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Verwenden Sie den KI-Chat für diese Aufgaben:
 * **Recherche und Zusammenfassung**: Fragen Sie nach einer Zusammenfassung eines Kontos, einer Einkaufsgruppe oder des letzten Engagements eines Interessenten.
 * **Build-Positionierung**: Bitten Sie den Assistenten, Ihre Lösung vor einem Meeting für ein bestimmtes Konto zu positionieren.
 * **Reichweite entwerfen und verfeinern**: Bitten Sie sie, eine E-Mail zu schreiben oder neu zu schreiben. Geben Sie den Ton, die Länge und die Sprache an und ob Emojis einbezogen werden sollen.
-* **Empfehlungen abrufen**: Fragen Sie, welche Interessenten oder Konten Sie priorisieren möchten, oder fordern Sie ein Ziel oder eine Kadenz für einen neuen Interaktionsplan an.
+* **Empfehlungen abrufen**: Fragen Sie, welche Interessenten oder Konten priorisiert werden sollen, oder fordern Sie ein Ziel oder eine Kadenz für einen neuen ausgehenden Workflow an.
 * **Kontaktdaten suchen**: Bitten Sie den Assistenten, einen potenziellen Kunden mit weiteren Kontakt- und Hintergrundinformationen anzureichern.
 
 ## Grundlegende Antworten in Ihrem Playbook

@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: 1923
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 # Ausgehende Workflows
 
-Ein Interaktionsplan ist eine zielorientierte Outreach-Kadenz. Definieren Sie die Zielgruppen- und Zielgruppenkriterien. KI schlägt dann eine Multi-Touch-Kadenz vor und schreibt für jeden Interessenten personalisierten E-Mail-Inhalt. Bevor Sie die Kadenz aktivieren, überprüfen und genehmigen Sie jede E-Mail.
+Ein ausgehender Workflow ist eine zielgesteuerte Outreach-Kadenz. Definieren Sie die Zielgruppen- und Zielgruppenkriterien. KI schlägt dann eine Multi-Touch-Kadenz vor und schreibt für jeden Interessenten personalisierten E-Mail-Inhalt. Bevor Sie die Kadenz aktivieren, überprüfen und genehmigen Sie jede E-Mail.
 
-Ein Interaktionsplan verbindet vier Elemente:
+Ein ausgehender Workflow verbindet vier Elemente:
 
 * **Ziel** - Das Ergebnis, das Sie aus der Reichweite ziehen möchten, z. B. die Buchung eines Discovery-Aufrufs oder die Erhöhung der Ereignisregistrierung.
 * **Zielgruppenfilter** - Bedingungen, die bestimmen, welche potenziellen Kunden infrage kommen.
@@ -38,24 +38,24 @@ Die KI verwendet das Ziel, Zielgruppenfilter vorzuschlagen, die Kadenz zu entwer
 
 | Konzept | Beschreibung |
 | --- | --- |
-| **Interaktionsplan** | Eine wiederverwendbare ausgehende Aktivität, die durch ein Ziel, Zielgruppenbestimmungsfilter, Kadenz und Einstellungen definiert ist. |
+| **Ausgehender Workflow** | Eine wiederverwendbare ausgehende Aktivität, die durch ein Ziel, Zielgruppenbestimmungsfilter, Kadenz und Einstellungen definiert ist. |
 | **Ziel** | Was die Öffentlichkeitsarbeit leisten sollte. |
 | **Touchpoint** | Ein Schritt in der Kadenz (E-Mail, Telefonanruf oder LinkedInMail), geplant relativ zur Registrierung. |
 | **Touchpoint-Eingabeaufforderung** | Anweisungen, die die KI beim Generieren einer E-Mail-Betreffzeile und eines Textkörpers für einen Interessenten befolgt, einschließlich Ton, Länge, Fokus und call to action. |
 | **Kadenz** | Die vollständige Sequenz von Touchpoints: wie viele, in welcher Reihenfolge und an welchen Tagen. |
-| **Zielgruppenbestimmungsfilter** | Eine Bedingung, die den Interaktionsplan auf eine Untergruppe von potenziellen Kunden beschränkt. |
+| **Zielgruppenbestimmungsfilter** | Eine Bedingung, die den ausgehenden Workflow auf eine Untergruppe von potenziellen Kunden beschränkt. |
 | **Entwurf** | Eine generierte E-Mail, die zur Überprüfung bereit, aber noch nicht genehmigt ist. |
 | **Argumentation** | Die Erklärung der KI, wie sie eine bestimmte E-Mail geschrieben hat, einschließlich der verwendeten Signale und Datenquellen. |
-| **Enrollment** | Entwürfe eines Interessenten validieren, wodurch die Kadenz und die Warteschlangen der E-Mails aktiviert werden, die während des Versandfensters des Interaktionsplans gesendet werden sollen. |
+| **Enrollment** | Entwürfe eines Interessenten validieren , wodurch die Kadenz und die Warteschlangen der E-Mails aktiviert werden, die im Versandfenster des ausgehenden Workflows gesendet werden sollen. |
 
-In den folgenden Abschnitten wird beschrieben, wie Sie einen Interaktionsplan erstellen, generierte E-Mails überprüfen, Interessenten genehmigen und ausgehende Workflows verwalten.
+In den folgenden Abschnitten wird beschrieben, wie Sie einen ausgehenden Workflow erstellen, generierte E-Mails überprüfen, Interessenten genehmigen und ausgehende Workflows verwalten.
 
-## Erstellen eines Interaktionsplans
+## Ausgehenden Workflow erstellen
 
-Der Assistent für den Interaktionsplan umfasst fünf Schritte: **[!UICONTROL Ziel]**, **[!UICONTROL Targeting]**, **[!UICONTROL Touchpoints generieren]**, **[!UICONTROL Einstellungen]** und **[!UICONTROL Interessenten hinzufügen]**. Ihr Ziel formt die verbleibenden Schritte.
+Der Assistent für ausgehende Workflows umfasst fünf Schritte: **[!UICONTROL Ziel]**, **[!UICONTROL Targeting]**, **[!UICONTROL Touchpoints generieren]**, **[!UICONTROL Einstellungen]** und **[!UICONTROL Interessenten hinzufügen]**. Ihr Ziel formt die verbleibenden Schritte.
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Ausgehende Workflows]** aus.
-1. Wählen **[!UICONTROL auf der Registerkarte]** Durchsuchen“ oben rechts **[!UICONTROL + Interaktionsplan]**.
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** Durchsuchen“ **[!UICONTROL + Ausgehenden Workflow erstellen]** in der oberen rechten Ecke aus.
 
 ### Schritt 1: Definieren Sie Ihr Ziel
 
@@ -72,6 +72,8 @@ Geben Sie ein spezifisches Ergebnis im Ziel an. Geben Sie beispielsweise `Book a
 
 Zielgruppenbestimmungsfilter definieren, welche potenziellen Kunden infrage kommen. Wenn Sie später Interessenten hinzufügen, werden nur die Interessenten in der Auswahlliste angezeigt, die diesen Filtern entsprechen.
 
+![Zielgruppenfilter](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+
 1. Wählen Sie den Abwärtspfeil aus, um die Liste **[!UICONTROL Filter hinzufügen]** zu öffnen, und wählen Sie dann einen Filter aus.
 
 1. Legen Sie Werte für den Filter fest.
@@ -83,7 +85,11 @@ Zielgruppenbestimmungsfilter definieren, welche potenziellen Kunden infrage komm
 
 Nach der Konfiguration analysiert die KI das Ziel und die Kriterien für die Zielgruppenbestimmung, definiert die Kadenz und gibt für jeden Touchpoint eine Eingabeaufforderung aus. Die Kadenz kann E-Mail-, Telefonanruf- und LinkedInMail-Schritte umfassen.
 
+![Touchpoints](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
+
 Erweitern Sie einen E-Mail-Touchpoint, um die Eingabeaufforderung zu lesen. Die Eingabeaufforderung leitet die KI beim Schreiben der E-Mails jedes Interessenten, einschließlich Ton, Länge, Fokus und call to action.
+
+Durch die Eingabe eines Schrägstrichs `/` die Liste der definierten Token angezeigt, die Sie zur Personalisierung der E-Mail verwenden können.
 
 #### Kadenz neu erzeugen
 
@@ -105,21 +111,23 @@ Wenn die Kadenz und die Eingabeaufforderungen fertig sind, wählen Sie **[!UICON
 
 Verfeinern Sie die Touchpoint-Eingabeaufforderungen vor dem Generieren von E-Mails potenzieller Kundinnen und Kunden. KI verwendet diese Eingabeaufforderungen für jeden ausgewählten Interessenten.
 
-### Schritt 4: Konfigurieren der Einstellungen für den Interaktionsplan
+### Schritt 4: Einstellungen für ausgehende Workflows konfigurieren
 
-Der **[!UICONTROL Einstellungen]** steuert, wie der Interaktionsplan ausgeführt wird.
+Der **[!UICONTROL Einstellungen]** steuert, wie der ausgehende Workflow ausgeführt wird.
 
-1. Überprüfen Sie **[!UICONTROL Name des Interaktionsplans]** und ändern Sie ihn bei Bedarf.
-1. Bestätigen **[!UICONTROL unter „Max. Interessenten pro]**&quot; die maximale Anzahl von Interessenten, die der Interaktionsplan gleichzeitig verwalten kann.
+![Einstellungsbedienfeld](assets/create-workflow-settings.png){width="800" zoomable="yes"}
+
+1. Überprüfen Sie den **[!UICONTROL Namen des ausgehenden Workflows]** und ändern Sie ihn bei Bedarf.
+1. Bestätigen **[!UICONTROL unter „Max. potenzielle Kunden pro]**-Workflow“ die maximale Anzahl potenzieller Kunden, die der ausgehende Workflow gleichzeitig verwalten kann.
 1. Legen Sie das **[!UICONTROL Sendefenster]** für die Stunden fest, die ausgehende E-Mails senden dürfen.
 1. Wählen Sie die Wochentage aus, an denen E-Mails gesendet werden können. Um Wochenendsendungen zu vermeiden, wählen Sie nur die Wochentage aus anstatt eine separate Einstellung **[!UICONTROL Wochenende überspringen]** zu verwenden.
 1. Wählen Sie aus, ob der Versand während der aktivsten Stunden jedes Interessenten durchgeführt werden soll.
 1. Um Follow-up-Touchpoints automatisch zu stoppen, sobald ein Interessent ein Meeting bucht, aktivieren Sie **[!UICONTROL Meeting-Buchungspause]**.
-1. Wählen Sie aus, ob die Zeitzone jedes Interessenten oder der Interaktionsplan (Zeitzone **[!UICONTROL für]** Versandzeitpunkt verwendet werden soll. Wenn Sie die Zeitzone des Interaktionsplans verwenden, bestätigen Sie, dass sie mit Ihrer Audience übereinstimmt.
-1. Behalten **[!UICONTROL unter]** die Option **[!UICONTROL Privat]** (Standard) bei oder wählen Sie **[!UICONTROL Für alle freigegeben]**. Weitere Informationen finden Sie [Freigeben eines Interaktionsplans](#share-an-engagement-plan).
+1. Wählen Sie aus, ob die Zeitzone jedes Interessenten oder der ausgehende Workflow (Zeitzone **[!UICONTROL für]** Versandzeitpunkt verwendet werden soll. Wenn Sie die Zeitzone des ausgehenden Workflows verwenden, vergewissern Sie sich, dass sie mit Ihrer Audience übereinstimmt.
+1. Behalten **[!UICONTROL unter]** die Option **[!UICONTROL Privat]** (Standard) bei oder wählen Sie **[!UICONTROL Für alle freigegeben]**. Weitere Informationen finden Sie unter [Freigeben eines ausgehenden Workflows](#share-an-outbound-workflow).
 1. Wählen Sie **[!UICONTROL Speichern und Interessenten hinzufügen]** aus.
 
-Die Opt-out-Fußzeile wird global von einem Administrator konfiguriert und gilt unabhängig von den Einstellungen des Interaktionsplans für ausgehende E-Mails. Siehe [Konfigurieren einer globalen E-Mail-Abmeldung](integrations.md#configure-global-email-opt-out).
+Die Opt-out-Fußzeile wird global von einem Administrator konfiguriert und gilt unabhängig von den Einstellungen des ausgehenden Workflows für ausgehende E-Mails. Siehe [Konfigurieren einer globalen E-Mail-Abmeldung](integrations.md#configure-global-email-opt-out).
 
 ### Schritt 5: Interessenten hinzufügen und E-Mail-Generierung starten
 
@@ -139,9 +147,9 @@ Für jeden Interessenten kombiniert die KI die Touchpoint-Eingabeaufforderung mi
 
 ## Überprüfen und Verfeinern generierter E-Mails
 
-Nach Abschluss der Generierung werden Sie in der Detailansicht des Interaktionsplans aufgefordert, die Entwürfe zu überprüfen. Sales Qualifier sendet erst dann eine E-Mail, wenn Sie sie genehmigt haben.
+Nach Abschluss der Generierung werden Sie in der Detailansicht des ausgehenden Workflows aufgefordert, die Entwürfe zu überprüfen. Sales Qualifier sendet erst dann eine E-Mail, wenn Sie sie genehmigt haben.
 
-1. Wählen Sie in der Detailansicht des Interaktionsplans die Option **[!UICONTROL Entwürfe überprüfen]** im Banner aus.
+1. Wählen Sie in der Detailansicht „Ausgehender Workflow **[!UICONTROL im Banner die Option]** Entwürfe überprüfen“ aus.
 1. Der Schritt **[!UICONTROL Touchpoints überprüfen]** umfasst zwei Registerkarten:
    * **[!UICONTROL Bereit für Überprüfung]** - E-Mails, deren Generierung abgeschlossen ist.
    * **[!UICONTROL Generating]** - E-Mails, die noch geschrieben werden.
@@ -184,17 +192,17 @@ Validierung aktiviert die Kadenz für einen Interessenten. Das System sendet ers
 1. Wählen Sie in der linken Liste die Interessenten aus, deren E-Mails Sie geprüft haben und senden möchten.
 1. Wählen **[!UICONTROL Interessenten genehmigen und registrieren]** in der rechten unteren Ecke aus.
 
-Genehmigte E-Mails werden entsprechend den ausgewählten Tagen, dem Sendefenster, der Option für aktive Stunden und der Zeitzoneneinstellung des Interaktionsplans gesendet. Ein Touchpoint mit einer Verzögerung von null sendet ohne Wartezeit. Jeder andere Touchpoint folgt seiner konfigurierten Verzögerung. Nicht genehmigte Interessenten verbleiben in **[!UICONTROL Bereit für Überprüfung]**.
+Genehmigte E-Mails werden entsprechend den ausgewählten Tagen des ausgehenden Workflows, dem Sendefenster, der Option „Aktive Stunden“ und der Zeitzoneneinstellung gesendet. Ein Touchpoint mit einer Verzögerung von null sendet ohne Wartezeit. Jeder andere Touchpoint folgt seiner konfigurierten Verzögerung. Nicht genehmigte Interessenten verbleiben in **[!UICONTROL Bereit für Überprüfung]**.
 
-## Interaktionsplan freigeben
+## Freigeben eines ausgehenden Workflows
 
-Jeder Interaktionsplan hat eine Einstellung **[!UICONTROL Berechtigungen]**. Ausgehende Workflows sind **[!UICONTROL privat]**. Der Verantwortliche kann **[!UICONTROL Für alle freigegeben]** auswählen, um dem Team einen Interaktionsplan zur Verfügung zu stellen.
+Jeder ausgehende Workflow verfügt über eine **[!UICONTROL Berechtigungen]**. Ausgehende Workflows sind **[!UICONTROL privat]**. Der Verantwortliche kann **[!UICONTROL Für alle freigegeben]** auswählen, um einen ausgehenden Workflow für das Team verfügbar zu machen.
 
 >[!CAUTION]
 >
->Die Freigabe ist dauerhaft. Nachdem ein Interaktionsplan auf „Für alle freigegeben **[!UICONTROL festgelegt wurde]** kann er nicht mehr in &quot;**[!UICONTROL &quot;]** werden.
+>Die Freigabe ist dauerhaft. Nachdem ein ausgehender Workflow auf „Für alle freigegeben **[!UICONTROL festgelegt wurde]** kann er nicht mehr in &quot;**[!UICONTROL &quot;]** werden.
 
-Auf der Grundlage eines gemeinsamen Interaktionsplans können Teammitglieder ihre eigenen potenziellen Kunden registrieren. Jede Person kann nur die Interessenten verwalten oder pausieren, die sie registriert hat, auch bei der Verwendung von Massenaktionen. Der Projektplaneigentümer allein kann Einstellungen auf Planebene bearbeiten, einschließlich Zeitplan, Zeitzone, Kadenz und anderen Einstellungen. Diese Einstellungen sind für Teammitglieder schreibgeschützt.
+In einem gemeinsamen ausgehenden Workflow können sich Teammitglieder für ihre eigenen potenziellen Kunden registrieren. Jede Person kann nur die Interessenten verwalten oder pausieren, die sie registriert hat, auch bei der Verwendung von Massenaktionen. Der Eigentümer des ausgehenden Workflows kann die Einstellungen auf Planebene, einschließlich Zeitplan, Zeitzone, Kadenz und anderer Einstellungen, allein bearbeiten. Diese Einstellungen sind für Teammitglieder schreibgeschützt.
 
 Verwenden Sie diese Filter, um freigegebene ausgehende Workflows und Ergebnisse fokussiert zu halten:
 
@@ -203,14 +211,14 @@ Verwenden Sie diese Filter, um freigegebene ausgehende Workflows und Ergebnisse 
 
 ## Bearbeitung von Abwesenheitsanfragen
 
-Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese automatisch vom Interaktionsplan verarbeitet.
+Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese automatisch vom ausgehenden Workflow verarbeitet.
 
-* **Automatische Wiederaufnahme**: Standardmäßig aktiviert. Wenn die Abwesenheitsantwort ein Rückgabedatum enthält, wird die Kadenz im Interaktionsplan an diesem Datum wieder aufgenommen. Wenn kein Rückgabedatum angegeben ist, wird der Interaktionsplan nach einem Puffer, den Ihr Team konfigurieren kann, fortgesetzt.
-* **Manuelle Optionen**: Sie können den potenziellen Kunden auch manuell fortsetzen, anhalten oder überspringen. Siehe [Verwalten vorhandener ausgehender Workflows](#manage-existing-engagement-plans).
+* **Automatische Wiederaufnahme**: Standardmäßig aktiviert. Wenn die Abwesenheitsantwort ein Rückgabedatum enthält, setzt der ausgehende Workflow die Kadenz an diesem Datum fort. Wenn kein Rückgabedatum angegeben wird, wird der ausgehende Workflow nach einem Puffer für die Wiederaufnahme nach fortgesetzt, den Ihr Team konfigurieren kann.
+* **Manuelle Optionen**: Ein Vertriebsmitarbeiter kann weiterhin „Jetzt **[!UICONTROL &quot;]** oder ein bestimmtes Wiederaufnahmedatum planen. Siehe [Verwalten vorhandener ausgehender Workflows](#manage-existing-outbound-workflows).
 
 ## Verwalten vorhandener ausgehender Workflows
 
-Auf der Seite **[!UICONTROL Ausgehende Workflows]** werden auf der Registerkarte **[!UICONTROL Durchsuchen]** alle für Sie verfügbaren Interaktionspläne aufgeführt. Jede Karte zeigt das Ziel, konfigurierte Touchpoints und Leistungsmetriken. Verwenden Sie diese Ansicht, um ausgehende Workflows zu überwachen, Entwürfe zu überprüfen oder Interessenten hinzuzufügen.
+Auf der Seite **[!UICONTROL Ausgehende Workflows]** werden auf der Registerkarte **[!UICONTROL Durchsuchen]** alle ausgehenden Workflows aufgelistet, die für Sie verfügbar sind. Jede Karte zeigt das Ziel, konfigurierte Touchpoints und Leistungsmetriken. Verwenden Sie diese Ansicht, um ausgehende Workflows zu überwachen, Entwürfe zu überprüfen oder Interessenten hinzuzufügen.
 
 ## E-Mail-Postausgang
 
@@ -222,13 +230,13 @@ Wenn Sie Ihren Kalender verbinden, generiert Sales Qualifier einen persönlichen
 
 * **Buchungslinks** - Konfigurieren Sie Ihre Kalenderverbindung und -verfügbarkeit in [Profileinstellungen](profile-settings.md). Fügen Sie den Buchungs-Link zu Ihrer E-Mail-Signatur hinzu, damit sie in ausgehenden E-Mails angezeigt wird.
 * **Kadenzplatzierung** - Sales Qualifier fügt Ihren Buchungslink an relevanten Stellen in einer Kadenz ein. Sie können die Platzierung ändern.
-* **Buchungspause**: Wenn ein potenzieller Kunde ein Meeting bucht, **[!UICONTROL Buchungspause für das Meeting]** werden keine weiteren Folgemaßnahmen mehr durchgeführt. Siehe [Schritt 4: Konfigurieren der Einstellungen für den Interaktionsplan](#step-4-configure-engagement-plan-settings).
+* **Buchungspause**: Wenn ein potenzieller Kunde ein Meeting bucht, **[!UICONTROL Buchungspause für das Meeting]** werden keine weiteren Folgemaßnahmen mehr durchgeführt. Siehe [Schritt 4: Einstellungen für ausgehende Workflows konfigurieren](#step-4-configure-outbound-workflow-settings).
 
 Tracking von Buchungsergebnissen auf der Seite [Ausgehende Leistung](performance.md).
 
-## Best Practices für den Interaktionsplan
+## Best Practices für ausgehende Workflows
 
-* **Definieren eines bestimmten Ziels.** Zielgruppenbestimmung, Kadenz und E-Mails werden alle vom Ziel abgeleitet. Geben Sie das Ergebnis an, das mit dem Interaktionsplan erreicht werden soll.
+* **Definieren eines bestimmten Ziels.** Zielgruppenbestimmung, Kadenz und E-Mails werden alle vom Ziel abgeleitet. Geben Sie das Ergebnis an, das der ausgehende Workflow erreichen soll.
 * **Touchpoint-Eingabeaufforderungen vor der Generierung pro Interessent abschließen.** Nach der Massengenerierung werden Änderungen normalerweise jeweils nur von einem Interessenten vorgenommen.
 * **Verwenden von Argumentation als Qualitätsprüfung.** Wenn das falsche Signal hervorgehoben wird oder ein relevantes Signal fehlt, bearbeiten Sie die E-Mail oder überarbeiten Sie die Touchpoint-Eingabeaufforderung und regenerieren Sie die Kadenz.
 * **Passen Sie das Bearbeitungswerkzeug an die Änderung an.** Verwenden Sie direkte Bearbeitungen für Text und Ton. Verwenden Sie **[!UICONTROL Mit KI generieren]** für die Neustrukturierung oder das Reframing.

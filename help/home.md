@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,7 +29,7 @@ BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intellig
 ## Was Sie in Sales Qualifier tun können
 
 * **Priorisieren Sie Interessenten und Konten** mit KI-generierten Aktivitätszusammenfassungen und signalbasierter Priorisierung.
-* **Erstellen Sie zielorientierte Interaktionspläne** in denen KI eine Kadenz vorschlägt und für jeden Interessenten personalisierte E-Mails entwirft.
+* **Erstellen zielgesteuerter Outbound-Workflows** in denen KI eine Kadenz vorschlägt und für jeden Interessenten personalisierte E-Mails entwirft.
 * **Kontaktaufnahme in einer Warteschlange verarbeiten** für Telefonanrufe, LinkedInMails und E-Mail-Überprüfungen.
 * **Buchen Sie Meetings automatisch** indem Sie Ihren Kalender verbinden und einen persönlichen Buchungslink in Ihre Kadenz einfügen.
 * **Informieren Sie KI-Outreach mit Ihren eigenen Materialien** indem Sie im Knowledge Center ein Playbook erstellen.
