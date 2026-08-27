@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie in Sales Qualifier Berichte zur Organisations
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Ausgehende Leistung]** aus, um die ausgehende Aktivität und die Ergebnisse in Ihrem gesamten Team zu verfolgen. Das Dashboard hat zwei Ansichten: **[!UICONTROL Organisationsleistung]** und **[!UICONTROL Kampagnenleistung]**.
 
-[Outbound-Performance](assets/outbound-performance.png){width="800" zoomable="yes"}
+![Ausgehende Leistung](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## Filter und Zeitraum
 
@@ -33,7 +32,7 @@ Diese Steuerelemente gelten für alle Ansichten und Registerkarten:
 
 ### Registerkarte „Überblick“
 
-Die **[!UICONTROL Übersicht]** fasst die ausgehenden Ergebnisse auf einen Blick zusammen:
+Die **[!UICONTROL Übersicht]** fasst die ausgehenden Ergebnisse auf einen Blick zusammen. Klicken Sie auf eines der Felder, um das Diagramm mit diesen Informationen anzuzeigen.
 
 * **Kacheln**: Pipeline, E-Mail-Interaktion und manuelle Aktivität, jeweils mit einer Trendänderung im Vergleich zum vorherigen Zeitraum.
 * **Performance-Trenddiagramm**: Ausgehende Performance über den ausgewählten Zeitraum.
@@ -65,7 +64,7 @@ Die Registerkarte **[!UICONTROL Aufgaben]** enthält Berichte zur manuellen Kont
 * **Diagramm zur Entwicklung der Kampagnenmetriken**: Kampagnen-KPIs über den ausgewählten Zeitraum.
 * **[!UICONTROL Kampagnen]** Tabelle: E-Mail-, Meeting-, Aufruf- und LinkedIn-Nachrichtenaktivität für jede Kampagne. Erweitern Sie eine Kampagnenzeile, um Details auf repräsentativer Ebene für diese Kampagne anzuzeigen.
 
-Informationen [&#x200B; Generierung von Buchungen &#x200B;](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
+Informationen [ Generierung von Buchungen ](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
 
 >[!MORELIKETHIS]
 >

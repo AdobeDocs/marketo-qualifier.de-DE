@@ -3,18 +3,12 @@ title: Einrichten von Marketing-Highlights
 description: Erfahren Sie, wie Sie Marketo mit Sales Qualifier verbinden, damit Kundenbetreuer in den Marketing-Highlights Interessenten nach Marketo-Live-Aktivitäten anzeigen und filtern können.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +16,7 @@ ht-degree: 3%
 
 # Einrichten von Marketing-Highlights
 
-Die Marketing-Highlights zeigen die Live-[!DNL Marketo]-Aktivität jedes Interessenten, wie z. B. Öffnungen und Klicks, Web-Besuche und Formularausfüllungen, auf der Registerkarte **[!UICONTROL Marketing-]**) eines Interessenten in Sales Qualifier an. In diesem Artikel wird erläutert, wie Sie Ihre [!DNL Marketo]-Instanz verbinden, damit Aktivitäten in fließen.
+Die Marketing-Highlights zeigen die Live-[!DNL Marketo]-Aktivität jedes Interessenten an, z. B. Öffnungen und Klicks von E-Mails, Web-Besuche und ausgefüllte Formulare. In diesem Artikel wird erläutert, wie Sie Ihre [!DNL Marketo]-Instanz verbinden, damit Aktivitäten in fließen.
 
 >[!IMPORTANT]
 >

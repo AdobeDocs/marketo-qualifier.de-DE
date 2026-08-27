@@ -4,18 +4,13 @@ description: Erfahren Sie mehr über Sales Qualifier, eine KI-gesteuerte App, di
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -36,13 +31,13 @@ BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intellig
 * **Stellen Sie Fragen in natürlicher Sprache** mit AI Chat, der Ihre CRM-, Interaktions- und Wissenscenter-Daten verwendet.
 * **Verfolgen der Outreach-** mit E-Mail- und Besprechungsbuchungsberichten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Handbuch erkunden
 
 ::::landing-cards-container
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
@@ -52,7 +47,7 @@ Schließen Sie die einmalige Administratoreinrichtung für Benutzergruppen und e
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prospects
 
@@ -62,7 +57,7 @@ Interessentenliste erstellen, filtern und überprüfen.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konten
 
@@ -72,7 +67,7 @@ Priorisieren Sie die Kontaktaufnahme mit Pipeline- und Interaktionsdaten auf Kon
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ausgehende Workflows
 
@@ -82,7 +77,7 @@ Erstellen Sie zielgesteuerte Kadenzen mit KI-generierten, personalisierten E-Mai
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Aufgaben
 
@@ -92,7 +87,7 @@ Telefonanruf, LinkedInMail und E-Mail-Prüfungsaufgaben in einer Warteschlange v
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Leistung
 
@@ -102,17 +97,17 @@ Leistung
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Knowledge Center
 
 Erstellen Sie ein Playbook, das KI-Reichweite und Hilfe in Ihren Materialien ermöglicht.
 
-[Knowledge Center](knowledge-center.md)
+[Knowledge Center](admin-settings.md#knowledge-center)
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Integrationen
 
@@ -122,7 +117,7 @@ Verbinden Sie Salesforce oder Microsoft Dynamics 365 und ordnen Sie Ihre Felder 
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Profileinstellungen
 
@@ -132,17 +127,7 @@ Konfigurieren Sie die Verfügbarkeit Ihrer E-Mails, Signaturen und Kalender.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
-
-Benutzerrollen und -berechtigungen
-
-Grundlegendes zum Modell für Benutzer und Administratorgruppen.
-
-[Benutzerrollen und -berechtigungen](user-roles-permissions.md)
-:::
-
-:::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 KI-Chat
 

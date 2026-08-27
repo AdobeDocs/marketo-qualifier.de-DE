@@ -4,15 +4,12 @@ description: Erfahren Sie, wie Sie CRM-Felder, Aktivitätssynchronisierung, E-Ma
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 856
 ht-degree: 0%
 
 ---
@@ -28,7 +25,7 @@ Die CRM-Verbindungen, die Feldzuordnung und die Aktivitätssynchronisierung konf
 
 >[!IMPORTANT]
 >
->Der Zugriff auf **[!UICONTROL Admin]** Einstellungen erfordert die Mitgliedschaft in den Benutzergruppen `Sales Qualifier` und `Sales Qualifier Admins`. Siehe [Benutzerrollen und Berechtigungen](user-roles-permissions.md).
+>Der Zugriff auf **[!UICONTROL Admin]** Einstellungen erfordert die Mitgliedschaft in den Benutzergruppen `Sales Qualifier` und `Sales Qualifier Admins`.
 
 ## CRM MCP und das eingebettete Plug-in
 
@@ -74,6 +71,31 @@ Zugeordnete Felder werden in den entsprechenden Bereichen von Sales Qualifier an
 
 Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Sales Qualifier weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit dem CRM oder Marketo.
 
+## Erstellen eines Playbooks für Wissenszentren {#knowledge-center}
+
+Das **[!UICONTROL Knowledge Center]** bietet der Account Qualification Agent (AQA) Zugriff auf Ihre Verkaufsunterlagen. Sales Qualifier verwendet diese Materialien, um Forschungen, Qualifizierungseinblicke und Öffentlichkeitsarbeit zu generieren, die widerspiegeln, wie Ihr Unternehmen verkauft. Nur Administratoren können das Playbook erstellen und verwalten.
+
+![Wissenszentrum](assets/knowledge-center.png){width="800" zoomable="yes"}
+
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** wählen Sie **[!UICONTROL Admin-Einstellungen]** und wählen Sie **[!UICONTROL Wissenszentrum]**
+1. u
+1. Legen Sie die **[!UICONTROL Firmenname]** und **[!UICONTROL Unternehmens-URL]** fest, die Sales Qualifier verwendet, um Ihr Unternehmen zu durchsuchen und E-Mails zu entwerfen.
+1. Laden Sie Vertriebsmitteilungen, ideale Kundenprofile (ICPs), Positionierungsleitfäden und anderes Vertriebsmaterial im PDF-, PPTX- oder DOCX-Format hoch.
+1. Wählen Sie **[!UICONTROL Playbook erstellen]** aus.
+
+Jedes hochgeladene Dokument zeigt seinen Verarbeitungsstatus an, z **[!UICONTROL B. &quot;]**&quot; und den Zeitpunkt der letzten Aktualisierung.
+
+>[!NOTE]
+>
+>Die Verarbeitung eines Playbooks kann bis zu 24 Stunden dauern.
+
+Wenn das Playbook fertig ist, können Vertreter es an zwei Stellen verwenden:
+
+* **Ausgehende E-Mail-Eingabeaufforderungen** - Benennen Sie in einer Touchpoint-Eingabeaufforderung das Dokument und beschreiben Sie den zu verwendenden Kontext. Geben Sie beispielsweise `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition` ein. Siehe [Erstellen und Überprüfen von Touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **AI Chat**: Wenden Sie sich in Ihrer Frage an das Knowledge Center. Geben Sie beispielsweise `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call` ein. Siehe [KI-Chat](ai-assistant.md).
+
+In beiden Fällen spiegelt der generierte Inhalt die Botschaft in Ihrem Playbook wider und nicht die allgemeine Forschung.
+
 ## Konfigurieren des globalen E-Mail-Opt-outs
 
 1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Admin-Einstellungen]** aus.
@@ -113,5 +135,4 @@ ORDER BY LastModifiedDate DESC
 >[!MORELIKETHIS]
 >
 >* [Erste Schritte](getting-started.md)
->* [Benutzerrollen und -berechtigungen](user-roles-permissions.md)
 >* [Interessenten](prospects.md)

@@ -3,18 +3,12 @@ title: Integrationen verwalten
 description: Erfahren Sie, wie Sie in Sales Qualifier eine Verbindung zu Outlook herstellen, CRM-Verbindungen verwalten, eingehende Felder zuordnen, Aktivitäten synchronisieren und das globale E-Mail-Opt-out konfigurieren.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +22,7 @@ In diesem Artikel wird erläutert, wie Sie Outlook verbinden, eine CRM-Verbindun
 
 >[!IMPORTANT]
 >
->Die Outlook-Verbindung erfolgt pro Vertreter. Die CRM- und Compliance-Einstellungen, die weiter unten in diesem Artikel beschrieben werden, gelten für die gesamte Organisation. Um auf diese organisationsweiten Einstellungen zuzugreifen, müssen Sie der `Sales Qualifier` und `Sales Qualifier Admins` Benutzergruppen angehören. Standardbenutzer können die konfigurierten CRM-Daten und -Filter verwenden, aber die Einstellungen nicht ändern. Siehe [Benutzerrollen und Berechtigungen](user-roles-permissions.md).
+>Die Outlook-Verbindung erfolgt pro Vertreter. Die CRM- und Compliance-Einstellungen, die weiter unten in diesem Artikel beschrieben werden, gelten für die gesamte Organisation. Um auf diese organisationsweiten Einstellungen zuzugreifen, müssen Sie der `Sales Qualifier` und `Sales Qualifier Admins` Benutzergruppen angehören. Standardbenutzer können die konfigurierten CRM-Daten und -Filter verwenden, aber die Einstellungen nicht ändern.
 
 ## Outlook verbinden
 
@@ -67,7 +61,7 @@ Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wähl
 | **[!UICONTROL Integrationen]** | **[!UICONTROL CRM-Verbindungen]**, **[!UICONTROL Knowledge Center]** |
 | **[!UICONTROL Compliance]** | **[!UICONTROL E-Mail-Einstellungen]** |
 
-Informationen zum Wissenszentrum finden Sie unter [Wissenszentrum](knowledge-center.md).
+Informationen zum Knowledge Center finden Sie unter [Erstellen eines Knowledge Center-Playbooks](admin-settings.md#knowledge-center).
 
 ## CRM-Verbindungen verwalten
 
@@ -96,7 +90,7 @@ Eine nicht konfigurierte Karte zeigt **[!UICONTROL Verbinden]**. Eine konfigurie
 
    Geben Sie **[!UICONTROL Client-ID (Consumer Key)]**, **[!UICONTROL Instanz-URL]** und **[!UICONTROL Client Secret]** ein. Verwenden Sie das Formular für die kanonische Instanz-URL `https://{{mydomain}}.my.salesforce.com`.
 
-   ![Salesforce-Verbindung](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce-Anmeldeinformationen](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +119,13 @@ Wenn Sales Qualifier die Anmeldeinformationen ablehnt, identifiziert es die Ursa
 
 Eingehende Zuordnungen steuern, welche CRM-Felder Sales Qualifier importiert und wo sie angezeigt werden. Felder werden in Abschnitte gruppiert und jeder Abschnitt gehört zu einem Entitätstyp.
 
+![Eingehende Zuordnung](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus.
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Eingehende]**&quot; die Option **[!UICONTROL Abschnitt hinzufügen]** aus.
+
+   ![Abschnitt hinzufügen](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. Wählen **im Schritt** Auswählen“ den Entitätstyp aus und klicken Sie dann auf **[!UICONTROL Weiter]**:
 
    | Entität | Wo die zugehörigen Felder angezeigt werden |
@@ -138,7 +137,7 @@ Eingehende Zuordnungen steuern, welche CRM-Felder Sales Qualifier importiert und
 
 1. Geben Sie einen **[!UICONTROL Abschnittsnamen“]** eine optionale **[!UICONTROL Beschreibung]** ein. Klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Suchen Sie im Schritt **[!UICONTROL Feld hinzufügen]** nach den zu importierenden CRM-Feldern und wählen Sie diese aus. Klicken Sie dann auf **[!UICONTROL Weiter]**. Jedes Feld zeigt seinen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]**.
-1. Aktivieren **[!UICONTROL in]** Abschnitten **[!UICONTROL Kontakte]** und **[!UICONTROL Opportunities]** für jedes Feld, das die [&#x200B; in der Liste Interessenten](prospects.md) benötigen, **[!UICONTROL Filterable]**.
+1. Aktivieren **[!UICONTROL in]** Abschnitten **[!UICONTROL Kontakte]** und **[!UICONTROL Opportunities]** für jedes Feld, das die [ in der Liste Interessenten](prospects.md) benötigen, **[!UICONTROL Filterable]**.
 
    Ein Feld kann nicht als filterbar festgelegt werden, wenn sein Datentyp keine Filterung unterstützt oder wenn es bereits in einem anderen Abschnitt verwendet wird.
 
@@ -166,7 +165,7 @@ Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Sales Qualifier 
 
 Mit den Marketing-Highlights können Mitarbeiter Interessenten anhand ihrer Live-[!DNL Marketo]-Interaktionen wie E-Mail-Öffnungen und -Klicks finden und priorisieren. Siehe [Filtern nach Marketing-Highlights](prospects.md#filter-by-marketing-highlights).
 
-Ein Administrator führt ein einmaliges Setup durch, bei dem [!DNL Marketo] für die entsprechende Organisation und Sandbox mit Sales Qualifier verbunden wird. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [&#x200B; Schritte finden Sie unter „Einrichten &#x200B;](marketing-highlights-setup.md) Marketing-Highlights“.
+Ein Administrator führt ein einmaliges Setup durch, bei dem [!DNL Marketo] für die entsprechende Organisation und Sandbox mit Sales Qualifier verbunden wird. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [ Schritte finden Sie unter „Einrichten ](marketing-highlights-setup.md) Marketing-Highlights“.
 
 Marketing-Highlights sind in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
 
@@ -197,5 +196,4 @@ Ihr CRM-Administrator bereitet den API-Zugriff in Salesforce oder Dynamics vor. 
 >[!MORELIKETHIS]
 >
 >* [Erste Schritte](getting-started.md)
->* [Benutzerrollen und -berechtigungen](user-roles-permissions.md)
 >* [Konten](accounts.md)

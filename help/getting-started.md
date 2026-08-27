@@ -4,19 +4,12 @@ description: Erfahren Sie, wie Sie die einmalige Admin-Einrichtung für Sales Qu
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -30,18 +23,22 @@ Nachdem Adobe Sales Qualifier für Ihr Unternehmen bereitgestellt hat, muss ein 
 
 ## Einrichten von Benutzergruppen
 
-Zwei Benutzergruppen in Adobe Admin Console steuern den Zugriff auf Sales Qualifier. Erstellen Sie beide Gruppen, bevor sich Benutzer anmelden.
+Benutzergruppen in Adobe Admin Console werden verwendet, um den Zugriff auf Sales Qualifier zu steuern. Beide Gruppen müssen erstellt werden, bevor sich Benutzer anmelden können.
+
+Informationen zum Einrichten von Gruppen finden ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu [Adobe Admin Console .
 
 >[!PREREQUISITES]
 >
 >Der Administrator, der die Gruppen erstellt, muss die beiden folgenden Anforderungen erfüllen:
 >
->* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-**Zugriff auf** Admin Console hat.
+>* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-]**Zugriff auf**[!UICONTROL  Admin Console hat.
 >* Sie müssen das Adobe Experience Platform-Produkt verwenden oder Systemadministrator sein. Andernfalls wird Adobe Experience Platform nicht in der Produktliste angezeigt.
 
 ### Sales Qualifier-Benutzer
 
 Benutzer müssen der Benutzergruppe `Sales Qualifier` angehören, um auf das Programm zugreifen zu können.
+
+Diese Schritte werden in der Adobe Admin Console ausgeführt.
 
 1. Wählen Sie im Programmumschalter mit neun Punkten **[!UICONTROL Admin Console]** aus.
 1. Wählen **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** > **[!UICONTROL Neue Benutzergruppe]**.
@@ -53,18 +50,16 @@ Benutzer müssen der Benutzergruppe `Sales Qualifier` angehören, um auf das Pro
 
 ### Sales Qualifier-Administratoren
 
-Administratoren, die CRM-Verbindungen, das [Wissenscenter](knowledge-center.md) und globale E-Mail-Opt-out-Einstellungen konfigurieren, müssen ebenfalls zur `Sales Qualifier Admins` Benutzergruppe gehören.
+Administratoren, die CRM-Verbindungen, das [Wissenscenter](admin-settings.md#knowledge-center) und globale E-Mail-Opt-out-Einstellungen konfigurieren, müssen ebenfalls zur `Sales Qualifier Admins` Benutzergruppe gehören.
 
 1. Wählen Sie in Adobe Admin Console **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** > **[!UICONTROL Neue Benutzergruppe]**.
 1. Geben Sie `Sales Qualifier Admins` als Gruppennamen ein und wählen Sie **[!UICONTROL Speichern]**.
 1. Öffnen Sie **[!UICONTROL Benutzer]**, wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus und fügen Sie die Administratoren hinzu.
 1. Vergewissern Sie sich, dass alle Admins auch Mitglieder der `Sales Qualifier` sind.
 
-Die Mitgliedschaft in beiden Gruppen macht **[!UICONTROL Admin-Einstellungen]** im linken Navigationsbereich unter **[!UICONTROL Administration]** sichtbar. Standardbenutzer arbeiten mit den Feldern, Filtern und Playbooks, die Administratoren konfigurieren. Die konfigurierte Opt-out-Fußzeile wird automatisch auf die ausgehenden E-Mails angewendet. Standardbenutzer können diese Einstellungen nicht ändern. Weitere Informationen finden [&#x200B; unter &#x200B;](user-roles-permissions.md) und Berechtigungen .
+Die Mitgliedschaft in beiden Gruppen macht **[!UICONTROL Admin-Einstellungen]** im linken Navigationsbereich unter **[!UICONTROL Administration]** sichtbar. Standardbenutzer arbeiten mit den Feldern, Filtern und Playbooks, die Administratoren konfigurieren. Die konfigurierte Opt-out-Fußzeile wird automatisch auf die ausgehenden E-Mails angewendet. Standardbenutzer können diese Einstellungen nicht ändern.
 
->[!NOTE]
->
->Die Namen der Benutzergruppen müssen genau mit denen übereinstimmen, die in den vorherigen Schritten gezeigt wurden.
+Die Namen der Benutzergruppen müssen genau mit denen übereinstimmen, die in den vorherigen Schritten gezeigt wurden.
 
 Sie können auch eine optionale `Sales Qualifier BDR managers` erstellen. Mitglieder dieser Gruppe können auf E-Mail-Leistungsberichte zugreifen.
 
@@ -116,9 +111,7 @@ Ein Salesforce-Systemadministrator erstellt eine externe Client-Anwendung (auch 
    * Callback-URL
    * Salesforce-Instanz-URL
 
->[!IMPORTANT]
->
->Senden Sie keine Kundengeheimnisse per E-Mail. Verwenden Sie den genehmigten sicheren Kanal Ihres Unternehmens, um Anmeldeinformationen mit Personen zu teilen, die sie in Sales Qualifier eingeben.
+Die Schritte können sich geringfügig von den hier beschriebenen unterscheiden. Weitere Informationen finden Sie in der ](https://help.salesforce.com/s/) zu [Salesforce.
 
 ### Suchen der Salesforce-Instanz-URL
 
@@ -154,9 +147,9 @@ Ein Microsoft Dynamics 365- oder Azure-Administrator registriert eine Anwendung 
 1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Admin-Einstellungen]** aus.
 1. Wählen Sie **[!UICONTROL CRM-Verbindungen]** unter **[!UICONTROL Integrationen]** aus.
 
-   Frühere Versionen der Benutzeroberfläche zeigen diesen Bereich möglicherweise als **[!UICONTROL Integrationen]** unter **[!UICONTROL Administration]**.
-
    Auf der Seite werden Karten für Salesforce und Microsoft Dynamics angezeigt. Eine inaktive Verbindung zeigt **[!UICONTROL Verbinden]**. Eine konfigurierte Verbindung zeigt **[!UICONTROL Verbunden]** und **[!UICONTROL Verwalten]**.
+
+   ![Salesforce-Anmeldeinformationen](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Verbinden]** für das verwendete CRM aus.
 1. Geben Sie die Anmeldedaten und die Instanz-URL von Ihrem CRM-Administrator ein.
@@ -164,18 +157,9 @@ Ein Microsoft Dynamics 365- oder Azure-Administrator registriert eine Anwendung 
 
 ### CRM-Felder importieren
 
-Nachdem Sie das CRM verbunden haben, konfigurieren Sie die eingehende Zuordnung, um auszuwählen, welche CRM-Felder in Sales Qualifier angezeigt werden.
+Nachdem Sie das CRM verbunden haben, konfigurieren Sie die eingehende Zuordnung, um zu bestimmen, welche CRM-Felder in Sales Qualifier angezeigt werden. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus, um **[!UICONTROL Eingehende Zuordnung]** zu öffnen, und fügen Sie dann einen Abschnitt für jeden Entitätstyp hinzu, dessen Felder Sie importieren möchten.
 
-1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus, um **[!UICONTROL eingehende Zuordnung]** zu öffnen.
-1. Wählen Sie **[!UICONTROL Abschnitt hinzufügen]** aus.
-1. Geben Sie einen Namen und eine Beschreibung für den Abschnitt ein.
-1. Entitätstyp auswählen. **[!UICONTROL Interessenten]** ist standardmäßig ausgewählt. **[!UICONTROL Kontakte]**, **[!UICONTROL Konten]** und **[!UICONTROL Opportunities]** sind ebenfalls verfügbar.
-1. CRM-Felder zum Importieren auswählen.
-1. Zeigen Sie eine Vorschau des Abschnitts an und wählen Sie **[!UICONTROL Hinzufügen]**.
-
-Interessentenfelder werden auf der Registerkarte **[!UICONTROL Person]**, Kontofelder auf der Registerkarte **[!UICONTROL Konto]** und Opportunity-Felder werden im Abschnitt **[!UICONTROL Account-Opportunity]** angezeigt. Aktivieren **[!UICONTROL Filterbar]** für jedes zugeordnete Feld, das Repräsentanten als Filter benötigen.
-
-Siehe [Integrationen](integrations.md#map-crm-fields-inbound-mapping) zum Verwalten der Feldzuordnung und -synchronisierung.
+Siehe [Zuordnen von CRM-Feldern (eingehende Zuordnung)](integrations.md#map-crm-fields-inbound-mapping) für vollständige Schritte, einschließlich der Bereitstellung importierter Felder als Filter.
 
 ## Nächste Schritte
 
@@ -183,4 +167,3 @@ Siehe [Integrationen](integrations.md#map-crm-fields-inbound-mapping) zum Verwal
 >
 >* [Interessenten](prospects.md)
 >* [Ausgehende Workflows](outbound-workflows.md)
->* [Benutzerrollen und -berechtigungen](user-roles-permissions.md)
