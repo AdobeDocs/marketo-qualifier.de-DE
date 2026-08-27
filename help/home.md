@@ -36,7 +36,7 @@ BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intellig
 * **Stellen Sie Fragen in natürlicher Sprache** mit AI Chat, der Ihre CRM-, Interaktions- und Wissenscenter-Daten verwendet.
 * **Verfolgen der Outreach-** mit E-Mail- und Besprechungsbuchungsberichten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
 
 ## Handbuch erkunden
 
