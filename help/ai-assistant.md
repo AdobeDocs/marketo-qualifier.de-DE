@@ -12,9 +12,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: 404
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 # KI-Chat
 
 Der KI-Chat beantwortet Fragen in natürlicher Sprache basierend auf Ihrem Verkaufskontext. Nutzen Sie sie, um ein Konto zu recherchieren, sich auf einen Anruf vorzubereiten, Kontakte zu entwerfen und Ihre Arbeit zu priorisieren, ohne Sales Qualifier verlassen zu müssen.
+
+![KI-Chat-Schaltfläche](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## KI-Chat öffnen
 
@@ -36,7 +38,7 @@ Wählen Sie die unverankerte **[!UICONTROL AI-Chat]**-Schaltfläche aus, um das 
 
 Der KI-Chat kann die folgenden Quellen verwenden:
 
-* Das Playbook Ihres Unternehmens im [Knowledge Center](knowledge-center.md).
+* Das Playbook Ihres Unternehmens im [Knowledge Center](admin-settings.md#knowledge-center).
 * Ihr verbundenes CRM, einschließlich Leads, Kontakte, Konten, Chancen und Aktivitäten.
 * [!DNL Marketo] Aktivitäts- und Interaktionsdaten.
 * Kundenanalyse und aktuelle Nachrichten, die von der Account Qualification Agent gesammelt wurden.
@@ -54,7 +56,7 @@ Verwenden Sie den KI-Chat für diese Aufgaben:
 
 ## Grundlegende Antworten in Ihrem Playbook
 
-Wenn Sie Ihr [Wissenscenter](knowledge-center.md)-Playbook verwenden möchten, wenden Sie sich in Ihrer Frage an das Wissenscenter. Beispiel:
+Wenn Sie Ihr [Wissenscenter](admin-settings.md#knowledge-center)-Playbook verwenden möchten, wenden Sie sich in Ihrer Frage an das Wissenscenter. Beispiel:
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +78,6 @@ Die Verwendung von KI-Chat durch Ihr Unternehmen unterliegt den Adobe Generative
 
 >[!MORELIKETHIS]
 >
->* [Wissenszentrum](knowledge-center.md)
+>* [Wissenszentrum](admin-settings.md#knowledge-center)
 >* [Konten](accounts.md)
 >* [Ausgehende Workflows](outbound-workflows.md)

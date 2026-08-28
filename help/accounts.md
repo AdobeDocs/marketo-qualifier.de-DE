@@ -10,9 +10,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Eröffnen Sie ein Konto über das Profil eines Interessenten, der mit ihm verkn�
 
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Interessenten“ aus und öffnen Sie einen Interessenten. Siehe [Interessenten](prospects.md).
 1. Wählen Sie auf der Seite mit den Interessentendetails die Registerkarte **[!UICONTROL Konto]** aus.
+
+![Prospect-Detailseite mit den Registerkarten „Person“ und „Konto“](./assets/account-home.png){width="800" zoomable="yes"}
 
 Sales Qualifier identifiziert das Konto anhand des CRM-Eintrags des potenziellen Kunden. Dieselbe Kontoansicht ist für jeden Interessenten verfügbar, der mit diesem Konto verknüpft ist. Wenn Sales Qualifier kein Konto zuordnen kann, wird auf der Registerkarte _Kein Konto gefunden_ angezeigt.
 
@@ -57,7 +59,7 @@ Das Bedienfeld **[!UICONTROL Kontoübersicht]** fasst den Account basierend auf 
 
 Verwenden Sie die Schaltflächen unter der Übersicht, um zwischen Kontoansichten zu wechseln. Die verfügbaren Ansichten hängen von Ihrem CRM und Ihrer Konfiguration ab:
 
-| Ansicht | Was angezeigt wird |
+| Anzeigen | Was angezeigt wird |
 | --- | --- |
 | **[!UICONTROL Opportunities]** | Offene, mit dem Account verknüpfte Opportunities mit jeweils zugehörigen Schlüsselfeldern. Wählen Sie **[!UICONTROL Alle anzeigen]**, um die vollständige Liste in einer Tabelle anzuzeigen. Opportunity-Details wie Phase, Typ und Abschlussdatum können auch verwendet werden, um die Kontakte des Kontos unter &quot;**[!UICONTROL Opportunity-Kontakte“]** filtern, wenn ein Administrator diese Felder filterbar macht. |
 | **[!UICONTROL Top-Mitglieder]** | Die am häufigsten kontaktierten Kontakte des Kontos, sortiert nach Interaktion. Jeder Kontakt zeigt seinen Jobtitel, seine E-Mail-Adresse, seinen Interaktionswert und die Dringlichkeitsanzeige an. |
@@ -77,6 +79,8 @@ Die Registerkarte **[!UICONTROL Account Research]** enthält drei Bereiche:
 * **[!UICONTROL Forschungskategorien]** - Forschungsthemen. Wählen Sie eine Kategorie aus, um ihre Forschung im mittleren Bereich anzuzeigen.
 * **Forschungsinhalt** - KI-generierte Forschungskarten, gruppiert nach Kategorie. Eine Karte kann die Quell-Domain und das Datum enthalten, an dem das Signal zum ersten Mal und zuletzt erkannt wurde.
 * **[!UICONTROL Aktuelle Nachrichten]** - Aktuelle Nachrichten zum Konto, einschließlich Datumsangaben, Tags und Quell-Links.
+
+![Registerkarte „Kontenforschung“](./assets/account-detail.png){width="800" zoomable="yes"}
 
 Wenn Recherche oder Nachrichten nicht geladen werden können, bietet jeder Bereich eine **[!UICONTROL Neu laden]**-Aktion, um es erneut zu versuchen.
 

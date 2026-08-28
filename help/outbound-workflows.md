@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -105,7 +105,7 @@ Festlegen einer Touchpoint-Verzögerung in Tagen, Stunden und Minuten. Legen Sie
 
 #### Wissenszentrum in Eingabeaufforderungen verwenden
 
-Wenn Ihr Unternehmen ein Playbook für [Wissenscenter](knowledge-center.md) erstellt hat, verweisen Sie in der Eingabeaufforderung darauf. Benennen Sie das Dokument und beschreiben Sie den zu verwendenden Kontext. Geben Sie beispielsweise `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition` ein.
+Wenn Ihr Unternehmen ein Playbook für [Wissenscenter](admin-settings.md#knowledge-center) erstellt hat, verweisen Sie in der Eingabeaufforderung darauf. Benennen Sie das Dokument und beschreiben Sie den zu verwendenden Kontext. Geben Sie beispielsweise `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition` ein.
 
 Wenn die Kadenz und die Eingabeaufforderungen fertig sind, wählen Sie **[!UICONTROL Weiter: Einstellungen]**.
 
@@ -245,5 +245,5 @@ Tracking von Buchungsergebnissen auf der Seite [Ausgehende Leistung](performance
 >[!MORELIKETHIS]
 >
 >* [Aufgaben](tasks.md)
->* [Wissenszentrum](knowledge-center.md)
+>* [Wissenszentrum](admin-settings.md#knowledge-center)
 >* [Ausgehende Leistung](performance.md)

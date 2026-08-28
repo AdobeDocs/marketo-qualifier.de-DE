@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 394
 ht-degree: 3%
 
 ---
@@ -21,14 +21,19 @@ ht-degree: 3%
 
 Erweitern Sie in der linken Navigation **[!UICONTROL Konfiguration]** und wählen Sie **[!UICONTROL Profileinstellungen]** aus. Verwenden Sie diese Einstellungen, um Ihre persönlichen Daten, E-Mail-Verbindung, Kalender und Chat-Verfügbarkeit zu verwalten.
 
+![Profileinstellungen](assets/profile-email-config.png)
+
 ## E-Mail-Einstellungen
 
 Richten Sie auf **[!UICONTROL Registerkarte]** E-Mail-Einstellungen“ Ihre E-Mail-Verbindungen ein.
 
-* **[!UICONTROL E-Mail]** Verbindungen: Wählen Sie **[!UICONTROL Outlook verbinden]** und folgen Sie dem Microsoft-Anmeldeprozess. Unter [Outlook verbinden](integrations.md#connect-outlook) finden Sie den von Ihnen genehmigten Zugriff und ggf. den Genehmigungspfad des Administrators.
+* **[!UICONTROL E-Mail-Verbindungen]** - Wählen Sie Microsoft Outlook oder Google aus und folgen Sie dem Anmeldevorgang. Unter [Outlook verbinden](integrations.md#connect-outlook) finden Sie den von Ihnen genehmigten Zugriff und ggf. den Genehmigungspfad des Administrators.
 * **[!UICONTROL E-Mail-Signatur]** - Fügen Sie die in generierten E-Mails verwendete Signatur hinzu oder aktualisieren Sie sie. Fügen Sie Ihren [Meeting-Buchungs](outbound-workflows.md#meeting-booking)-Link ein, damit potenzielle Kunden Zeit mit Ihnen planen können.
+* **[!UICONTROL Meeting-Buchungslink]** - Senden Sie eine Besprechungseinladung in Ihre E-Mails. Verwendet die Besprechungs-URL.
 
 ### E-Mail-Zeichnungskontext
+
+![E-Mail-Kontext](assets/profile-email-instructions.png)
 
 Verwenden Sie **[!UICONTROL E-Mail]** Zeichnungskontext, um den E-Mail-Ton, die Struktur und den Stil festzulegen, sodass E-Mails konsistent sind.
 

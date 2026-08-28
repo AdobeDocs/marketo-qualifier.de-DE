@@ -1,9 +1,9 @@
 ---
 user-guide-title: Verkaufskennzeichner
 user-guide-description: Erfahren Sie, wie Sie mit Sales Qualifier die Qualifizierung, Kontaktaufnahme und Käuferinteraktion von Interessenten für B2B-Vertriebsteams automatisieren können.
-source-git-commit: 7000e83d987e182ef60ceb5c75531b280c96cf22
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '48'
 ht-degree: 27%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 27%
 + [Aufgaben](tasks.md)
 + [Outbound-Performance](performance.md)
 + [Profileinstellungen](profile-settings.md)
-+ [Knowledge Center](knowledge-center.md)
 + [Integrationen](integrations.md)
 + [Einrichten von Marketing-Highlights](marketing-highlights-setup.md)
-+ [Benutzerrollen und -berechtigungen](user-roles-permissions.md)
 + [KI-Chat](ai-assistant.md)
 + [Admin-Einstellungen](admin-settings.md)

@@ -3,9 +3,9 @@ title: Versionshinweise zu Sales Qualifier
 description: Erfahren Sie mehr über die neuen Funktionen im Verkaufsqualifizierer.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 12%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier] ist jetzt als eigenständige Anwendung verfügbar. Ursprünglich wurde es als Teil von Adobe Journey Optimizer B2B veröffentlicht.
+[!DNL Sales Qualifier] ist jetzt als eigenständige Anwendung verfügbar. Es unterstützt Marketo und Adobe Journey Optimizer B2B.
 
 Diese Version umfasst:
 
@@ -22,7 +22,7 @@ Diese Version umfasst:
 * Zielgesteuerte ausgehende Workflows mit von KI vorgeschlagenen Kadenzen und entworfenen E-Mails. [Weitere Informationen](outbound-workflows.md).
 * Eine einheitliche Aufgabenwarteschlange für Telefonanrufe, LinkedInMails und E-Mail-Überprüfungen. [Weitere Informationen](tasks.md).
 * Automatische Besprechungsbuchung über Kalenderintegration. [Weitere Informationen](outbound-workflows.md#meeting-booking).
-* Ein Wissenszentrum für die Einführung von KI-Outreach in eigenen Playbook-Materialien. [Weitere Informationen](knowledge-center.md).
+* Ein Wissenszentrum für die Einführung von KI-Outreach in eigenen Playbook-Materialien. [Weitere Informationen](admin-settings.md#knowledge-center).
 * KI-Chat für Fragen in natürlicher Sprache, die auf CRM-, Interaktions- und Wissenscenter-Daten basieren. [Weitere Informationen](ai-assistant.md).
 * E-Mail- und Besprechungsbuchungs-Leistungsberichte. [Weitere Informationen](performance.md).
 * Browser- und E-Mail-Plug-ins für den Zugriff innerhalb Ihres CRM oder Outlook. [Weitere Informationen](admin-settings.md#crm-mcp-and-the-embedded-plugin).

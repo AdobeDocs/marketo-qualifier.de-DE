@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # Einrichten von Marketing-Highlights
 
-Die Marketing-Highlights zeigen die Live-[!DNL Marketo]-Aktivität jedes Interessenten, wie z. B. Öffnungen und Klicks, Web-Besuche und Formularausfüllungen, auf der Registerkarte **[!UICONTROL Marketing-]**) eines Interessenten in Sales Qualifier an. In diesem Artikel wird erläutert, wie Sie Ihre [!DNL Marketo]-Instanz verbinden, damit Aktivitäten in fließen.
+Die Marketing-Highlights zeigen die Live-[!DNL Marketo]-Aktivität jedes Interessenten an, z. B. Öffnungen und Klicks von E-Mails, Web-Besuche und ausgefüllte Formulare. In diesem Artikel wird erläutert, wie Sie Ihre [!DNL Marketo]-Instanz verbinden, damit Aktivitäten in fließen.
 
 >[!IMPORTANT]
 >
