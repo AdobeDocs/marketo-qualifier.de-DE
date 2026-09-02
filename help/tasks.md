@@ -4,8 +4,11 @@ description: Erfahren Sie, wie Sie manuelle Outreach-Aufgaben verarbeiten und vo
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
 source-wordcount: 904
@@ -107,7 +110,7 @@ Wählen Sie einen Vorschlag aus, um ihn im Arbeitsbereich zu überprüfen:
 
 Es stehen zwei Aktionen zur Verfügung:
 
-* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung ](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung &#x200B;](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Als abgeschlossen markieren]** - Schließen Sie den Vorschlag ab, nachdem Sie ihn überprüft haben.
 
 Die **[!UICONTROL Agentenvorschläge]** enthält die Statusfilter **[!UICONTROL Aktuell]**, **[!UICONTROL Abgeschlossen]** und **[!UICONTROL Abgebrochen]**, einen Filter für ausgehende Workflows und eine Sortierung nach Erstellungsdatum.
