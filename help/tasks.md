@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Verwenden Sie **[!UICONTROL Aufgaben]**, um die von ausgehenden Workflows generierten Aktionen abzuschließen. Wählen Sie eine Aufgabe aus, führen Sie eine Aktion durch, markieren Sie die Aufgabe als abgeschlossen und fahren Sie mit der nächsten Aufgabe fort, ohne die Seite zu verlassen.
 
 Navigieren Sie in der linken Navigation zu **[!UICONTROL Aktivitäten]** > **[!UICONTROL Aufgaben]**.
+
+![Aufgabenbereich](assets/tasks.png)
 
 ## Aufgabenansichten
 
@@ -43,6 +45,8 @@ Manuelle Aufgaben sind an ausgehende Workflow-Schritte gebunden und können in d
 * **[!UICONTROL LinkedInMail]** - Wird erstellt, wenn eine Kadenz einen LinkedInMail-Schritt erreicht. Das Arbeitsfenster zeigt Inhalte an, die von LinkedIn kopiert und gesendet werden sollen. Erweitern Sie **[!UICONTROL KI-Begründung]**, um die Begründung zu überprüfen.
 
 * **[!UICONTROL E-Mail-Überprüfung]** - Wird erstellt, nachdem Sales Qualifier die personalisierten E-Mails eines Interessenten generiert hat. Wählen Sie **[!UICONTROL E-Mails überprüfen]**, um die Entwürfe zu überprüfen und zu genehmigen, bevor die Kontaktaufnahme beginnt. Siehe [Überprüfen und Verfeinern generierter E-Mails](outbound-workflows.md#review-and-refine-generated-emails).
+
+![E-Mail-Überprüfung](assets/tasks-review.png)
 
 ### Das Bedienfeld „Arbeit“
 
