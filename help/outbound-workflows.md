@@ -4,18 +4,12 @@ description: Erfahren Sie, wie Sie KI-generierte ausgehende Workflows in Sales Q
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1923
+source-wordcount: 2062
 ht-degree: 0%
 
 ---
@@ -57,6 +51,8 @@ Der Assistent für ausgehende Workflows umfasst fünf Schritte: **[!UICONTROL Zi
 1. Wählen Sie in der linken Navigation **[!UICONTROL Ausgehende Workflows]** aus.
 1. Wählen Sie auf **[!UICONTROL Registerkarte]** Durchsuchen“ **[!UICONTROL + Ausgehenden Workflow erstellen]** in der oberen rechten Ecke aus.
 
+Admins können den ausgehenden Workflow einem Teamkollegen anstelle sich selbst zuweisen. Wählen Sie vor dem Starten des Workflows **[!UICONTROL Benutzer zuweisen]** aus der Dropdown-Liste aus und wählen Sie den Teamkollegen aus.
+
 ### Schritt 1: Definieren Sie Ihr Ziel
 
 Das Ziel definiert das beabsichtigte Ergebnis und leitet Targeting, Kadenz und E-Mail-Generierung an.
@@ -87,7 +83,7 @@ Nach der Konfiguration analysiert die KI das Ziel und die Kriterien für die Zie
 
 ![Touchpoints](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
-Erweitern Sie einen E-Mail-Touchpoint, um die Eingabeaufforderung zu lesen. Die Eingabeaufforderung leitet die KI beim Schreiben der E-Mails jedes Interessenten, einschließlich Ton, Länge, Fokus und call to action.
+Um die Eingabeaufforderung zu lesen, erweitern Sie einen E-Mail-Touchpoint. Die Eingabeaufforderung leitet die KI beim Schreiben der E-Mails jedes Interessenten, einschließlich Ton, Länge, Fokus und call to action.
 
 Durch die Eingabe eines Schrägstrichs `/` die Liste der definierten Token angezeigt, die Sie zur Personalisierung der E-Mail verwenden können.
 
@@ -127,7 +123,9 @@ Der **[!UICONTROL Einstellungen]** steuert, wie der ausgehende Workflow ausgefü
 1. Behalten **[!UICONTROL unter]** die Option **[!UICONTROL Privat]** (Standard) bei oder wählen Sie **[!UICONTROL Für alle freigegeben]**. Weitere Informationen finden Sie unter [Freigeben eines ausgehenden Workflows](#share-an-outbound-workflow).
 1. Wählen Sie **[!UICONTROL Speichern und Interessenten hinzufügen]** aus.
 
-Die Opt-out-Fußzeile wird global von einem Administrator konfiguriert und gilt unabhängig von den Einstellungen des ausgehenden Workflows für ausgehende E-Mails. Siehe [Konfigurieren einer globalen E-Mail-Abmeldung](integrations.md#configure-global-email-opt-out).
+Um das Sendefenster, die Zeitzone, die Tage, die Folge- und Abwesenheitsregeln, die Sichtbarkeit und die Vorschlagskadenz auf ihre Standardwerte zurückzusetzen, aktivieren Sie **[!UICONTROL Auf Standardeinstellungen zurücksetzen]**. Der Name des ausgehenden Workflows bleibt unverändert.
+
+Admins konfigurieren die Opt-out-Fußzeile global, was unabhängig von den Einstellungen des ausgehenden Workflows für ausgehende E-Mails gilt. Siehe [Konfigurieren einer globalen E-Mail-Abmeldung](integrations.md#configure-global-email-opt-out).
 
 ### Schritt 5: Interessenten hinzufügen und E-Mail-Generierung starten
 
@@ -144,6 +142,10 @@ Beim Speichern wird die Perspektivauswahl-Ansicht mit angewendeten Targeting-Fil
 KI generiert eine personalisierte E-Mail für jeden ausgewählten Interessenten und E-Mail-Touchpoint. Telefon- und LinkedInMail-Touchpoints bleiben geplante Schritte. Um während der Generierung weiter zu arbeiten, wählen Sie **[!UICONTROL Bei Fertigstellung benachrichtigen]**.
 
 Für jeden Interessenten kombiniert die KI die Touchpoint-Eingabeaufforderung mit Personen- und Account-Daten, dem Interaktionsverlauf und den neuesten Nachrichten, um eine Betreffzeile und einen Text zu erstellen.
+
+Generierte E-Mails verwenden alle zusätzlichen Daten, die für einen Interessenten gespeichert wurden, einschließlich [benutzerdefinierter Felder, die mit dem Interessenten importiert wurden](prospects.md#build-your-prospect-list), sodass Entwürfe relevanter sind. Es gibt keine feste Liste unterstützter Felder. Neue oder benutzerdefinierte Felder funktionieren ohne zusätzliche Einrichtung. Die KI verwendet diese Daten, wenn sie relevant sind. Wenn ein Interessent keine zusätzlichen Daten hat, funktioniert die E-Mail-Generierung wie zuvor.
+
+E-Mails können auch in der Sprache des Interessenten generiert werden, mit korrekten Begrüßungen, natürlicher Formulierung und angemessenem Geschäftston. Zu den unterstützten Sprachen gehören Französisch, Deutsch, Spanisch und mehr.
 
 ## Überprüfen und Verfeinern generierter E-Mails
 
@@ -192,7 +194,7 @@ Validierung aktiviert die Kadenz für einen Interessenten. Das System sendet ers
 1. Wählen Sie in der linken Liste die Interessenten aus, deren E-Mails Sie geprüft haben und senden möchten.
 1. Wählen **[!UICONTROL Interessenten genehmigen und registrieren]** in der rechten unteren Ecke aus.
 
-Genehmigte E-Mails werden entsprechend den ausgewählten Tagen des ausgehenden Workflows, dem Sendefenster, der Option „Aktive Stunden“ und der Zeitzoneneinstellung gesendet. Ein Touchpoint mit einer Verzögerung von null sendet ohne Wartezeit. Jeder andere Touchpoint folgt seiner konfigurierten Verzögerung. Nicht genehmigte Interessenten verbleiben in **[!UICONTROL Bereit für Überprüfung]**.
+Genehmigte E-Mails werden entsprechend den ausgewählten Tagen des ausgehenden Workflows, dem Sendefenster, der Option „Aktive Stunden“ und der Zeitzoneneinstellung gesendet. Ein Touchpoint mit null Verzögerung sendet sofort; jeder andere Touchpoint folgt seiner konfigurierten Verzögerung. Nicht genehmigte Interessenten verbleiben in **[!UICONTROL Bereit für Überprüfung]**.
 
 ## Freigeben eines ausgehenden Workflows
 
@@ -202,7 +204,7 @@ Jeder ausgehende Workflow verfügt über eine **[!UICONTROL Berechtigungen]**. A
 >
 >Die Freigabe ist dauerhaft. Nachdem ein ausgehender Workflow auf „Für alle freigegeben **[!UICONTROL festgelegt wurde]** kann er nicht mehr in &quot;**[!UICONTROL &quot;]** werden.
 
-In einem gemeinsamen ausgehenden Workflow können sich Teammitglieder für ihre eigenen potenziellen Kunden registrieren. Jede Person kann nur die Interessenten verwalten oder pausieren, die sie registriert hat, auch bei der Verwendung von Massenaktionen. Der Eigentümer des ausgehenden Workflows kann die Einstellungen auf Planebene, einschließlich Zeitplan, Zeitzone, Kadenz und anderer Einstellungen, allein bearbeiten. Diese Einstellungen sind für Teammitglieder schreibgeschützt.
+In einem gemeinsamen ausgehenden Workflow können sich Teammitglieder für ihre eigenen potenziellen Kunden registrieren. Jede Person kann nur die Interessenten verwalten oder pausieren, die sie registriert hat, auch bei der Verwendung von Massenaktionen. Der Inhaber des ausgehenden Workflows kann allein Einstellungen auf Planebene bearbeiten, einschließlich Zeitplan, Zeitzone und Kadenz. Diese Einstellungen sind für Teammitglieder schreibgeschützt.
 
 Verwenden Sie diese Filter, um freigegebene ausgehende Workflows und Ergebnisse fokussiert zu halten:
 

@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie in Sales Qualifier Berichte zur Organisations
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 401
 ht-degree: 0%
 
 ---
@@ -29,21 +28,22 @@ Diese Steuerelemente gelten für alle Ansichten und Registerkarten:
 
 ## Organisationsleistung
 
-**[!UICONTROL Organisationsleistung]** Berichte zu ausgehenden Aktivitäten und Ergebnissen im gesamten Team. Es gibt drei Registerkarten: **[!UICONTROL Übersicht]**, **[!UICONTROL E-]** und **[!UICONTROL Aufgaben]**.
+**[!UICONTROL Organisationsleistung]** Berichte über ausgehende Aktivitäten und Ergebnisse im gesamten Team. Es gibt drei Registerkarten: **[!UICONTROL Übersicht]**, **[!UICONTROL E-]** und **[!UICONTROL Aufgaben]**.
 
 ### Registerkarte „Überblick“
 
-Die **[!UICONTROL Übersicht]** fasst die ausgehenden Ergebnisse auf einen Blick zusammen. Klicken Sie auf eines der Felder, um das Diagramm mit diesen Informationen anzuzeigen.
+Die Registerkarte **[!UICONTROL Übersicht]** fasst die ausgehenden Ergebnisse zusammen. Klicken Sie auf eines der Felder, um das Diagramm mit diesen Informationen anzuzeigen.
 
 * **Kacheln**: Pipeline, E-Mail-Interaktion und manuelle Aktivität, jeweils mit einer Trendänderung im Vergleich zum vorherigen Zeitraum.
 * **Performance-Trenddiagramm**: Ausgehende Performance über den ausgewählten Zeitraum.
-* **[!UICONTROL Team-Aktivität]** Tabelle: Aktivität aufgeschlüsselt nach Vertreter.
+* **[!UICONTROL Team-Aktivität]** Tabelle: Nach Vertreter kategorisierte Aktivität.
+* **Interessenten insgesamt**: Die Gesamtzahl der Interessenten, nicht nur der aktiven, sodass das gesamte ausgehende Volumen nicht unterzählt wird.
 
 ### Registerkarte „E-Mails“
 
 Die Registerkarte **[!UICONTROL E]** Mails) enthält Berichte zum E-Mail-Volumen und zur Effektivität:
 
-* **Kacheln**: E-Mails, die gesendet, geöffnet, angeklickt und beantwortet wurden.
+* **Kacheln**: Öffnungsrate und Klickrate, standardmäßig angezeigt, sodass die Leistung über Kampagnen mit unterschiedlichem Volumen hinweg vergleichbar ist. Wählen Sie stattdessen den Umschalter aus, um die Rohanzahl der gesendeten, geöffneten, angeklickten und geantworteten E-Mails anzuzeigen.
 * **Trenddiagramm für die wöchentliche E-Mail**: E-Mail-Aktivität nach Woche.
 * Tabelle der E-Mail-Leistung pro Vertreter
 
@@ -61,11 +61,11 @@ Die Registerkarte **[!UICONTROL Aufgaben]** enthält Berichte zur manuellen Kont
 
 **[!UICONTROL Kampagnenleistung]** Berichte über ausgehende Ergebnisse nach ausgehenden Workflow-Kampagnen:
 
-* **KPI-Kacheln**: Aktive Interessenten, Öffnungsrate, Klickrate, Antwortrate und gebuchte Meetings.
+* **KPI-Kacheln**: Aktive Interessenten, Öffnungsrate, Klickrate, Antwortrate und gebuchte Meetings. Das System zeigt standardmäßig die Öffnungs- und Klickrate an, sodass die Leistung in allen Kampagnen mit unterschiedlichem Volumen vergleichbar ist. Wählen Sie stattdessen den Umschalter aus, um die Rohzahlen anzuzeigen.
 * **Diagramm zur Entwicklung der Kampagnenmetriken**: Kampagnen-KPIs über den ausgewählten Zeitraum.
-* **[!UICONTROL Kampagnen]** Tabelle: E-Mail-, Meeting-, Aufruf- und LinkedIn-Nachrichtenaktivität für jede Kampagne. Erweitern Sie eine Kampagnenzeile, um Details auf repräsentativer Ebene für diese Kampagne anzuzeigen.
+* **[!UICONTROL Kampagnen]** Tabelle: E-Mail-, Meeting-, Aufruf- und LinkedIn-Nachrichtenaktivität für jede Kampagne. Um Details auf repräsentativer Ebene für eine Kampagne anzuzeigen, erweitern Sie deren Zeile.
 
-Informationen [&#x200B; Generierung von Buchungen &#x200B;](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
+Informationen [ Generierung von Buchungen ](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
 
 >[!MORELIKETHIS]
 >
