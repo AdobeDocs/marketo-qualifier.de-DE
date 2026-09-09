@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
@@ -73,6 +73,34 @@ Zugeordnete Felder werden in den entsprechenden Bereichen von Sales Qualifier an
 1. Aktivieren Sie **[!UICONTROL Aktivitätssynchronisierung]** um die Outreach-Aktivitäten von Sales Qualifier wieder mit dem CRM und Marketo zu synchronisieren.
 
 Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Sales Qualifier weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit Ihrem CRM oder Marketo.
+
+## Konfigurieren von CRM-Synchronisierungsregeln
+
+Sales Qualifier kann Lead-Statusaktualisierungen automatisch zurück in Salesforce und Microsoft Dynamics schreiben, wenn ein potenzieller Kunde einen ausgehenden Workflow durchläuft, sodass er das CRM-System nicht mehr manuell aktualisiert.
+
+### Funktionsweise von CRM-Synchronisierungsregeln
+
+Eine Aktualisierung kann auf den Datensatz **[!UICONTROL Lead]**, **[!UICONTROL Kontakt]**, **[!UICONTROL Konto]** oder **[!UICONTROL Gelegenheit]** abzielen, nicht nur auf den Lead.
+
+Aktualisierungen werden in diesen ausgehenden Workflow-Momenten ausgelöst:
+
+* Zu einem Workflow, einer Antwort oder einer gebuchten Besprechung hinzugefügt
+* Von einem Mitarbeiter entfernt oder Workflow ohne Antwort abgeschlossen
+* Abgemeldet oder E-Mail gebounct
+
+Feldwerte können mit dynamischen Token personalisiert werden, sodass die CRM-Aktualisierung den tatsächlichen Journey des potenziellen Kunden und nicht einen statischen Wert widerspiegelt. Token sind für Details wie den Namen des Vertreters, den Namen des ausgehenden Workflows sowie das Meeting-Datum und die -Uhrzeit verfügbar.
+
+Es werden nur CRM-kompatible Werte geschrieben. Ein fehlgeschlagenes Feld blockiert die anderen nicht und temporäre Probleme werden automatisch wiederholt. Jedes Update wird verfolgt, sodass Sie sehen können, was synchronisiert wurde und was Aufmerksamkeit erfordert.
+
+### Einrichten von CRM-Synchronisierungsregeln
+
+So richten Sie CRM-Synchronisierungsregeln ein:
+
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Admin-Einstellungen]** > **[!UICONTROL CRM-Verbindungen]**.
+1. Wählen Sie **[!UICONTROL Verwalten]** für das verbundene CRM und dann **[!UICONTROL Regeln synchronisieren]** aus.
+1. Wählen Sie die Ziel-CRM-Entität und -Felder aus, ordnen Sie sie den obigen Workflow-Momenten zu und aktivieren Sie den Umschalter.
+
+Wenn CRM-Synchronisierungsregeln konfiguriert sind, können Vertriebs-Teams in jeder Phase einen genauen, personalisierten, aktuellen Status für Leads, Kontakte, Konten und Opportunities sehen, ohne dass es zu Verzögerungen bei der Datenverarbeitung und manuellen Arbeiten kommt.
 
 ## Erstellen eines Playbooks für Wissenszentren {#knowledge-center}
 

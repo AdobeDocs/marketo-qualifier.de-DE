@@ -3,14 +3,27 @@ title: Versionshinweise zu Sales Qualifier
 description: Erfahren Sie mehr über die neuen Funktionen im Verkaufsqualifizierer.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '307'
 ht-degree: 12%
 
 ---
 
 # Versionshinweise zu Sales Qualifier
+
+## 09-08-2026
+
+Diese Version umfasst:
+
+* Legen Sie Ihren eigenen E-Mail-Zeichnungsstil einmal in den Profileinstellungen fest, und jede generierte E-Mail folgt ihm. [Weitere Informationen](profile-settings.md#email-drafting-context).
+* Generieren Sie eine zielbasierte oder benutzerdefinierte Besprechungsvorbereitung auf der Seite eines potenziellen Kunden auf einer neuen Registerkarte für Besprechungsforschung . [Weitere Informationen](prospects.md#generate-meeting-prep).
+* Administratoren können einen ausgehenden Workflow einem Teamkollegen zuweisen und die Workflow-Einstellungen auf ihre Standardeinstellungen zurücksetzen. [Weitere Informationen](outbound-workflows.md#create-an-outbound-workflow).
+* Beim Importieren von potenziellen Kunden aus einer CSV-Datei benutzerdefinierte Felder zuordnen und diese Werte in generierten E-Mails verwenden. [Weitere Informationen](prospects.md#build-your-prospect-list).
+* Die generierten E-Mails verwenden alle zusätzlichen Daten potenzieller Kunden, die Sie importieren, und können nativ in der Sprache des potenziellen Kunden geschrieben werden. [Weitere Informationen](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* Die ausgehende Leistung zeigt standardmäßig die Öffnungs- und Klickrate an, mit einem Umschalter für die Rohanzahl und für die Gesamtzahl der potenziellen Kunden auf Organisationsebene. [Weitere Informationen](performance.md).
+* CRM-Synchronisierungsregeln aktualisieren den CRM-Status automatisch, wenn ein Interessent einen ausgehenden Workflow durchläuft. [Weitere Informationen](admin-settings.md#configure-crm-sync-rules).
+* Stellen Sie KI-Chat-Fragen in Ihren Sales Qualifier-, CRM-, [!DNL Marketo]- und [!DNL Adobe Journey Optimizer B2B Edition]. [Weitere Informationen](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 

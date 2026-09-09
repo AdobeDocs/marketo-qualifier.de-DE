@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Benutzer müssen der Benutzergruppe `Sales Qualifier` angehören, um auf das Pro
 
 Diese Schritte werden in der Adobe Admin Console ausgeführt.
 
-1. Wählen Sie im Programmumschalter mit neun Punkten **[!UICONTROL Admin Console]** aus.
+1. Wählen Sie im Programmumschalter **[!UICONTROL Admin Console]** aus.
 1. Wählen **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** > **[!UICONTROL Neue Benutzergruppe]**.
 1. Geben Sie `Sales Qualifier` als Gruppennamen ein und wählen Sie **[!UICONTROL Speichern]**.
 1. Öffnen Sie **[!UICONTROL Zugewiesene Produktprofile]** und wählen Sie **[!UICONTROL Profil zuweisen]** aus.
@@ -72,7 +72,7 @@ Sie können auch eine optionale `Sales Qualifier BDR managers` erstellen. Mitgli
 
 ## CRM verbinden
 
-Sales Qualifier stellt eine Verbindung zu Salesforce oder Microsoft Dynamics 365 her, um BDRs eine einheitliche Ansicht von Benutzern, Leads, Kontakten, Konten, Opportunities, Eigentümerzuordnungen und zugehörigen Aktivitäten zu bieten. Für die erstmalige Verbindung ist ein schreibgeschützter Zugriff auf diese CRM-Daten erforderlich. Bereiten Sie die Anmeldeinformationen gemeinsam mit Ihrem CRM-Administrator vor, bevor Sie eine Verbindung mit Sales Qualifier herstellen. Siehe [Integrationen](integrations.md) für Integrationsdetails.
+Sales Qualifier stellt eine Verbindung zu Salesforce oder Microsoft Dynamics 365 her, um BDRs eine einheitliche Ansicht von Benutzern, Leads, Kontakten, Konten, Opportunities, Eigentümerzuordnungen und zugehörigen Aktivitäten zu bieten. Für die erstmalige Verbindung ist ein schreibgeschützter Zugriff auf diese CRM-Daten erforderlich. Wenden Sie sich an Ihren CRM-Administrator, um Anmeldeinformationen vorzubereiten, bevor Sie Sales Qualifier verbinden. Siehe [Integrationen](integrations.md) für Integrationsdetails.
 
 >[!PREREQUISITES]
 >
@@ -93,7 +93,7 @@ Ein Salesforce-Systemadministrator erstellt eine externe Client-Anwendung (auch 
 >* Alle Daten ändern
 >* Verwalten von verbundenen Apps
 >
->Ohne _Verbundene Apps verwalten_ kann der Administrator die Client-ID und das Client-Geheimnis nicht anzeigen.
+>Der Administrator benötigt _Verbundene Apps verwalten_, um die Client-ID und das Client-Geheimnis anzuzeigen.
 
 1. Wechseln Sie in Salesforce zu **[!UICONTROL Setup]** > **[!UICONTROL App Manager]** und wählen Sie **[!UICONTROL Neue verbundene App]** oder **[!UICONTROL Neue externe Client-App]**.
 1. Geben Sie einen Anwendungsnamen und die E-Mail-Adresse des Administrationskontakts ein.
@@ -118,7 +118,7 @@ Ein Salesforce-Systemadministrator erstellt eine externe Client-Anwendung (auch 
    * Callback-URL
    * Salesforce-Instanz-URL
 
-Die Schritte können sich geringfügig von den hier beschriebenen unterscheiden. Weitere Informationen finden Sie in der [&#128279;](https://help.salesforce.com/s/) zu Salesforce.
+Die Schritte unterscheiden sich geringfügig von den hier beschriebenen. Weitere Informationen finden Sie in der [&#128279;](https://help.salesforce.com/s/?language=en_US) zu Salesforce.
 
 ### Suchen der Salesforce-Instanz-URL
 
@@ -142,7 +142,7 @@ Ein Microsoft Dynamics 365- oder Azure-Administrator registriert eine Anwendung 
 1. Wählen Sie die registrierte Microsoft Entra-Anwendung aus.
 1. Weisen Sie eine Sicherheitsrolle zu, die Lesezugriff auf Leads, Kontakte, Konten, Chancen und Aktivitäten gewährt.
 
-   Eine Sicherheitsrolle ist erforderlich. Ohne eine kann die Anwendung nicht auf Dynamics-Daten zugreifen.
+   Eine Sicherheitsrolle ist erforderlich. Für die Anwendung ist eine Sicherheitsrolle erforderlich, um auf Dynamics-Daten zuzugreifen.
 
 1. Erfassen Sie die Client-ID, das Client-Geheimnis, die Mandanten-ID und die Dynamics-Instanz-URL. Verwenden Sie das kanonische URL-Formular `https://{{mydomain}}.crm.dynamics.com`.
 

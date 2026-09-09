@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 2%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,7 @@ So fügen Sie potenzielle Kunden hinzu, die nicht aus Ihrem CRM stammen:
 
    * Laden Sie für einen CSV-Import eine CSV-Datei im `firstname,email` Format hoch.
      Vorname und E-Mail sind erforderlich. Der Nachname ist optional. Die CSV-Vorlage enthält nicht die CRM-Lead-ID-Spalte, aber Sie können die Spalte und ihre Werte der Datei vor dem Import hinzufügen. Wenn der Import fehlschlägt, überprüfen Sie die Fehlermeldung hinsichtlich der zu korrigierenden Felder oder Werte und laden Sie die Datei erneut hoch.
+     Ordnen Sie alle benutzerdefinierten oder zusätzlichen CSV-Felder zu, nicht nur die standardmäßigen. Sales Qualifier speichert diese Werte für jeden Interessenten und stellt sie später zur Verfügung, auch für die [E-Mail-Generierung](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Um eine Person manuell hinzuzufügen, geben Sie deren Details in das Formular ein.
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
@@ -88,6 +89,13 @@ Interessenten auswählen, um ihr Profil zu öffnen. Überprüfen Sie die wichtig
 * **Aktivitätsliste** - Eine chronologische Liste der Aktivitäten und des aktuellen Verhaltens.
 * **Zeitleisten-Ansicht** - Eine visuelle Zeitleiste der Interaktion über alle Kanäle hinweg.
 * **Angezeigte Inhalte** - Web-Seiten und Assets, die der potenzielle Kunde angesehen hat. Element auswählen, um es zu öffnen.
+
+### Vorbereitung für Besprechung generieren
+
+Zusätzlich zur stehenden KI-Personenzusammenfassung können Sie auf der Registerkarte **[!UICONTROL Meeting-Recherche]** neben **[!UICONTROL Account-Recherche]** eine Besprechungsvorbereitung generieren, die auf einen bestimmten bevorstehenden Aufruf zugeschnitten ist.
+
+* **Zielbasiert: Wenn** Interessent in einem laufenden ausgehenden Workflow registriert ist, wählen Sie ihn aus. Die Vorbereitung richtet sich nach dem Ziel dieses ausgehenden Workflows, z. B. der Buchung eines Meetings, einer Produktpräsentation, einer Ereigniseinladung oder der erneuten Interaktion des potenziellen Kunden.
+* **Benutzerdefinierte Eingabeaufforderung** Geben Sie ein, worauf Sie sich vorbereiten möchten, z. B. `Focus on renewal risk` oder `Prepare for a technical deep dive with their IT lead`. Die Vorbereitung entspricht Ihrer Eingabeaufforderung. Die benutzerdefinierte Eingabeaufforderungsoption ist immer dann verfügbar, wenn sich der Interessent nicht in einem laufenden ausgehenden Workflow befindet.
 
 >[!MORELIKETHIS]
 >

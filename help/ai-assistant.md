@@ -12,9 +12,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: 725
 ht-degree: 1%
 
 ---
@@ -46,13 +46,66 @@ Der KI-Chat kann die folgenden Quellen verwenden:
 
 ## KI-Chat verwenden
 
-Verwenden Sie den KI-Chat für diese Aufgaben:
+Verwenden Sie den KI-Chat für diese Arten von Aufgaben:
 
 * **Recherche und Zusammenfassung**: Fragen Sie nach einer Zusammenfassung eines Kontos, einer Einkaufsgruppe oder des letzten Engagements eines Interessenten.
 * **Build-Positionierung**: Bitten Sie den Assistenten, Ihre Lösung vor einem Meeting für ein bestimmtes Konto zu positionieren.
 * **Reichweite entwerfen und verfeinern**: Bitten Sie sie, eine E-Mail zu schreiben oder neu zu schreiben. Geben Sie den Ton, die Länge und die Sprache an und ob Emojis einbezogen werden sollen.
 * **Empfehlungen abrufen**: Fragen Sie, welche Interessenten oder Konten priorisiert werden sollen, oder fordern Sie ein Ziel oder eine Kadenz für einen neuen ausgehenden Workflow an.
 * **Kontaktdaten suchen**: Bitten Sie den Assistenten, einen potenziellen Kunden mit weiteren Kontakt- und Hintergrundinformationen anzureichern.
+
+## Ask AI Chat über Ihre verbundenen Daten hinweg
+
+Der KI-Chat kann Fragen zu Ihren Sales Qualifier-, CRM-, [!DNL Marketo]-, [!DNL Adobe Journey Optimizer B2B Edition]- und Unternehmensdaten beantworten. Stellen Sie eine Frage in einfacher Sprache, um Informationen nachzuschlagen oder Kontext abzurufen. Der KI-Chat liest und erstellt Berichte zu Ihren Daten. Er erstellt, bearbeitet oder startet nichts.
+
+Im Folgenden finden Sie einige Beispielaufforderungen. Je genauer Sie Ihre Eingabeaufforderung anzeigen, desto zielgerichteter werden die Ergebnisse.
+
+Interessenten und Kunden:
+
+* „Interessenten mit Interaktionsstatus suchen Neu.“
+* „Recherchieren Sie das Unternehmen Adobe.“
+* „Geben Sie mir das vollständige Profil für einen potenziellen Kunden.“
+* „Ausgehende Leistung für die letzten 30 Tage anzeigen.“
+* „Auflisten der gebuchten Meetings der letzten 30 Tage.“
+
+Wissenszentrum:
+
+* „Welche Sicherheiten haben wir beim Umgang mit Einwänden bezüglich der Preisgestaltung?“
+* „Was sind unsere wichtigsten Alleinstellungsmerkmale gegenüber Mitbewerbern?“
+* „Listen Sie Dokumente im Knowledge Center auf.“
+* „Ein Dokument zusammenfassen.“
+
+CRM:
+
+* „Auflisten offener Chancen.“
+* „Listen Sie die ersten fünf Leads mit Namen und E-Mail auf.“
+* „Verkaufsaktivitäten für einen Lead oder ein Konto anzeigen“
+
+[!DNL Marketo]:
+
+* „Meine intelligenten Kampagnen durchsuchen.“
+* „Rufen Sie die Smart-Liste mit dem Namen „Acquired“ ab.“
+* „Durchsuchen Sie meine Programme oder rufen Sie ein Programm mit Namen ab.“
+* „Liste [!DNL Marketo] Aktivitätstypen.“
+
+[!DNL Adobe Journey Optimizer B2B Edition]:
+
+* „Wie viele Journey habe ich?“
+* „Wie wird meine Zielgruppe nach Persona segmentiert?“
+* „Welche Landingpages gibt es in meinem Konto?“
+* „Welche Lead-Felder fließen in die Bewertung ein?“
+
+Informationen zum Unternehmen:
+
+* „Welche Technologien verwendet ein Unternehmen?“
+* „Aktuelle Nachrichten für eine Firma anzeigen.“
+* „Finden Sie Firmen, die einer bestimmten Firma ähnlich sind.“
+* „Auflisten der offenen Stellenangebote für ein Unternehmen.“
+
+### Derzeitiger Umfang und Einschränkungen
+
+* AI Chat liest und berichtet über Ihre Daten. Es werden keine Elemente erstellt, bearbeitet oder gestartet. Sie erstellt beispielsweise kein Programm, startet keine Kampagne oder bearbeitet keine Liste.
+* Der KI-Chat sucht nach Informationen; er ist kein Reporting-Tool. Es werden keine Analysen oder Trends im [!DNL Marketo]-Stil im Zeitverlauf erstellt, wie z. B. der E-Mail-Status für das Quartal oder eine Liste der Leads, die in den letzten 10 Tagen erstellt wurden. Verwenden Sie native [!DNL Marketo] für diese Aufgaben.
 
 ## Grundlegende Antworten in Ihrem Playbook
 
