@@ -147,7 +147,7 @@ Eingehende Zuordnungen steuern, welche CRM-Felder vom Marketo-Qualifizierer impo
 
 1. Geben Sie einen **[!UICONTROL Abschnittsnamen“]** eine optionale **[!UICONTROL Beschreibung]** ein. Klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Suchen Sie im Schritt **[!UICONTROL Feld hinzufügen]** nach den zu importierenden CRM-Feldern und wählen Sie diese aus. Klicken Sie dann auf **[!UICONTROL Weiter]**. Jedes Feld zeigt seinen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]**.
-1. Aktivieren **[!UICONTROL in]** Abschnitten **[!UICONTROL Kontakte]** und **[!UICONTROL Opportunities]** für jedes Feld, das die [ in der Liste Interessenten](prospects.md) benötigen, **[!UICONTROL Filterable]**.
+1. Aktivieren **[!UICONTROL in]** Abschnitten **[!UICONTROL Kontakte]** und **[!UICONTROL Opportunities]** für jedes Feld, das die [&#x200B; in der Liste Interessenten](prospects.md) benötigen, **[!UICONTROL Filterable]**.
 
    Ein Feld kann nicht als filterbar festgelegt werden, wenn sein Datentyp keine Filterung unterstützt oder wenn es bereits in einem anderen Abschnitt verwendet wird.
 
@@ -175,7 +175,7 @@ Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet der Marketo-Qual
 
 Mit den Marketing-Highlights können Mitarbeiter Interessenten anhand ihrer Live-[!DNL Marketo]-Interaktionen wie E-Mail-Öffnungen und -Klicks finden und priorisieren. Siehe [Filtern nach Marketing-Highlights](prospects.md#filter-by-marketing-highlights).
 
-Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit dem Marketo-Qualifizierer für die entsprechende Organisation und Sandbox verbindet. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [ Schritte finden Sie unter „Einrichten ](marketing-highlights-setup.md) Marketing-Highlights“.
+Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit dem Marketo-Qualifizierer für die entsprechende Organisation und Sandbox verbindet. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [&#x200B; Schritte finden Sie unter „Einrichten &#x200B;](marketing-highlights-setup.md) Marketing-Highlights“.
 
 Marketing-Highlights sind in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
 

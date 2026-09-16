@@ -66,7 +66,7 @@ Die Registerkarte **[!UICONTROL Aufgaben]** enthält Berichte zur manuellen Kont
 * **Diagramm zur Entwicklung der Kampagnenmetriken**: Kampagnen-KPIs über den ausgewählten Zeitraum.
 * **[!UICONTROL Kampagnen]** Tabelle: E-Mail-, Meeting-, Aufruf- und LinkedIn-Nachrichtenaktivität für jede Kampagne. Um Details auf repräsentativer Ebene für eine Kampagne anzuzeigen, erweitern Sie deren Zeile.
 
-Informationen [ Generierung von Buchungen ](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
+Informationen [&#x200B; Generierung von Buchungen &#x200B;](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
 
 >[!MORELIKETHIS]
 >
