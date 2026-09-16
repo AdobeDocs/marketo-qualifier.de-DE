@@ -1,25 +1,29 @@
 ---
 title: Erstellen und Verwalten von ausgehenden Workflows
-description: Erfahren Sie, wie Sie KI-generierte ausgehende Workflows in Sales Qualifier erstellen, freigeben, überprüfen und verwalten, um zielgesteuerte Outreach-Kadenzen auszuführen.
+description: Erfahren Sie, wie Sie in Adobe Marketo Qualifier KI-generierte ausgehende Workflows erstellen, freigeben, überprüfen und verwalten, um zielgesteuerte Outreach-Kadenzen auszuführen.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # Ausgehende Workflows
 
@@ -155,7 +159,7 @@ E-Mails können auch in der Sprache des Interessenten generiert werden, mit korr
 
 ## Überprüfen und Verfeinern generierter E-Mails
 
-Nach Abschluss der Generierung werden Sie in der Detailansicht des ausgehenden Workflows aufgefordert, die Entwürfe zu überprüfen. Sales Qualifier sendet erst dann eine E-Mail, wenn Sie sie genehmigt haben.
+Nach Abschluss der Generierung werden Sie in der Detailansicht des ausgehenden Workflows aufgefordert, die Entwürfe zu überprüfen. Der Adobe Marketo-Qualifizierer sendet erst dann eine E-Mail, wenn Sie sie genehmigen.
 
 1. Wählen Sie in der Detailansicht „Ausgehender Workflow **[!UICONTROL im Banner die Option]** Entwürfe überprüfen“ aus.
 1. Der Schritt **[!UICONTROL Touchpoints überprüfen]** umfasst zwei Registerkarten:
@@ -234,10 +238,10 @@ Im [E-Mail-Postausgang](email-outbox.md) werden die in Ihrem Namen gesendeten au
 
 ## Buchung eines Meetings
 
-Wenn Sie Ihren Kalender verbinden, generiert Sales Qualifier einen persönlichen Buchungslink, über den Interessenten Zeit mit Ihnen planen können.
+Wenn Sie Ihren Kalender verbinden, generiert Marketo Qualifier einen persönlichen Buchungslink, über den Interessenten Zeit mit Ihnen planen können.
 
 * **Buchungslinks** - Konfigurieren Sie Ihre Kalenderverbindung und -verfügbarkeit in [Profileinstellungen](profile-settings.md). Fügen Sie den Buchungs-Link zu Ihrer E-Mail-Signatur hinzu, damit sie in ausgehenden E-Mails angezeigt wird.
-* **Kadenzplatzierung** - Sales Qualifier fügt Ihren Buchungslink an relevanten Stellen in einer Kadenz ein. Sie können die Platzierung ändern.
+* **Kadenzplatzierung** - Marketo Qualifier fügt Ihren Buchungslink an relevanten Punkten in einer Kadenz ein. Sie können die Platzierung ändern.
 * **Buchungspause**: Wenn ein potenzieller Kunde ein Meeting bucht, **[!UICONTROL Buchungspause für das Meeting]** werden keine weiteren Folgemaßnahmen mehr durchgeführt. Siehe [Schritt 4: Einstellungen für ausgehende Workflows konfigurieren](#step-4-configure-outbound-workflow-settings).
 
 Tracking von Buchungsergebnissen auf der Seite [Ausgehende Leistung](performance.md).

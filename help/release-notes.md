@@ -1,16 +1,14 @@
 ---
-title: Versionshinweise zu Sales Qualifier
-description: Erfahren Sie mehr über die neuen Funktionen im Verkaufsqualifizierer.
+title: Adobe Marketo Qualifier - Versionshinweise
+description: Erfahren Sie mehr über die neuen Funktionen im Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 12%
-
 ---
-
-# Versionshinweise zu Sales Qualifier
+# Adobe Marketo Qualifier - Versionshinweise
 
 ## 09-08-2026
 
@@ -23,11 +21,11 @@ Diese Version umfasst:
 * Die generierten E-Mails verwenden alle zusätzlichen Daten potenzieller Kunden, die Sie importieren, und können nativ in der Sprache des potenziellen Kunden geschrieben werden. [Weitere Informationen](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * Die ausgehende Leistung zeigt standardmäßig die Öffnungs- und Klickrate an, mit einem Umschalter für die Rohanzahl und für die Gesamtzahl der potenziellen Kunden auf Organisationsebene. [Weitere Informationen](performance.md).
 * CRM-Synchronisierungsregeln aktualisieren den CRM-Status automatisch, wenn ein Interessent einen ausgehenden Workflow durchläuft. [Weitere Informationen](admin-settings.md#configure-crm-sync-rules).
-* Stellen Sie KI-Chat-Fragen in Ihren Sales Qualifier-, CRM-, [!DNL Marketo]- und [!DNL Adobe Journey Optimizer B2B Edition]. [Weitere Informationen](ai-assistant.md#ask-ai-chat-across-your-connected-data).
+* Stellen Sie KI-Chat-Fragen zu Ihren Marketo-Qualifikator-, CRM-, [!DNL Marketo]- und [!DNL Adobe Journey Optimizer B2B Edition]. [Weitere Informationen](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier] ist jetzt als eigenständige Anwendung verfügbar. Es unterstützt Marketo und Adobe Journey Optimizer B2B.
+[!DNL Marketo Qualifier] ist jetzt als eigenständige Anwendung verfügbar. Es unterstützt Marketo und Adobe Journey Optimizer B2B.
 
 Diese Version umfasst:
 

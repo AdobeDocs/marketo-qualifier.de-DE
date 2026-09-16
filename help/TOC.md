@@ -1,16 +1,14 @@
 ---
-user-guide-title: Verkaufskennzeichner
-user-guide-description: Erfahren Sie, wie Sie mit Sales Qualifier die Qualifizierung, Kontaktaufnahme und Käuferinteraktion von Interessenten für B2B-Vertriebsteams automatisieren können.
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+user-guide-title: Adobe Marketo-Qualifizierer
+user-guide-description: Erfahren Sie, wie Sie mit dem Adobe Marketo Qualifier die Qualifizierung von Interessenten, die Kontaktaufnahme und die Kaufinteraktion für B2B-Vertriebsteams automatisieren können.
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 27%
-
+source-wordcount: '51'
+ht-degree: 21%
 ---
+# Adobe Marketo-Qualifiziererhandbuch {#using}
 
-# Handbuch zu Sales Qualifier {#using}
-
-+ [Überblick](home.md)
++ [Übersicht](home.md)
 + [Versionshinweise](release-notes.md)
 + [Erste Schritte](getting-started.md)
 + [Prospects](prospects.md)

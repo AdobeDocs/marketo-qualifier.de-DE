@@ -1,28 +1,30 @@
 ---
 title: KI-Chat verwenden
-description: Erfahren Sie, wie Sie den KI-Chat in Sales Qualifier verwenden, um Accounts zu recherchieren, Kontakte zu entwerfen und Antworten auf der Grundlage Ihrer CRM-, Interaktions- und Wissenscenter-Daten zu erhalten.
+description: Erfahren Sie, wie Sie den KI-Chat in Adobe Marketo Qualifier verwenden können, um Accounts zu recherchieren, Kontakte zu entwerfen und Antworten auf der Grundlage Ihrer CRM-, Interaktions- und Wissenscenter-Daten zu erhalten.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Artificial intelligence
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '727'
 ht-degree: 1%
-
 ---
-
 
 # KI-Chat
 
-Der KI-Chat beantwortet Fragen in natürlicher Sprache basierend auf Ihrem Verkaufskontext. Nutzen Sie sie, um ein Konto zu recherchieren, sich auf einen Anruf vorzubereiten, Kontakte zu entwerfen und Ihre Arbeit zu priorisieren, ohne Sales Qualifier verlassen zu müssen.
+Der KI-Chat beantwortet Fragen in natürlicher Sprache basierend auf Ihrem Verkaufskontext. Verwenden Sie sie, um ein Konto zu recherchieren, sich auf einen Anruf vorzubereiten, Kontakte zu entwerfen und Ihre Arbeit zu priorisieren, ohne Adobe Marketo Qualifier verlassen zu müssen.
 
 ![KI-Chat-Schaltfläche](assets/ai-chat.png){width="800" zoomable="yes"}
 
@@ -56,7 +58,7 @@ Verwenden Sie den KI-Chat für diese Arten von Aufgaben:
 
 ## Ask AI Chat über Ihre verbundenen Daten hinweg
 
-Der KI-Chat kann Fragen zu Ihren Sales Qualifier-, CRM-, [!DNL Marketo]-, [!DNL Adobe Journey Optimizer B2B Edition]- und Unternehmensdaten beantworten. Stellen Sie eine Frage in einfacher Sprache, um Informationen nachzuschlagen oder Kontext abzurufen. Der KI-Chat liest und erstellt Berichte zu Ihren Daten. Er erstellt, bearbeitet oder startet nichts.
+Der KI-Chat kann Fragen zu Ihren Marketo-Qualifizierer-, CRM-, [!DNL Marketo]-, [!DNL Adobe Journey Optimizer B2B Edition]- und Unternehmensdaten beantworten. Stellen Sie eine Frage in einfacher Sprache, um Informationen nachzuschlagen oder Kontext abzurufen. Der KI-Chat liest und erstellt Berichte zu Ihren Daten. Er erstellt, bearbeitet oder startet nichts.
 
 Im Folgenden finden Sie einige Beispielaufforderungen. Je genauer Sie Ihre Eingabeaufforderung anzeigen, desto zielgerichteter werden die Ergebnisse.
 

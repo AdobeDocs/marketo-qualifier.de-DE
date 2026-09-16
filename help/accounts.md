@@ -1,22 +1,24 @@
 ---
-title: Konten in Sales Qualifier
-description: Erfahren Sie, wie Sie Account Intelligence in Sales Qualifier überprüfen können, einschließlich KI-Forschung, aktueller Nachrichten, Chancen und engagierter Kontakte, um die Kontaktaufnahme zu priorisieren.
+title: Konten in Adobe Marketo Qualifier
+description: Erfahren Sie, wie Sie die Account Intelligence in Adobe Marketo Qualifier überprüfen können, einschließlich KI-Forschung, aktueller Nachrichten, Chancen und Kontakten mit Top-Engagement, um die Kontaktaufnahme zu priorisieren.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 
 # Konten
 
@@ -31,7 +33,7 @@ Eröffnen Sie ein Konto über das Profil eines Interessenten, der mit ihm verkn�
 
 ![Prospect-Detailseite mit den Registerkarten „Person“ und „Konto“](./assets/account-home.png){width="800" zoomable="yes"}
 
-Sales Qualifier identifiziert das Konto anhand des CRM-Eintrags des potenziellen Kunden. Dieselbe Kontoansicht ist für jeden Interessenten verfügbar, der mit diesem Konto verknüpft ist. Wenn Sales Qualifier kein Konto zuordnen kann, wird auf der Registerkarte _Kein Konto gefunden_ angezeigt.
+Adobe Marketo Qualifier identifiziert das Konto aus dem CRM-Datensatz des Interessenten. Dieselbe Kontoansicht ist für jeden Interessenten verfügbar, der mit diesem Konto verknüpft ist. Wenn der Marketo-Qualifizierer kein Konto zuordnen kann, wird auf der Registerkarte &quot;_Konto gefunden“_.
 
 >[!NOTE]
 >
@@ -59,7 +61,7 @@ Das Bedienfeld **[!UICONTROL Kontoübersicht]** fasst den Account basierend auf 
 
 Verwenden Sie die Schaltflächen unter der Übersicht, um zwischen Kontoansichten zu wechseln. Die verfügbaren Ansichten hängen von Ihrem CRM und Ihrer Konfiguration ab:
 
-| Anzeigen | Was angezeigt wird |
+| Ansicht | Was angezeigt wird |
 | --- | --- |
 | **[!UICONTROL Opportunities]** | Offene, mit dem Account verknüpfte Opportunities mit jeweils zugehörigen Schlüsselfeldern. Wählen Sie **[!UICONTROL Alle anzeigen]**, um die vollständige Liste in einer Tabelle anzuzeigen. Opportunity-Details wie Phase, Typ und Abschlussdatum können auch verwendet werden, um die Kontakte des Kontos unter &quot;**[!UICONTROL Opportunity-Kontakte“]** filtern, wenn ein Administrator diese Felder filterbar macht. |
 | **[!UICONTROL Top-Mitglieder]** | Die am häufigsten kontaktierten Kontakte des Kontos, sortiert nach Interaktion. Jeder Kontakt zeigt seinen Jobtitel, seine E-Mail-Adresse, seinen Interaktionswert und die Dringlichkeitsanzeige an. |
