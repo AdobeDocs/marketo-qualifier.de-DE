@@ -45,7 +45,7 @@ BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intellig
 
 ::::landing-cards-container
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte
 
@@ -55,7 +55,7 @@ Schließen Sie die einmalige Administratoreinrichtung für Benutzergruppen und e
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Prospects
 
@@ -65,7 +65,7 @@ Interessentenliste erstellen, filtern und überprüfen.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Konten
 
@@ -75,7 +75,7 @@ Priorisieren Sie die Kontaktaufnahme mit Pipeline- und Interaktionsdaten auf Kon
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Ausgehende Workflows
 
@@ -85,7 +85,7 @@ Erstellen Sie zielgesteuerte Kadenzen mit KI-generierten, personalisierten E-Mai
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Aufgaben
 
@@ -95,7 +95,7 @@ Telefonanruf, LinkedInMail und E-Mail-Prüfungsaufgaben in einer Warteschlange v
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Leistung
 
@@ -105,7 +105,7 @@ Leistung
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Knowledge Center
 
@@ -115,7 +115,7 @@ Erstellen Sie ein Playbook, das KI-Reichweite und Hilfe in Ihren Materialien erm
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Integrationen
 
@@ -125,7 +125,7 @@ Verbinden Sie Salesforce oder Microsoft Dynamics 365 und ordnen Sie Ihre Felder 
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Profileinstellungen
 
@@ -135,7 +135,7 @@ Konfigurieren Sie die Verfügbarkeit Ihrer E-Mails, Signaturen und Kalender.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 KI-Chat
 
