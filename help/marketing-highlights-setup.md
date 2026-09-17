@@ -1,24 +1,28 @@
 ---
 title: Einrichten von Marketing-Highlights
-description: Erfahren Sie, wie Sie Marketo mit Sales Qualifier verbinden, damit Kundenbetreuer in den Marketing-Highlights Interessenten nach Marketo-Live-Aktivitäten anzeigen und filtern können.
+description: Erfahren Sie, wie Sie Marketo mit dem Adobe Marketo Qualifier verbinden, damit Repräsentanten potenzielle Kunden in den Marketing-Highlights nach Marketo-Live-Aktivitäten anzeigen und filtern können.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: '677'
 ht-degree: 3%
-
 ---
-
 
 # Einrichten von Marketing-Highlights
 
@@ -31,7 +35,7 @@ Die Marketing-Highlights zeigen die Live-[!DNL Marketo]-Aktivität jedes Interes
 Das Setup besteht aus vier Teilen:
 
 * Teil A: Erstellen von API-Anmeldeinformationen in der Adobe Developer Console.
-* Teil B: Erfassen Sie Ihren Sales Qualifier-Endpunkt und Ihre Kennungen.
+* Teil B: Erfassen Sie Ihren Adobe Marketo Qualifier-Endpunkt und Ihre Kennungen.
 * Teil C: Konfigurieren eines Webhooks in [!DNL Marketo Engage].
 * Teil D: Hinzufügen des Webhooks zu einer Smart Trigger-Kampagne.
 
@@ -39,19 +43,19 @@ Nach Abschluss des Setups können Benutzer diese Aktivität unter **[!UICONTROL 
 
 ## Teil A: Erstellen von API-Anmeldeinformationen {#part-a-create-api-credentials}
 
-Mit diesen Anmeldeinformationen können [!DNL Marketo] sich sicher bei Sales Qualifier authentifizieren.
+Mit diesen Anmeldeinformationen können [!DNL Marketo] sich sicher beim Marketo-Qualifizierer authentifizieren.
 
 So erstellen Sie die Anmeldeinformationen:
 
 1. Wechseln Sie zur [Adobe-Entwicklerkonsole](https://developer.adobe.com/console/) und melden Sie sich mit Ihrer Adobe ID an.
 1. Wählen Sie **[!UICONTROL Neues Projekt erstellen]** oder öffnen Sie ein vorhandenes Projekt.
-1. Wählen Sie **[!UICONTROL Projekt bearbeiten]**, benennen Sie das Projekt in einen identifizierbaren Namen um, z. B. `Sales Qualifier Marketing Highlights`, und wählen Sie **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Projekt bearbeiten]**, benennen Sie das Projekt in einen identifizierbaren Namen um, z. B. `Marketo Qualifier Marketing Highlights`, und wählen Sie **[!UICONTROL Speichern]**.
 1. Wählen Sie **[!UICONTROL API hinzufügen]**, wählen Sie **[!UICONTROL Experience Platform API]** und klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Wählen Sie **[!UICONTROL Authentifizierungstyp OAuth Server-]** als aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
-   **[!UICONTROL OAuth Server-zu-Server]** ermöglicht es [!DNL Marketo], die Sales Qualifier-API direkt von ihrem Server aus aufzurufen, ohne dass sich eine Person anmelden muss.
+   **[!UICONTROL OAuth Server-zu-Server]** ermöglicht es [!DNL Marketo], die Marketo Qualifier-API direkt von ihrem Server aus aufzurufen, ohne dass sich eine Person anmelden muss.
 
-1. Geben Sie einen Berechtigungsnamen mit höchstens 45 Zeichen ein, z. B. `Sales Qualifier Marketing Highlights Creds`.
+1. Geben Sie einen Berechtigungsnamen mit höchstens 45 Zeichen ein, z. B. `Marketo Qualifier Marketing Highlights Creds`.
 1. Wählen Sie das zu verknüpfende Produktprofil und dann **[!UICONTROL Konfigurierte API speichern]** aus.
 1. Öffnen Sie **[!UICONTROL „Verbundene Anmeldeinformationen]** die **[!UICONTROL OAuth Server-zu-Server]**-Anmeldeinformationen. Wählen Sie **[!UICONTROL Client-Geheimnis abrufen]** und kopieren Sie dann die **[!UICONTROL Client-ID]** und **[!UICONTROL Client-Geheimnis]**. Sie verwenden diese Werte in [Teil C](#part-c-configure-the-marketo-webhook).
 
@@ -63,9 +67,9 @@ So erstellen Sie die Anmeldeinformationen:
 
 Sie benötigen drei Werte für [Teil C](#part-c-configure-the-marketo-webhook):
 
-* **Endpunkt-URL** - Die Webhook-Adresse für Sales Qualifier für Ihre Region.
+* **Endpunkt-URL** - Die Webhook-Adresse für den Marketo-Qualifizierer für Ihre Region.
 * **imsOrg ID** - Die Kennung Ihres Unternehmens im Adobe Identity Management System (IMS) in der `{ORG_ID}@AdobeOrg`.
-* **Sandbox-Name** - Der Name Ihrer AEP-Sandbox entspricht exakt der in der Sales Qualifier-URL angezeigten Darstellung (dem `sname`), nicht dem in der Benutzeroberfläche angezeigten Anzeigenamen. Verwenden Sie den URL-Wert in Kleinbuchstaben, z. B. `prod`, nicht `Prod`.
+* **Sandbox-Name** - Der Name Ihrer AEP-Sandbox entspricht genau dem in der Marketo Qualifier-URL angezeigten Namen (dem `sname`), nicht dem in der Benutzeroberfläche angezeigten Anzeigenamen. Verwenden Sie den URL-Wert in Kleinbuchstaben, z. B. `prod`, nicht `Prod`.
 
 | Region | Webhook-Endpunkt-URL |
 | --- | --- |
@@ -166,7 +170,7 @@ So erstellen Sie den Webhook:
 
 ## Teil D: Hinzufügen des Webhooks zu einer intelligenten Trigger-Kampagne {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
-Fügen Sie **[!UICONTROL Trigger-Smart]** Kampagne einen Flussschritt „Webhook aufrufen“ hinzu, entweder eine vorhandene oder eine neue. Die Trigger der Smart List für diese Kampagne entscheiden, welche Aktivitäten an Sales Qualifier gesendet werden.
+Fügen Sie **[!UICONTROL Trigger-Smart]** Kampagne einen Flussschritt „Webhook aufrufen“ hinzu, entweder eine vorhandene oder eine neue. Die Trigger der Smart List für diese Kampagne entscheiden, welche Aktivitäten an den Marketo-Qualifizierer gesendet werden.
 
 So fügen Sie den Webhook hinzu:
 
@@ -175,7 +179,7 @@ So fügen Sie den Webhook hinzu:
 1. Fügen Sie auf der Registerkarte **[!UICONTROL Fluss]** den Schritt **[!UICONTROL Webhook aufrufen]** hinzu und wählen Sie den Webhook aus, den Sie in [Teil C](#part-c-configure-the-marketo-webhook) erstellt haben.
 1. Aktivieren Sie die Smart-Kampagne.
 
-Die Aktivität dieser Smart Campaign fließt jetzt in Sales Qualifier. Mitarbeiter können diese Aktivität unter „Interessenten **[!UICONTROL > „Marketing]** Highlights“ anzeigen **[!UICONTROL filtern]**.
+Die Aktivität aus dieser Smart Campaign fließt jetzt in den Marketo-Qualifizierer. Mitarbeiter können diese Aktivität unter „Interessenten **[!UICONTROL > „Marketing]** Highlights“ anzeigen **[!UICONTROL filtern]**.
 
 >[!MORELIKETHIS]
 >

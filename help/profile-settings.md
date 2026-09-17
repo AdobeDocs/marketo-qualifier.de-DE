@@ -1,21 +1,22 @@
 ---
 title: Profileinstellungen konfigurieren
-description: Erfahren Sie, wie Sie Ihre E-Mail-Verbindung, Signatur und Kalenderverfügbarkeit in den Profileinstellungen von Sales Qualifier konfigurieren.
+description: Erfahren Sie, wie Sie Ihre E-Mail-Verbindung, Signatur und Kalenderverfügbarkeit in den Profileinstellungen von Adobe Marketo Qualifier konfigurieren.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: '396'
 ht-degree: 3%
-
 ---
-
 
 # Profileinstellungen
 
@@ -65,12 +66,12 @@ Wenn Sie den Kalender trennen:
 
 ## Kalenderverfügbarkeit
 
-Die Kalenderverfügbarkeit in Sales Qualifier basiert auf zwei Eingaben:
+Ihre Kalenderverfügbarkeit in Adobe Marketo Qualifier basiert auf zwei Eingaben:
 
 * Ihr verbundener Arbeitskalender, z. B. Outlook oder Gmail
 * Die Verfügbarkeits- und Zeitschlitzregeln in **[!UICONTROL Kalenderkonfiguration]**
 
-Sales Qualifier liest den Frei/Belegt-Status, nicht die Ereignisdetails, aus dem verbundenen Kalender. Er kombiniert diesen Status mit Ihren Regeln, um die Zeitfenster zu bestimmen, die potenzielle Kunden buchen können.
+Der Marketo-Qualifizierer liest den Frei/Belegt-Status, nicht die Ereignisdetails, aus dem verbundenen Kalender. Er kombiniert diesen Status mit Ihren Regeln, um die Zeitfenster zu bestimmen, die potenzielle Kunden buchen können.
 
 Sie können Folgendes konfigurieren:
 

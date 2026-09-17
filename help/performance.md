@@ -1,20 +1,20 @@
 ---
-title: Ausgehende Leistung in Sales Qualifier
-description: Erfahren Sie, wie Sie in Sales Qualifier Berichte zur Organisationsleistung und Kampagnenleistung überprüfen können, um ausgehende Aktivitäten und Ergebnisse zu verfolgen.
+title: Ausgehende Leistung im Adobe Marketo Qualifier
+description: Erfahren Sie, wie Sie die Berichte zur Organisationsleistung und Kampagnenleistung in Adobe Marketo Qualifier überprüfen, um ausgehende Aktivitäten und Ergebnisse zu verfolgen.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Ausgehende Leistung in Sales Qualifier
+# Ausgehende Leistung im Adobe Marketo Qualifier
 
 Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Ausgehende Leistung]** aus, um die ausgehende Aktivität und die Ergebnisse in Ihrem gesamten Team zu verfolgen. Das Dashboard hat zwei Ansichten: **[!UICONTROL Organisationsleistung]** und **[!UICONTROL Kampagnenleistung]**.
 
@@ -48,7 +48,7 @@ Die Registerkarte **[!UICONTROL E]** Mails) enthält Berichte zum E-Mail-Volumen
 * **Trenddiagramm für die wöchentliche E-Mail**: E-Mail-Aktivität nach Woche.
 * Tabelle der E-Mail-Leistung pro Vertreter
 
-Sales Qualifier weist Abwesenheitsantworten und Bounces separate Status zu, damit Sie sie von Interessenteninteraktionen unterscheiden können.
+Der Marketo-Qualifizierer weist Abwesenheitsantworten und Bounces separate Status zu, damit Sie sie von Interessenteninteraktionen unterscheiden können.
 
 ### Registerkarte „Aufgaben“
 

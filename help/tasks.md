@@ -1,21 +1,22 @@
 ---
-title: Aufgaben in Sales Qualifier
-description: Erfahren Sie, wie Sie manuelle Outreach-Aufgaben verarbeiten und von einem Agenten vorgeschlagene Interessenten in der Sales Qualifier-Aufgabenwarteschlange überprüfen können.
+title: Aufgaben in Adobe Marketo Qualifier
+description: Erfahren Sie, wie Sie in der Aufgabenwarteschlange von Adobe Marketo Qualifier manuelle Outreach-Aufgaben verarbeiten und vom Agenten vorgeschlagene Interessenten überprüfen können.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # Aufgaben
 
@@ -44,7 +45,7 @@ Manuelle Aufgaben sind an ausgehende Workflow-Schritte gebunden und können in d
 
 * **[!UICONTROL LinkedInMail]** - Wird erstellt, wenn eine Kadenz einen LinkedInMail-Schritt erreicht. Das Arbeitsfenster zeigt Inhalte an, die von LinkedIn kopiert und gesendet werden sollen. Erweitern Sie **[!UICONTROL KI-Begründung]**, um die Begründung zu überprüfen.
 
-* **[!UICONTROL E-Mail-Überprüfung]** - Wird erstellt, nachdem Sales Qualifier die personalisierten E-Mails eines Interessenten generiert hat. Wählen Sie **[!UICONTROL E-Mails überprüfen]**, um die Entwürfe zu überprüfen und zu genehmigen, bevor die Kontaktaufnahme beginnt. Siehe [Überprüfen und Verfeinern generierter E-Mails](outbound-workflows.md#review-and-refine-generated-emails).
+* **[!UICONTROL E-Mail-Überprüfung]** - Wird erstellt, nachdem der Adobe Marketo Qualifier die personalisierten E-Mails eines Interessenten generiert hat. Wählen Sie **[!UICONTROL E-Mails überprüfen]**, um die Entwürfe zu überprüfen und zu genehmigen, bevor die Kontaktaufnahme beginnt. Siehe [Überprüfen und Verfeinern generierter E-Mails](outbound-workflows.md#review-and-refine-generated-emails).
 
 ![E-Mail-Überprüfung](assets/tasks-review.png)
 

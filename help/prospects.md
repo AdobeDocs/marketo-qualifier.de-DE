@@ -1,23 +1,25 @@
 ---
-title: Interessenten in Sales Qualifier
-description: Erfahren Sie, wie Sie Ihre Interessentenliste aus CRM-Quellen erstellen, importieren und manuell hinzufügen, Interessentendetails filtern und in Sales Qualifier überprüfen.
+title: Interessenten in Adobe Marketo Qualifier
+description: Erfahren Sie, wie Sie Ihre Interessentenliste aus CRM-Quellen erstellen, importieren und manuell hinzufügen, Interessentendetails in Adobe Marketo Qualifier filtern und überprüfen.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '701'
 ht-degree: 1%
-
 ---
-
 
 # Prospects
 
@@ -34,9 +36,9 @@ Wählen **[!UICONTROL Interessenten]** in der linken Navigationsleiste aus, um d
 
 In der Liste potenzieller Kunden werden Personen aus mehreren Quellen zusammengefasst:
 
-* **CRM-Interessenten** - Sales Qualifier importiert automatisch Leads und Kontakte, die dem verbundenen Benutzer zugewiesen sind. Siehe [Integrationen](integrations.md).
+* **CRM-Interessenten** - Adobe Marketo Qualifier importiert automatisch Leads und Kontakte, die dem verbundenen Benutzer zugewiesen sind. Siehe [Integrationen](integrations.md).
 * **Importierte Interessenten** - Aus einer CSV-Datei importierte Interessenten.
-* **Manuell hinzugefügte Interessenten** - Individuelle Interessenten in Sales Qualifier hinzugefügt.
+* **Manuell hinzugefügte Interessenten** - In Marketo Qualifier hinzugefügte einzelne Interessenten.
 
 So fügen Sie potenzielle Kunden hinzu, die nicht aus Ihrem CRM stammen:
 
@@ -48,7 +50,7 @@ So fügen Sie potenzielle Kunden hinzu, die nicht aus Ihrem CRM stammen:
 
    * Laden Sie für einen CSV-Import eine CSV-Datei im `firstname,email` Format hoch.
      Vorname und E-Mail sind erforderlich. Der Nachname ist optional. Die CSV-Vorlage enthält nicht die CRM-Lead-ID-Spalte, aber Sie können die Spalte und ihre Werte der Datei vor dem Import hinzufügen. Wenn der Import fehlschlägt, überprüfen Sie die Fehlermeldung hinsichtlich der zu korrigierenden Felder oder Werte und laden Sie die Datei erneut hoch.
-     Ordnen Sie alle benutzerdefinierten oder zusätzlichen CSV-Felder zu, nicht nur die standardmäßigen. Sales Qualifier speichert diese Werte für jeden Interessenten und stellt sie später zur Verfügung, auch für die [E-Mail-Generierung](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+     Ordnen Sie alle benutzerdefinierten oder zusätzlichen CSV-Felder zu, nicht nur die standardmäßigen. Der Marketo-Qualifizierer speichert diese Werte für jeden Interessenten und stellt sie später zur Verfügung, auch für die [E-Mail-Generierung](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Um eine Person manuell hinzuzufügen, geben Sie deren Details in das Formular ein.
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
@@ -79,7 +81,7 @@ So filtern Sie Interessenten nach Marketing-Highlights:
 
 Jeder Interessent zeigt seine neuesten [!DNL Marketo] Aktivitäten zusammen mit dem aktuellen Verlauf an.
 
-Marketing-Highlights sind in allen Produktionsregionen verfügbar. Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit Sales Qualifier verbindet. Siehe [Einrichten von Marketing-](integrations.md#turn-on-marketo-engagement-filtering)&quot;.
+Marketing-Highlights sind in allen Produktionsregionen verfügbar. Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit dem Marketo Qualifier verbindet. Siehe [Einrichten von Marketing-](integrations.md#turn-on-marketo-engagement-filtering)&quot;.
 
 ## Details des potenziellen Kunden überprüfen
 
