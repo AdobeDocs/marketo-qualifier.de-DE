@@ -37,7 +37,7 @@ Nachdem Adobe Marketo Qualifier für Ihr Unternehmen bereitgestellt hat, muss ei
 
 Benutzergruppen in Adobe Admin Console werden verwendet, um den Zugriff auf Marketo Qualifier zu steuern. Beide Gruppen müssen erstellt werden, bevor sich Benutzer anmelden können.
 
-Informationen zum Einrichten von Gruppen finden [&#128279;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu Adobe Admin Console .
+Informationen zum Einrichten von Gruppen finden [&#128279;](https://helpx.adobe.com/de/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu Adobe Admin Console .
 
 >[!PREREQUISITES]
 >
