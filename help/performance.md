@@ -8,7 +8,7 @@ product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
 Outbound Workflows    internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ausgehende Leistung im Adobe Marketo Qualifier
 
-Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Ausgehende Leistung]** aus, um die ausgehende Aktivität und die Ergebnisse in Ihrem gesamten Team zu verfolgen. Das Dashboard hat zwei Ansichten: **[!UICONTROL Organisationsleistung]** und **[!UICONTROL Kampagnenleistung]**.
+Um ausgehende Aktivitäten und Ergebnisse in Ihrem gesamten Team zu verfolgen, wählen Sie **[!UICONTROL Ausgehende Leistung]** im linken Navigationsbereich aus. Das Dashboard hat zwei Ansichten: **[!UICONTROL Organisationsleistung]** und **[!UICONTROL Kampagnenleistung]**.
 
 ![Ausgehende Leistung](assets/outbound-performance.png){width="800" zoomable="yes"}
 
@@ -24,7 +24,7 @@ Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Ausgehende Lei
 
 Diese Steuerelemente gelten für alle Ansichten und Registerkarten:
 
-* **[!UICONTROL Filter]**: Wählen Sie **[!UICONTROL Filter]** aus, um das Dashboard nach Teammitglied und Kampagne einzugrenzen.
+* **[!UICONTROL Filter]**: Um das Dashboard nach Teammitglied und Kampagne einzugrenzen, wählen Sie **[!UICONTROL Filter]** aus.
 * **[!UICONTROL Zeitraum]**: Wählen Sie ein Reporting-Fenster von 7, 15, 30, 60, 90, 180 oder 365 Tagen aus.
 
 ## Organisationsleistung
@@ -44,7 +44,7 @@ Die Registerkarte **[!UICONTROL Übersicht]** fasst die ausgehenden Ergebnisse z
 
 Die Registerkarte **[!UICONTROL E]** Mails) enthält Berichte zum E-Mail-Volumen und zur Effektivität:
 
-* **Kacheln**: Öffnungsrate und Klickrate, standardmäßig angezeigt, sodass die Leistung über Kampagnen mit unterschiedlichem Volumen hinweg vergleichbar ist. Wählen Sie stattdessen den Umschalter aus, um die Rohanzahl der gesendeten, geöffneten, angeklickten und geantworteten E-Mails anzuzeigen.
+* **Kacheln**: Öffnungsrate und Klickrate, standardmäßig angezeigt, sodass die Leistung über Kampagnen mit unterschiedlichem Volumen hinweg vergleichbar ist. Um stattdessen die Rohanzahl der gesendeten, geöffneten, angeklickten und geantworteten E-Mails anzuzeigen, wählen Sie den Umschalter aus.
 * **Trenddiagramm für die wöchentliche E-Mail**: E-Mail-Aktivität nach Woche.
 * Tabelle der E-Mail-Leistung pro Vertreter
 
@@ -62,11 +62,11 @@ Die Registerkarte **[!UICONTROL Aufgaben]** enthält Berichte zur manuellen Kont
 
 **[!UICONTROL Kampagnenleistung]** Berichte über ausgehende Ergebnisse nach ausgehenden Workflow-Kampagnen:
 
-* **KPI-Kacheln**: Aktive Interessenten, Öffnungsrate, Klickrate, Antwortrate und gebuchte Meetings. Das System zeigt standardmäßig die Öffnungs- und Klickrate an, sodass die Leistung in allen Kampagnen mit unterschiedlichem Volumen vergleichbar ist. Wählen Sie stattdessen den Umschalter aus, um die Rohzahlen anzuzeigen.
+* **KPI-Kacheln**: Aktive Interessenten, Öffnungsrate, Klickrate, Antwortrate und gebuchte Meetings. Das System zeigt standardmäßig die Öffnungs- und Klickrate an, sodass die Leistung in allen Kampagnen mit unterschiedlichem Volumen vergleichbar ist. Um stattdessen Rohzahlen anzuzeigen, wählen Sie den Umschalter aus.
 * **Diagramm zur Entwicklung der Kampagnenmetriken**: Kampagnen-KPIs über den ausgewählten Zeitraum.
 * **[!UICONTROL Kampagnen]** Tabelle: E-Mail-, Meeting-, Aufruf- und LinkedIn-Nachrichtenaktivität für jede Kampagne. Um Details auf repräsentativer Ebene für eine Kampagne anzuzeigen, erweitern Sie deren Zeile.
 
-Informationen [&#x200B; Generierung von Buchungen &#x200B;](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
+Informationen [ Generierung von Buchungen ](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
 
 >[!MORELIKETHIS]
 >

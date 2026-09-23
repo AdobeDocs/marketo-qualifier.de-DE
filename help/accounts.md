@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '647'
 ht-degree: 0%
 ---
 
@@ -50,7 +50,7 @@ Auf **[!UICONTROL Registerkarte]** Details“ erhalten Sie einen Schnappschuss d
 Die Übersichtskarte oben auf der Registerkarte identifiziert das Konto und fasst seinen Wert zusammen:
 
 * Der Kontoname und die Region
-* **Jährlicher wiederkehrender Umsatz (ARR)** - Der jährliche wiederkehrende Umsatz aller aktiven Abonnements. Wählen Sie **[!UICONTROL Alle anzeigen]** aus, um den jährlichen **[!UICONTROL nach Produkt im Dialogfeld „Jährlicher]**&quot; zu überprüfen.
+* **Jährlicher wiederkehrender Umsatz (ARR)** - Der jährliche wiederkehrende Umsatz aller aktiven Abonnements. Um den ARR nach Produkt im Dialogfeld **[!UICONTROL Jährlicher wiederkehrender Umsatz]** zu überprüfen, wählen Sie **[!UICONTROL Alle anzeigen]** aus.
 * Kontostatistiken, einschließlich der Anzahl der offenen Opportunities und Kontakte und des Pipeline-Werts
 
 ### Kontoübersicht - Zusammenfassung
@@ -63,7 +63,7 @@ Verwenden Sie die Schaltflächen unter der Übersicht, um zwischen Kontoansichte
 
 | Ansicht | Was angezeigt wird |
 | --- | --- |
-| **[!UICONTROL Opportunities]** | Offene, mit dem Account verknüpfte Opportunities mit jeweils zugehörigen Schlüsselfeldern. Wählen Sie **[!UICONTROL Alle anzeigen]**, um die vollständige Liste in einer Tabelle anzuzeigen. Opportunity-Details wie Phase, Typ und Abschlussdatum können auch verwendet werden, um die Kontakte des Kontos unter &quot;**[!UICONTROL Opportunity-Kontakte“]** filtern, wenn ein Administrator diese Felder filterbar macht. |
+| **[!UICONTROL Opportunities]** | Offene, mit dem Account verknüpfte Opportunities mit jeweils zugehörigen Schlüsselfeldern. Um die vollständige Liste in einer Tabelle anzuzeigen, klicken Sie auf **[!UICONTROL Alle anzeigen]**. Opportunity-Details wie Phase, Typ und Abschlussdatum können auch verwendet werden, um die Kontakte des Kontos unter &quot;**[!UICONTROL Opportunity-Kontakte“]** filtern, wenn ein Administrator diese Felder filterbar macht. |
 | **[!UICONTROL Top-Mitglieder]** | Die am häufigsten kontaktierten Kontakte des Kontos, sortiert nach Interaktion. Jeder Kontakt zeigt seinen Jobtitel, seine E-Mail-Adresse, seinen Interaktionswert und die Dringlichkeitsanzeige an. |
 | **[!UICONTROL Intent-Daten]** | Kaufabsichtssignale für das Konto, z. B. die Produkte und Themen, nach denen das Konto sucht. |
 | **[!UICONTROL Mitglieder des Konto-Teams]** | Dem Konto zugewiesene Personen mit ihrer E-Mail-Adresse, ihrer Stellenbezeichnung, ihrem Gebiet und ihrer Produktgruppe. |
@@ -78,7 +78,7 @@ Führen Sie in **[!UICONTROL Ansicht]** Top-Mitglieder“ eine der folgenden Akt
 
 Die Registerkarte **[!UICONTROL Account Research]** enthält drei Bereiche:
 
-* **[!UICONTROL Forschungskategorien]** - Forschungsthemen. Wählen Sie eine Kategorie aus, um ihre Forschung im mittleren Bereich anzuzeigen.
+* **[!UICONTROL Forschungskategorien]** - Forschungsthemen. Um die Forschungsergebnisse einer Kategorie im mittleren Bereich anzuzeigen, wählen Sie die Kategorie aus.
 * **Forschungsinhalt** - KI-generierte Forschungskarten, gruppiert nach Kategorie. Eine Karte kann die Quell-Domain und das Datum enthalten, an dem das Signal zum ersten Mal und zuletzt erkannt wurde.
 * **[!UICONTROL Aktuelle Nachrichten]** - Aktuelle Nachrichten zum Konto, einschließlich Datumsangaben, Tags und Quell-Links.
 

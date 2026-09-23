@@ -1,6 +1,6 @@
 ---
-title: Aufgaben in Adobe Marketo Qualifier
-description: Erfahren Sie, wie Sie in der Aufgabenwarteschlange von Adobe Marketo Qualifier manuelle Outreach-Aufgaben verarbeiten und vom Agenten vorgeschlagene Interessenten überprüfen können.
+title: Aufgaben in [!DNL Adobe Marketo Qualifier]
+description: Erfahren Sie, wie Sie manuelle Outreach-Aufgaben verarbeiten und von einem Agenten vorgeschlagene Interessenten in der Warteschlange für [!DNL Adobe Marketo Qualifier] Aufgaben überprüfen können.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
@@ -12,9 +12,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1086'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ Manuelle Aufgaben sind an ausgehende Workflow-Schritte gebunden und können in d
 
 * **[!UICONTROL LinkedInMail]** - Wird erstellt, wenn eine Kadenz einen LinkedInMail-Schritt erreicht. Das Arbeitsfenster zeigt Inhalte an, die von LinkedIn kopiert und gesendet werden sollen. Erweitern Sie **[!UICONTROL KI-Begründung]**, um die Begründung zu überprüfen.
 
-* **[!UICONTROL E-Mail-Überprüfung]** - Wird erstellt, nachdem der Adobe Marketo Qualifier die personalisierten E-Mails eines Interessenten generiert hat. Wählen Sie **[!UICONTROL E-Mails überprüfen]**, um die Entwürfe zu überprüfen und zu genehmigen, bevor die Kontaktaufnahme beginnt. Siehe [Überprüfen und Verfeinern generierter E-Mails](outbound-workflows.md#review-and-refine-generated-emails).
+* **[!UICONTROL E-Mail-Überprüfung]** - Wird erstellt, nachdem [!DNL Adobe Marketo Qualifier] die personalisierten E-Mails eines Interessenten generiert hat. Um die Entwürfe zu überprüfen und zu genehmigen, bevor die Kontaktaufnahme beginnt, wählen Sie **[!UICONTROL E-Mails überprüfen]**. Siehe [Überprüfen und Verfeinern generierter E-Mails](outbound-workflows.md#review-and-refine-generated-emails).
 
 ![E-Mail-Überprüfung](assets/tasks-review.png)
 
@@ -83,7 +83,7 @@ Die Symbolleiste oberhalb der Liste steuert, welche Aufgaben in welcher Reihenfo
 * **[!UICONTROL Sortieren]** - Sortieren Sie nach Fälligkeitsdatum oder Erstellungsdatum. Die Sortierreihenfolge bestimmt auch die Reihenfolge, in der die Warteschlange voranschreitet.
 * **[!UICONTROL Suchaufgaben]** - Suchen nach Aufgaben nach Interessentenname, Firmenname oder ausgehendem Workflow. Die Suche gilt mit aktiven Filtern.
 
-Aktive Filter werden als Chips unter der Symbolleiste angezeigt. Wählen Sie **[!UICONTROL Alle löschen]**, um sie zurückzusetzen.
+Aktive Filter werden als Chips unter der Symbolleiste angezeigt. Um sie zurückzusetzen, wählen Sie **[!UICONTROL Alle löschen]** aus.
 
 ### Aufgabenstatus
 
@@ -104,17 +104,34 @@ Abgeschlossene, übersprungene und abgebrochene Aufgaben sind endgültig. Ihre A
 
 Auf **[!UICONTROL Registerkarte]** Agentenvorschläge“ werden Interessenten aufgelistet, die den Targeting-Kriterien eines ausgehenden Workflows entsprechen und für die Registrierung empfohlen werden. Informationen zum Aktivieren von Recommendations finden Sie [Ausgehende Workflows](outbound-workflows.md).
 
-Wählen Sie einen Vorschlag aus, um ihn im Arbeitsbereich zu überprüfen:
+Um einen Vorschlag im Arbeitsbereich zu überprüfen, wählen Sie ihn aus:
 
 * Ein Kürzungs-Badge kennzeichnet jeden Vorschlag als **[!UICONTROL Neu]** oder **[!UICONTROL Zurück]**.
 * Die Tabelle **[!UICONTROL Empfohlene Leads]** oder **[!UICONTROL Empfohlene Kontakte]** listet die vorgeschlagenen Interessenten mit Spalten für **[!UICONTROL Name]**, **[!UICONTROL Titel]**, **[!UICONTROL Konto]**, **[!UICONTROL Status]**, **[!UICONTROL EMail]** und **[!UICONTROL Zuletzt aktualisiert]**.
 
 Es stehen zwei Aktionen zur Verfügung:
 
-* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung &#x200B;](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung ](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Als abgeschlossen markieren]** - Schließen Sie den Vorschlag ab, nachdem Sie ihn überprüft haben.
 
 Die **[!UICONTROL Agentenvorschläge]** enthält die Statusfilter **[!UICONTROL Aktuell]**, **[!UICONTROL Abgeschlossen]** und **[!UICONTROL Abgebrochen]**, einen Filter für ausgehende Workflows und eine Sortierung nach Erstellungsdatum.
+
+### Interessenten mit einem Agentenvorschlag antworten
+
+Wenn ein Interessent auf eine E-Mail antwortet, kann [!DNL Marketo Qualifier] eine In-Thread-Antwort entwerfen und als Aufgabe unter &quot;**[!UICONTROL &quot;]**. Der Entwurf verwendet den relevanten Kontext aus:
+
+* Der vollständige E-Mail-Thread und nicht nur die neueste Nachricht.
+* Ihr Wissenscenter-Marketingmaterial und Ihre Produktforschung.
+* Kontosignale, wie z. B. aktuelle Nachrichten, Marketing-Interaktionen und CRM-Aktivitäten.
+* Ihr gespeicherter [E-Mail-](profile-settings.md#email-drafting-context)).
+
+Der Assistent passt die Antwort an die Absicht des potenziellen Kunden an. So kann er beispielsweise Zeiten über Ihren Buchungslink für eine Besprechungsanfrage anbieten, bei Interesse des potenziellen Kunden den Wert steigern, eine Produktfrage aus Ihrem Marketingmaterial beantworten, ein relevantes Asset freigeben, einen Einwand mit einem Unterscheidungsmerkmal ansprechen oder eine Niederdruckantwort verwenden, wenn der potenzielle Kunde dies aufschieben möchte.
+
+Preisangaben, rechtliche oder Sicherheitsanforderungen, feindselige Reaktionen und unklare Anfragen bleiben dem Beauftragten für eine persönliche Antwort überlassen.
+
+1. Öffnen Sie den Antwortvorschlag und überprüfen Sie den vollständigen Thread und die entworfene Antwort.
+1. Um einen weiteren Entwurf zu erstellen, bearbeiten Sie die Antwort oder wählen Sie **[!UICONTROL Mit KI generieren]** aus.
+1. Um die Antwort zu senden und den ausgehenden Workflow des Interessenten fortzusetzen, wählen Sie **[!UICONTROL Genehmigen und senden]** aus.
 
 ## Abschließen von Aufgaben aus einem ausgehenden Workflow
 
@@ -124,7 +141,7 @@ In der Ansicht **[!UICONTROL Interessenten des ausgehenden Workflows]** bietet e
 
 * Wenn Sie keine Aufgaben zum Ausführen von Aktionen haben, wird in der Liste _Nachricht „Sie sind bis heute_.
 * Wenn die Filter nicht mit den Aufgaben übereinstimmen, zeigt die Liste an, dass keine Aufgaben mit Ihren Filtern übereinstimmen.
-* Wenn keine Aufgabe ausgewählt ist, werden Sie im Bedienfeld Arbeit aufgefordert, eine Aufgabe auszuwählen, um deren Details anzuzeigen.
+* Wenn keine Aufgabe ausgewählt ist, werden Sie im Arbeitsbereich aufgefordert, eine Aufgabe auszuwählen. Um die Details anzuzeigen, wählen Sie eine Aufgabe aus.
 
 >[!MORELIKETHIS]
 >

@@ -1,14 +1,24 @@
 ---
-title: Adobe Marketo Qualifier - Versionshinweise
-description: Erfahren Sie mehr über die neuen Funktionen im Adobe Marketo Qualifier.
+title: '[!DNL Adobe Marketo Qualifier] – Versionshinweise'
+description: Erfahren Sie mehr über die neuen Funktionen in [!DNL Adobe Marketo Qualifier].
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 12%
+source-wordcount: '390'
+ht-degree: 14%
 ---
-# Adobe Marketo Qualifier - Versionshinweise
+# [!DNL Adobe Marketo Qualifier] – Versionshinweise
+
+## 09-22-2026
+
+Diese Version umfasst:
+
+* Zeigen Sie [!DNL Marketo Sales Insights]- und Agentendaten im eingebetteten CRM-Plug-in an und fügen Sie Interessenten zu [!DNL Marketo Qualifier] hinzu. [Weitere Informationen](admin-settings.md#crm-mcp-and-the-embedded-plugin).
+* Priorisieren Sie CRM-Leads mit Best Bets, „Meine Merkliste“, Web-Aktivität, E-Mail-Interaktion und Webinar-Aktivität. [Weitere Informationen](admin-settings.md#prioritize-leads-in-the-crm-plugin).
+* Interessenten automatisch für ausgehende Workflows registrieren, wenn ihre Live-[!DNL Marketo] den Workflow-Kriterien entspricht. [Weitere Informationen](home.md#automatically-enroll-prospects-from-marketing-highlights).
+* Überprüfen Sie den Interessentenkontext, exportieren Sie die Liste der Interessenten, und zeigen Sie Zusammenfassungen der KI-Personen in [!DNL Marketo Optimizer] Prime- und Ultimate-Instanzen an. [Weitere Informationen](prospects.md#review-prospect-context-and-export-the-list).
+* Überprüfen und validieren Sie generierte E-Mails potenzieller Kundinnen und Kunden aus der Aufgabenwarteschlange und antworten Sie während eines ausgehenden Workflows mit Agentenvorschlägen. [Weitere Informationen](tasks.md).
 
 ## 09-08-2026
 
@@ -21,11 +31,11 @@ Diese Version umfasst:
 * Die generierten E-Mails verwenden alle zusätzlichen Daten potenzieller Kunden, die Sie importieren, und können nativ in der Sprache des potenziellen Kunden geschrieben werden. [Weitere Informationen](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * Die ausgehende Leistung zeigt standardmäßig die Öffnungs- und Klickrate an, mit einem Umschalter für die Rohanzahl und für die Gesamtzahl der potenziellen Kunden auf Organisationsebene. [Weitere Informationen](performance.md).
 * CRM-Synchronisierungsregeln aktualisieren den CRM-Status automatisch, wenn ein Interessent einen ausgehenden Workflow durchläuft. [Weitere Informationen](admin-settings.md#configure-crm-sync-rules).
-* Stellen Sie KI-Chat-Fragen zu Ihren Marketo-Qualifikator-, CRM-, [!DNL Marketo]- und [!DNL Adobe Journey Optimizer B2B Edition]. [Weitere Informationen](ai-assistant.md#ask-ai-chat-across-your-connected-data).
+* Stellen Sie KI-Chat-Fragen in Ihren [!DNL Marketo Qualifier]-, CRM-, [!DNL Marketo]- und [!DNL Marketo Optimizer]. [Weitere Informationen](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 
-[!DNL Marketo Qualifier] ist jetzt als eigenständige Anwendung verfügbar. Es unterstützt Marketo und Adobe Journey Optimizer B2B.
+[!DNL Marketo Qualifier] ist jetzt als eigenständige App verfügbar. Es unterstützt [!DNL Marketo Engage] und [!DNL Marketo Optimizer].
 
 Diese Version umfasst:
 
