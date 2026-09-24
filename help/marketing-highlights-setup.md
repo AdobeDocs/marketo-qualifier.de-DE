@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '680'
 ht-degree: 3%
 ---
 
@@ -49,14 +49,14 @@ So erstellen Sie die Anmeldeinformationen:
 
 1. Wechseln Sie zur [Adobe-Entwicklerkonsole](https://developer.adobe.com/console/) und melden Sie sich mit Ihrer Adobe ID an.
 1. Wählen Sie **[!UICONTROL Neues Projekt erstellen]** oder öffnen Sie ein vorhandenes Projekt.
-1. Wählen Sie **[!UICONTROL Projekt bearbeiten]**, benennen Sie das Projekt in einen identifizierbaren Namen um, z. B. `Marketo Qualifier Marketing Highlights`, und wählen Sie **[!UICONTROL Speichern]**.
+1. Um das Projekt umzubenennen, wählen Sie **[!UICONTROL Projekt bearbeiten]**, geben Sie einen identifizierbaren Namen wie `Marketo Qualifier Marketing Highlights` ein und klicken Sie auf **[!UICONTROL Speichern]**.
 1. Wählen Sie **[!UICONTROL API hinzufügen]**, wählen Sie **[!UICONTROL Experience Platform API]** und klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Wählen Sie **[!UICONTROL Authentifizierungstyp OAuth Server-]** als aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    **[!UICONTROL OAuth Server-zu-Server]** ermöglicht es [!DNL Marketo], die Marketo Qualifier-API direkt von ihrem Server aus aufzurufen, ohne dass sich eine Person anmelden muss.
 
 1. Geben Sie einen Berechtigungsnamen mit höchstens 45 Zeichen ein, z. B. `Marketo Qualifier Marketing Highlights Creds`.
-1. Wählen Sie das zu verknüpfende Produktprofil und dann **[!UICONTROL Konfigurierte API speichern]** aus.
+1. Um das Produktprofil zu verknüpfen, wählen Sie es aus und klicken Sie auf **[!UICONTROL Konfigurierte API speichern]**.
 1. Öffnen Sie **[!UICONTROL „Verbundene Anmeldeinformationen]** die **[!UICONTROL OAuth Server-zu-Server]**-Anmeldeinformationen. Wählen Sie **[!UICONTROL Client-Geheimnis abrufen]** und kopieren Sie dann die **[!UICONTROL Client-ID]** und **[!UICONTROL Client-Geheimnis]**. Sie verwenden diese Werte in [Teil C](#part-c-configure-the-marketo-webhook).
 
 >[!WARNING]

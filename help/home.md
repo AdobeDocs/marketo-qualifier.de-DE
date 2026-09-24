@@ -1,6 +1,6 @@
 ---
-title: Übersicht über den Adobe Marketo-Qualifizierer
-description: Erfahren Sie mehr über Adobe Marketo Qualifier, eine KI-gesteuerte App, die die Qualifizierung von Interessenten, die Kontaktaufnahme und die Käuferinteraktion für B2B-Vertriebsteams automatisiert.
+title: Übersicht über [!DNL Adobe Marketo Qualifier]
+description: Erfahren Sie mehr über [!DNL Adobe Marketo Qualifier], eine KI-gestützte App, die die Qualifizierung, Kontaktaufnahme und Käuferinteraktion von Interessenten für B2B-Vertriebsteams automatisiert.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
@@ -17,19 +17,19 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 21%
+source-wordcount: '463'
+ht-degree: 18%
 ---
 
-# Adobe Marketo-Qualifizierer
+# [!DNL Adobe Marketo Qualifier]
 
-Adobe Marketo Qualifier ist eine KI-gestützte Anwendung, die die Qualifizierung von Interessenten, die Kontaktaufnahme und die kanalübergreifende Interaktion von Käufern für Vertreter der Geschäftsentwicklung (BDRs) automatisiert. Der Account Qualification Agent analysiert Ihre Kunden und potenziellen Kunden, priorisiert diejenigen, die für den nächsten Schritt bereit sind, und entwirft personalisierte Maßnahmen auf der Grundlage Ihrer CRM-Daten.
+[!DNL Adobe Marketo Qualifier] ist eine KI-gestützte App, die die Qualifizierung, Kontaktaufnahme und kanalübergreifende Interaktion von Käufern für Vertreter der Geschäftsentwicklung (BDRs) automatisiert. Der Account Qualification Agent analysiert Ihre Kunden und potenziellen Kunden, priorisiert diejenigen, die für den nächsten Schritt bereit sind, und entwirft personalisierte Maßnahmen auf der Grundlage Ihrer CRM-Daten.
 
-BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intelligence direkt in ihrem CRM oder Outlook aufzurufen.
+Die App ist neben [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Marketo Measure] Teil der [!DNL Marketo] Produktfamilie. BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intelligence direkt in ihrem CRM oder Outlook aufzurufen.
 
-## Was Sie in Marketo Qualifier tun können
+## Was Sie in [!DNL Marketo Qualifier] tun können
 
 * **Priorisieren Sie Interessenten und Konten** mit KI-generierten Aktivitätszusammenfassungen und signalbasierter Priorisierung.
 * **Erstellen zielgesteuerter Outbound-Workflows** in denen KI eine Kadenz vorschlägt und für jeden Interessenten personalisierte E-Mails entwirft.
@@ -40,6 +40,12 @@ BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intellig
 * **Verfolgen der Outreach-** mit E-Mail- und Besprechungsbuchungsberichten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+
+## Verwenden der Startseite
+
+Die Startseite bietet einen Ausgangspunkt für Ihre tägliche Arbeit. Eine Anleitung und Einstiegsaufforderungen beim ersten Mal helfen Ihnen beim Öffnen **[!UICONTROL KI-Chats]** und beim Stellen einer Frage. Über Schnelllinks gelangen Sie direkt zu **[!UICONTROL Interessenten]**, **[!UICONTROL Ausgehende Workflows]** und **[!UICONTROL Aufgaben]**.
+
+Auf der Startseite werden auch anstehende Aufgaben und ausgehende Workflows angezeigt. Wählen Sie in der Aufgabenliste Kalenderaufgaben oder von einem Agenten vorgeschlagene Aufgaben aus, damit Sie sich auf die Arbeit konzentrieren können, die als Nächstes wichtig ist.
 
 ## Handbuch erkunden
 

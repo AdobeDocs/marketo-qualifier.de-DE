@@ -1,12 +1,12 @@
 ---
 title: KI-Chat verwenden
-description: Erfahren Sie, wie Sie den KI-Chat in Adobe Marketo Qualifier verwenden können, um Accounts zu recherchieren, Kontakte zu entwerfen und Antworten auf der Grundlage Ihrer CRM-, Interaktions- und Wissenscenter-Daten zu erhalten.
+description: Erfahren Sie, wie Sie den KI-Chat verwenden können, [!DNL Adobe Marketo Qualifier] Konten zu recherchieren, Kontakte zu entwerfen und Antworten auf der Grundlage Ihrer CRM-, Interaktions- und Wissenscenter-Daten zu erhalten.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Adobe Marketo Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -16,21 +16,21 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '712'
 ht-degree: 1%
 ---
 
 # KI-Chat
 
-Der KI-Chat beantwortet Fragen in natürlicher Sprache basierend auf Ihrem Verkaufskontext. Verwenden Sie sie, um ein Konto zu recherchieren, sich auf einen Anruf vorzubereiten, Kontakte zu entwerfen und Ihre Arbeit zu priorisieren, ohne Adobe Marketo Qualifier verlassen zu müssen.
+Der KI-Chat beantwortet Fragen in natürlicher Sprache basierend auf Ihrem Verkaufskontext. Nutzen Sie sie, um ein Konto zu recherchieren, sich auf einen Anruf vorzubereiten, Kontakte zu entwerfen und Ihre Arbeit zu priorisieren, ohne [!DNL Adobe Marketo Qualifier] verlassen zu müssen.
 
 ![KI-Chat-Schaltfläche](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## KI-Chat öffnen
 
-Wählen Sie die unverankerte **[!UICONTROL AI-Chat]**-Schaltfläche aus, um das Chat-Bedienfeld zu öffnen. Das Bedienfeld wird neben der aktuellen Seite geöffnet, sodass Sie einen Interessenten, ein Konto oder einen ausgehenden Workflow anzeigen können. Ziehen Sie die Kante des Bedienfelds, um die Größe zu ändern. Um das Bedienfeld zu schließen, wählen Sie erneut **[!UICONTROL AI-]**) aus.
+Um das Chat-Panel zu öffnen, wählen Sie die unverankerte Schaltfläche **[!UICONTROL AI-Chat]** aus. Das Bedienfeld wird neben der aktuellen Seite geöffnet, sodass Sie einen Interessenten, ein Konto oder einen ausgehenden Workflow anzeigen können. Um die Größe des Bedienfelds zu ändern, ziehen Sie seine Kante. Um das Bedienfeld zu schließen, wählen Sie erneut **[!UICONTROL AI-]**) aus.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Der KI-Chat kann die folgenden Quellen verwenden:
 
 * Das Playbook Ihres Unternehmens im [Knowledge Center](admin-settings.md#knowledge-center).
 * Ihr verbundenes CRM, einschließlich Leads, Kontakte, Konten, Chancen und Aktivitäten.
-* [!DNL Marketo] Aktivitäts- und Interaktionsdaten.
+* [!DNL Marketo] Aktivitäts- und Interaktionsdaten
 * Kundenanalyse und aktuelle Nachrichten, die von der Account Qualification Agent gesammelt wurden.
 * In: Public Web Research.
 
@@ -58,9 +58,9 @@ Verwenden Sie den KI-Chat für diese Arten von Aufgaben:
 
 ## Ask AI Chat über Ihre verbundenen Daten hinweg
 
-Der KI-Chat kann Fragen zu Ihren Marketo-Qualifizierer-, CRM-, [!DNL Marketo]-, [!DNL Adobe Journey Optimizer B2B Edition]- und Unternehmensdaten beantworten. Stellen Sie eine Frage in einfacher Sprache, um Informationen nachzuschlagen oder Kontext abzurufen. Der KI-Chat liest und erstellt Berichte zu Ihren Daten. Er erstellt, bearbeitet oder startet nichts.
+Der KI-Chat kann Fragen in Ihren [!DNL Marketo Qualifier]-, CRM-, [!DNL Marketo]-, [!DNL Marketo Optimizer]- und Unternehmensdaten beantworten. Stellen Sie eine Frage in einfacher Sprache, um Informationen nachzuschlagen oder den Kontext abzurufen. Der KI-Chat liest und erstellt Berichte zu Ihren Daten. Er erstellt, bearbeitet oder startet nichts.
 
-Im Folgenden finden Sie einige Beispielaufforderungen. Je genauer Sie Ihre Eingabeaufforderung anzeigen, desto zielgerichteter werden die Ergebnisse.
+Im Folgenden finden Sie einige Beispielaufforderungen. Je genauer Sie Ihre Eingabeaufforderung anzeigen, desto zielgerichteter sind die Ergebnisse.
 
 Interessenten und Kunden:
 
@@ -72,8 +72,8 @@ Interessenten und Kunden:
 
 Wissenszentrum:
 
-* „Welche Sicherheiten haben wir beim Umgang mit Einwänden bezüglich der Preisgestaltung?“
-* „Was sind unsere wichtigsten Alleinstellungsmerkmale gegenüber Mitbewerbern?“
+* „Welche Sicherheiten gibt es für die Behandlung von Einwänden bezüglich der Preisgestaltung?“
+* „Was sind die wichtigsten Unterscheidungsmerkmale gegenüber Mitbewerbern?“
 * „Listen Sie Dokumente im Knowledge Center auf.“
 * „Ein Dokument zusammenfassen.“
 
@@ -93,7 +93,7 @@ CRM:
 [!DNL Adobe Journey Optimizer B2B Edition]:
 
 * „Wie viele Journey habe ich?“
-* „Wie wird meine Zielgruppe nach Persona segmentiert?“
+* „Wie segmentiert Persona meine Zielgruppe?“
 * „Welche Landingpages gibt es in meinem Konto?“
 * „Welche Lead-Felder fließen in die Bewertung ein?“
 
@@ -129,7 +129,7 @@ KI-generierte Antworten können ungenau sein. Überprüfen Sie alle Inhalte, bev
 * Lesen Sie die entworfenen E-Mails sorgfältig und personalisieren Sie sie vor dem Versand.
 * Verwenden Sie die Ausgabe des Assistenten als Ausgangspunkt, nicht als fertige Leistung.
 
-Die Verwendung von KI-Chat durch Ihr Unternehmen unterliegt den Adobe Generative AI-Bedingungen.
+Die Adobe Generative AI-Bedingungen regeln die Verwendung von KI-Chat in Ihrem Unternehmen.
 
 >[!MORELIKETHIS]
 >

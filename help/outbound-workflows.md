@@ -1,6 +1,6 @@
 ---
 title: Erstellen und Verwalten von ausgehenden Workflows
-description: Erfahren Sie, wie Sie in Adobe Marketo Qualifier KI-generierte ausgehende Workflows erstellen, freigeben, überprüfen und verwalten, um zielgesteuerte Outreach-Kadenzen auszuführen.
+description: Erfahren Sie, wie Sie KI-generierte ausgehende Workflows erstellen, freigeben, überprüfen und verwalten, [!DNL Adobe Marketo Qualifier] zielgesteuerte Outreach-Kadenzen auszuführen.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2271'
 ht-degree: 0%
 ---
 
@@ -67,12 +67,14 @@ Admins können den ausgehenden Workflow einem Teamkollegen anstelle sich selbst 
 
 Das Ziel definiert das beabsichtigte Ergebnis und leitet Targeting, Kadenz und E-Mail-Generierung an.
 
-1. Wählen Sie **[!UICONTROL Von Grund auf]**, um Ihr eigenes Ziel zu schreiben, oder wählen Sie **[!UICONTROL Von Vorlage starten]**, um eine gespeicherte Vorlage zu verwenden.
+1. Um Ihr eigenes Ziel zu schreiben, wählen **[!UICONTROL Von Grund auf neu beginnen]** oder um eine gespeicherte Vorlage zu verwenden, wählen Sie **[!UICONTROL Von Vorlage starten]** aus.
 
-1. Wählen Sie eines der **[!UICONTROL empfohlenen Ziele]** das Ihrem Unternehmen entspricht. Jede Empfehlung enthält eine kurze Erklärung, warum sie passt. Wählen Sie eine Empfehlung aus, um das Ziel auszufüllen, wählen Sie **[!UICONTROL Alle anzeigen]** aus, um alle Empfehlungen zu durchsuchen, oder geben Sie Ihr eigenes Ziel ein. Sie können auch aus der Liste **[!UICONTROL Beliebte Ziele]** auswählen.
+1. Wählen Sie eines der **[!UICONTROL empfohlenen Ziele]** das Ihrem Unternehmen entspricht. Jede Empfehlung enthält eine kurze Erklärung, warum sie passt. Um das Ziel auszufüllen, wählen Sie eine Empfehlung aus. Um alle Empfehlungen zu durchsuchen, wählen Sie **[!UICONTROL Alle anzeigen]** oder geben Sie Ihr eigenes Ziel ein. Sie können auch aus der Liste **[!UICONTROL Beliebte Ziele]** auswählen.
 1. Wählen Sie **[!UICONTROL Weiter: Zielgruppenbestimmung]**.
 
 Geben Sie ein spezifisches Ergebnis im Ziel an. Geben Sie beispielsweise `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` anstelle von `Promote campaign automation` ein.
+
+Die KI behält Anforderungen im Ziel genau in den generierten Touchpoints bei. Schließen Sie exakte Sätze, erforderliche Anfangs- oder Schlusszeilen, benannte Sitzungen und Datumsangaben oder eine bestimmte Struktur ein, wenn der generierte Inhalt diese beibehalten muss.
 
 ### Schritt 2: Zielgruppenbestimmungsfilter konfigurieren
 
@@ -80,12 +82,29 @@ Zielgruppenbestimmungsfilter definieren, welche potenziellen Kunden infrage komm
 
 ![Zielgruppenfilter](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
 
-1. Wählen Sie den Abwärtspfeil aus, um die Liste **[!UICONTROL Filter hinzufügen]** zu öffnen, und wählen Sie dann einen Filter aus.
+Beschreiben Sie Ihre ideale Perspektive in natürlicher Sprache. Geben Sie beispielsweise `Hot leads at companies with 500 or more employees who requested a demo` ein. [!DNL Adobe Marketo Qualifier] konvertiert die Beschreibung in Zielgruppenkriterien, die Sie überprüfen und verfeinern können.
+
+1. Um die Liste **[!UICONTROL Filter hinzufügen]** zu öffnen, klicken Sie auf den Pfeil nach unten und wählen Sie dann einen Filter aus.
 
 1. Legen Sie Werte für den Filter fest.
 1. Fügen Sie weitere Filter hinzu, wenn Sie die Zielgruppe eingrenzen möchten.
 
 1. Wählen Sie **[!UICONTROL Weiter: Touchpoints generieren]**.
+
+Beim Targeting können Aktivitätstyp, Score, Bewertung und andere verfügbare Attribute verwendet werden. Kombinieren Sie Kriterien mit [!DNL AND] oder [!DNL OR] und verwenden Sie Operatoren wie „ist gleich“, „enthält“, „größer als“, „kleiner als“ und „zwischen“.
+
+### Interessenten automatisch über Marketing-Highlights registrieren
+
+Ein ausgehender Workflow kann die Aktivität „Live-Marketing-Highlights“ anhand der Zielgruppenkriterien bewerten. Wenn die Aktivität übereinstimmt, löst [!DNL Marketo Qualifier] den CRM-Inhaber des Interessenten per E-Mail auf und registriert den Interessenten nur in einem geeigneten Workflow, der zu diesem Mitarbeiter gehört.
+
+Die automatische Registrierung folgt dieser Sequenz:
+
+1. Ein Mitarbeiter definiert die Zielgruppenkriterien des Workflows.
+1. Live [!DNL Marketo]-Aktivität kommt für einen potenziellen Kunden an.
+1. [!DNL Marketo Qualifier] löst den Besitzenden des potenziellen Kunden aus Salesforce oder Microsoft Dynamics auf und bewertet die Aktivität anhand der zulässigen Workflows des Besitzers.
+1. Wenn die Kriterien erfüllt sind, wird der Interessent registriert und die Kontaktaufnahme beginnt.
+
+Wenn sich bereits ein anderer Mitarbeiter an den Interessenten wendet, wird [!DNL Marketo Qualifier] eine Warnung angezeigt, bevor die doppelte Kontaktaufnahme beginnt.
 
 ### Schritt 3: Erstellen und Überprüfen von Touchpoints
 
@@ -147,7 +166,7 @@ Beim Speichern wird die Perspektivauswahl-Ansicht mit angewendeten Targeting-Fil
 
 1. Filter hier anpassen, wenn Sie die Liste erweitern oder eingrenzen müssen.
 1. Wählen Sie Interessenten mithilfe der Kontrollkästchen aus.
-1. Wählen Sie **[!UICONTROL Weiter: Touchpoints überprüfen]**, um mit der Erstellung pro Interessent zu beginnen.
+1. Um mit der Generierung pro Interessent zu beginnen, wählen Sie **[!UICONTROL Weiter: Touchpoints überprüfen]**.
 
 KI generiert eine personalisierte E-Mail für jeden ausgewählten Interessenten und E-Mail-Touchpoint. Telefon- und LinkedInMail-Touchpoints bleiben geplante Schritte. Um während der Generierung weiter zu arbeiten, wählen Sie **[!UICONTROL Bei Fertigstellung benachrichtigen]**.
 
@@ -159,14 +178,14 @@ E-Mails können auch in der Sprache des Interessenten generiert werden, mit korr
 
 ## Überprüfen und Verfeinern generierter E-Mails
 
-Nach Abschluss der Generierung werden Sie in der Detailansicht des ausgehenden Workflows aufgefordert, die Entwürfe zu überprüfen. Der Adobe Marketo-Qualifizierer sendet erst dann eine E-Mail, wenn Sie sie genehmigen.
+Nach Abschluss der Generierung werden Sie in der Detailansicht des ausgehenden Workflows aufgefordert, die Entwürfe zu überprüfen. [!DNL Marketo Qualifier] sendet keine E-Mail, bis Sie sie genehmigt haben.
 
 1. Wählen Sie in der Detailansicht „Ausgehender Workflow **[!UICONTROL im Banner die Option]** Entwürfe überprüfen“ aus.
 1. Der Schritt **[!UICONTROL Touchpoints überprüfen]** umfasst zwei Registerkarten:
    * **[!UICONTROL Bereit für Überprüfung]** - E-Mails, deren Generierung abgeschlossen ist.
    * **[!UICONTROL Generating]** - E-Mails, die noch geschrieben werden.
-1. Wählen Sie links in der Liste potenzieller Kunden einen Namen aus, um die Kontaktpunkte dieses potenziellen Kunden rechts zu laden.
-1. Verwenden Sie den Pfeil (**>**) auf einem Touchpoint, um die gesamte Betreffzeile und den gesamten Textkörper zu erweitern und zu lesen.
+1. Um die Touchpoints eines Interessenten auf der rechten Seite zu laden, wählen Sie den Namen des Interessenten in der Liste auf der linken Seite aus.
+1. Um einen Touchpoint zu erweitern und die gesamte Betreffzeile und den Hauptteil zu lesen, verwenden Sie den Pfeil (**>**).
 
 ### Lesen der KI-Argumentation
 
@@ -176,7 +195,7 @@ Für jede generierte E **[!UICONTROL Mail wird in &quot;]**&quot; erläutert, wi
 
 Für kleine Formulierungen oder Tonänderungen:
 
-1. Wählen Sie auf dem erweiterten Touchpoint das Symbol **[!UICONTROL Bearbeiten]** aus, um den Editor zu öffnen.
+1. Um den Editor zu öffnen, wählen Sie auf dem erweiterten Touchpoint das **[!UICONTROL Bearbeiten]**-Symbol aus.
 1. Bearbeiten Sie die Betreffzeile oder den Text.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
@@ -208,13 +227,15 @@ Genehmigte E-Mails werden entsprechend den ausgewählten Tagen des ausgehenden W
 
 ## Freigeben eines ausgehenden Workflows
 
-Jeder ausgehende Workflow verfügt über eine **[!UICONTROL Berechtigungen]**. Ausgehende Workflows sind **[!UICONTROL privat]**. Der Verantwortliche kann **[!UICONTROL Für alle freigegeben]** auswählen, um einen ausgehenden Workflow für das Team verfügbar zu machen.
+Jeder ausgehende Workflow verfügt über eine **[!UICONTROL Berechtigungen]**. Ausgehende Workflows sind **[!UICONTROL privat]**. Um einen ausgehenden Workflow für das Team verfügbar zu machen, kann der Verantwortliche **[!UICONTROL Für alle freigegeben]** auswählen.
 
 >[!CAUTION]
 >
 >Die Freigabe ist dauerhaft. Nachdem ein ausgehender Workflow auf „Für alle freigegeben **[!UICONTROL festgelegt wurde]** kann er nicht mehr in &quot;**[!UICONTROL &quot;]** werden.
 
 In einem gemeinsamen ausgehenden Workflow können sich Teammitglieder für ihre eigenen potenziellen Kunden registrieren. Jede Person kann nur die Interessenten verwalten oder pausieren, die sie registriert hat, auch bei der Verwendung von Massenaktionen. Der Inhaber des ausgehenden Workflows kann allein Einstellungen auf Planebene bearbeiten, einschließlich Zeitplan, Zeitzone und Kadenz. Diese Einstellungen sind für Teammitglieder schreibgeschützt.
+
+Wählen Sie bei der Registrierung eines potenziellen Kunden für einen freigegebenen ausgehenden Workflow aus, ob die E-Mail als Workflow-Eigentümer oder als zugewiesener Vertreter jedes Leads gesendet werden soll.
 
 Verwenden Sie diese Filter, um freigegebene ausgehende Workflows und Ergebnisse fokussiert zu halten:
 

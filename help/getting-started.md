@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit dem Adobe Marketo-Qualifizierer
-description: Erfahren Sie, wie Sie die einmalige Administratoreinrichtung für Adobe Marketo Qualifier, einschließlich Benutzergruppen und einer CRM-Verbindung, abschließen, bevor Ihr Team die Anwendung verwendet.
+title: Erste Schritte mit Adobe Marketo Qualifier
+description: Erfahren Sie, wie Sie die einmalige Admin-Einrichtung für Adobe Marketo Qualifier, einschließlich Benutzergruppen und einer CRM-Verbindung, abschließen, bevor Ihr Team die Anwendung verwendet.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
@@ -21,21 +21,21 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
 ---
 
-# Erste Schritte mit dem Adobe Marketo-Qualifizierer
+# Erste Schritte mit Adobe Marketo Qualifier
 
-Nachdem Adobe den Marketo-Qualifizierer für Ihr Unternehmen bereitgestellt hat, muss ein [!DNL Marketo]-Systemadministrator die erforderlichen Benutzergruppen erstellen und Salesforce oder Microsoft Dynamics 365 verbinden.
+Nachdem Adobe Marketo Qualifier für Ihr Unternehmen bereitgestellt hat, muss ein [!DNL Marketo]-Systemadministrator die erforderlichen Benutzergruppen erstellen und Salesforce oder Microsoft Dynamics 365 verbinden.
 
-![Startseite des Marketo-Qualifizierers](assets/homepage.png){width="800" zoomable="yes"}
+![Marketo Qualifier-Startseite](assets/homepage.png){width="800" zoomable="yes"}
 
 ## Einrichten von Benutzergruppen
 
-Benutzergruppen in Adobe Admin Console werden verwendet, um den Zugriff auf den Marketo-Qualifizierer zu steuern. Beide Gruppen müssen erstellt werden, bevor sich Benutzer anmelden können.
+Benutzergruppen in Adobe Admin Console werden verwendet, um den Zugriff auf Marketo Qualifier zu steuern. Beide Gruppen müssen erstellt werden, bevor sich Benutzer anmelden können.
 
 Informationen zum Einrichten von Gruppen finden [&#128279;](https://helpx.adobe.com/de/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu Adobe Admin Console .
 
@@ -58,7 +58,7 @@ Diese Schritte werden in der Adobe Admin Console ausgeführt.
 1. Öffnen Sie **[!UICONTROL Zugewiesene Produktprofile]** und wählen Sie **[!UICONTROL Profil zuweisen]** aus.
 1. **[!UICONTROL Adobe Experience Platform]**.
 1. Wählen Sie das Produktprofil **[!UICONTROL Standardproduktion -]**), dann **[!UICONTROL Anwenden]** und anschließend **[!UICONTROL Speichern]** aus.
-1. Öffnen Sie **[!UICONTROL Benutzer]** und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus, um alle hinzuzufügen, die Zugriff auf den Marketo-Qualifizierer benötigen.
+1. Um alle Personen hinzuzufügen, die Zugriff auf Marketo Qualifier benötigen, öffnen Sie **[!UICONTROL Benutzer]** und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
 
 ### Marketo Qualifier-Administratoren
 
@@ -155,7 +155,7 @@ Ein Microsoft Dynamics 365- oder Azure-Administrator registriert eine Anwendung 
 
 ### Geben Sie Ihre Verbindung ein
 
-1. Melden Sie sich als Mitglied beider erforderlichen Marketo-Qualifizierergruppen bei Marketo Qualifier an und bestätigen Sie, dass die richtige Sandbox oder Umgebung ausgewählt ist.
+1. Melden Sie sich als Mitglied beider erforderlichen Marketo Qualifier-Gruppen bei Marketo Qualifier an und bestätigen Sie, dass die richtige Sandbox oder Umgebung ausgewählt ist.
 1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Admin-Einstellungen]** aus.
 1. Wählen Sie **[!UICONTROL CRM-Verbindungen]** unter **[!UICONTROL Integrationen]** aus.
 
@@ -169,7 +169,7 @@ Ein Microsoft Dynamics 365- oder Azure-Administrator registriert eine Anwendung 
 
 ### CRM-Felder importieren
 
-Nachdem Sie das CRM verbunden haben, konfigurieren Sie die eingehende Zuordnung, um zu bestimmen, welche CRM-Felder im Marketo-Qualifizierer angezeigt werden. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus, um **[!UICONTROL Eingehende Zuordnung]** zu öffnen, und fügen Sie dann einen Abschnitt für jeden Entitätstyp hinzu, dessen Felder Sie importieren möchten.
+Nachdem Sie das CRM verbunden haben, konfigurieren Sie die eingehende Zuordnung, um zu bestimmen, welche CRM-Felder in Marketo Qualifier angezeigt werden. Um die **[!UICONTROL Eingehende Zuordnung]** zu öffnen, wählen Sie **[!UICONTROL Verwalten]** auf der verbundenen CRM-Karte aus und fügen Sie dann einen Abschnitt für jeden Entitätstyp hinzu, dessen Felder Sie importieren möchten.
 
 Siehe [Zuordnen von CRM-Feldern (eingehende Zuordnung)](integrations.md#map-crm-fields-inbound-mapping) für vollständige Schritte, einschließlich der Bereitstellung importierter Felder als Filter.
 

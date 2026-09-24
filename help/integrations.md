@@ -1,6 +1,6 @@
 ---
 title: Integrationen verwalten
-description: Erfahren Sie, wie Sie in Adobe Marketo Qualifier eine Verbindung mit Outlook herstellen, CRM-Verbindungen verwalten, eingehende Felder zuordnen, Aktivitäten synchronisieren und das globale E-Mail-Opt-out konfigurieren.
+description: Erfahren Sie, wie Sie in Adobe Marketo Qualifier eine Verbindung zu Outlook herstellen, CRM-Verbindungen verwalten, eingehende Felder zuordnen, Aktivitäten synchronisieren und das globale E-Mail-Opt-out konfigurieren.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
@@ -18,15 +18,15 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1383'
 ht-degree: 1%
 ---
 
 # Integrationen
 
-Outlook verbinden, um E-Mails zu senden, Antworten von Interessenten zu erkennen und Meetings zu planen. Um Leads, Kontakte, Konten, Opportunities, Aktivitäten und Eigentümer für Account Qualification Agent (AQA) und ausgehende Workflows verfügbar zu machen, können Sie auch Adobe Marketo Qualifier mit Salesforce oder Microsoft Dynamics 365 verbinden. Der Marketo-Qualifizierer liest CRM-Daten, kann Outreach-Aktivitäten und den Opt-out-Status zurück in das CRM schreiben und Outreach-Aktivitäten mit Marketo synchronisieren. Andernfalls werden CRM-Datensätze nicht geändert.
+Outlook verbinden, um E-Mails zu senden, Antworten von Interessenten zu erkennen und Meetings zu planen. Um Leads, Kontakte, Konten, Opportunities, Aktivitäten und Eigentümer für Account Qualification Agent (AQA) und ausgehende Workflows verfügbar zu machen, können Sie Adobe Marketo Qualifier auch mit Salesforce oder Microsoft Dynamics 365 verbinden. Marketo Qualifier liest CRM-Daten, kann Outreach-Aktivitäten und den Opt-out-Status zurück in das CRM schreiben und kann Outreach-Aktivitäten mit Marketo synchronisieren. Andernfalls werden CRM-Datensätze nicht geändert.
 
 In diesem Artikel wird erläutert, wie Sie Outlook verbinden, eine CRM-Verbindung verwalten, Felder zuordnen, Aktivitäten synchronisieren und E-Mail-Opt-outs konfigurieren. Informationen zum erstmaligen Verbinden eines CRM-Systems finden Sie unter [Erste Schritte](getting-started.md#connect-your-crm).
 
@@ -42,7 +42,7 @@ Jeder Mitarbeiter verbindet sein eigenes Outlook-Konto:
 1. Melden Sie sich mit Ihrem Microsoft-Konto an.
 1. Überprüfen und genehmigen Sie den angeforderten Zugriff.
 
-Über die Verbindung kann der Marketo-Qualifizierer Nachrichten aus Ihrem Postfach senden, erkennen, wann ein Interessent antwortet, und Meetings in Ihrem Kalender planen.
+Mit der -Verbindung kann Marketo Qualifier über Ihr Postfach senden, erkennen, wann ein Interessent antwortet, und Meetings in Ihrem Kalender planen.
 
 Wenn Sie eine Verbindung herstellen, genehmigen Sie den Zugriff, der Marketo Qualifier Folgendes ermöglicht:
 
@@ -58,9 +58,9 @@ Standardmäßig ist keine Administratoraktion erforderlich. Jeder Vertreter gene
 
 Wenn Ihr Unternehmen das Benutzereinverständnis für Drittanbieter-Apps in Microsoft 365 oder Microsoft Entra deaktiviert hat, muss ein Microsoft 365- oder Entra-Administrator Marketo Qualifier einmal für das gesamte Unternehmen genehmigen. Der Administrator schließt diese Genehmigung ab, bevor die Mitarbeiter ihre Outlook-Konten verbinden. Nach der unternehmensweiten Genehmigung kann jeder Mitarbeiter eine Verbindung zu seinem Konto herstellen.
 
-### Handhabung von Postfachdaten durch den Marketo-Qualifizierer
+### So verarbeitet Marketo Qualifier Ihre Postfachdaten
 
-Der Marketo-Qualifizierer liest nur Antworten auf gesendete E-Mails, nicht den Rest Ihres Posteingangs. Er speichert keine eingehenden Anhänge oder E-Mails außerhalb eines aktiven Engagements. Gespeicherte Anmeldedaten werden verschlüsselt.
+Marketo Qualifier liest nur Antworten auf gesendete E-Mails, nicht den Rest Ihres Posteingangs. Er speichert keine eingehenden Anhänge oder E-Mails außerhalb eines aktiven Engagements. Gespeicherte Anmeldedaten werden verschlüsselt.
 
 ## CRM-Einstellungen öffnen
 
@@ -91,7 +91,7 @@ Eine nicht konfigurierte Karte zeigt **[!UICONTROL Verbinden]**. Eine konfigurie
 
 ### Verbinden oder Bearbeiten einer Verbindung
 
-1. Wählen Sie auf der CRM-Karte **[!UICONTROL Verbinden]** oder wählen Sie **[!UICONTROL Mehr]** > **[!UICONTROL Konfiguration bearbeiten]**, um eine vorhandene Verbindung zu aktualisieren.
+1. Um eine Verbindung zu erstellen, wählen Sie **[!UICONTROL Verbinden]** auf der CRM-Karte aus. Um eine vorhandene Verbindung zu aktualisieren, wählen Sie **[!UICONTROL Mehr]** > **[!UICONTROL Konfiguration bearbeiten]**.
 1. Geben Sie die Anmeldedaten von Ihrem CRM-Administrator ein.
 
    >[!BEGINTABS]
@@ -110,16 +110,16 @@ Eine nicht konfigurierte Karte zeigt **[!UICONTROL Verbinden]**. Eine konfigurie
 
 1. Wählen Sie **[!UICONTROL Verbinden]** (oder **[!UICONTROL Speichern]** beim Bearbeiten) aus.
 
-Wenn der Marketo-Qualifizierer die Anmeldeinformationen ablehnt, identifiziert er die Ursache, z. B. ungültige oder abgelaufene Anmeldeinformationen, fehlende Berechtigungen oder einen nicht erkannten Dynamics-Mandanten. Korrigieren Sie den Wert und versuchen Sie es erneut.
+Wenn Marketo Qualifier die Anmeldeinformationen ablehnt, identifiziert es die Ursache, z. B. ungültige oder abgelaufene Anmeldeinformationen, fehlende Berechtigungen oder einen nicht erkannten Dynamics-Mandanten. Korrigieren Sie den Wert und versuchen Sie es erneut.
 
 >[!IMPORTANT]
 >
->Senden Sie keine Kundengeheimnisse per E-Mail. Verwenden Sie den genehmigten sicheren Kanal Ihres Unternehmens, um Anmeldeinformationen für denjenigen freizugeben, der sie im Marketo-Qualifizierer eingibt.
+>Senden Sie keine Kundengeheimnisse per E-Mail. Verwenden Sie den genehmigten sicheren Kanal Ihres Unternehmens, um Anmeldeinformationen mit Personen zu teilen, die sie in Marketo Qualifier eingeben.
 
 ### Verbindung trennen
 
 1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Mehr]** > **[!UICONTROL Verbindung trennen]** aus.
-1. Überprüfen Sie die Warnung und wählen Sie **[!UICONTROL Trennen]** zur Bestätigung aus.
+1. Überprüfen Sie die Warnung. Wählen Sie zur Bestätigung **[!UICONTROL Trennen]** aus.
 
 >[!WARNING]
 >
@@ -127,7 +127,7 @@ Wenn der Marketo-Qualifizierer die Anmeldeinformationen ablehnt, identifiziert e
 
 ## CRM-Felder zuordnen (eingehende Zuordnung) {#map-crm-fields-inbound-mapping}
 
-Eingehende Zuordnungen steuern, welche CRM-Felder vom Marketo-Qualifizierer importiert werden und wo sie angezeigt werden. Felder werden in Abschnitte gruppiert und jeder Abschnitt gehört zu einem Entitätstyp.
+Eingehende Zuordnungen steuern, welche CRM-Felder Marketo Qualifier importiert und wo sie angezeigt werden. Felder werden in Abschnitte gruppiert und jeder Abschnitt gehört zu einem Entitätstyp.
 
 ![Eingehende Zuordnung](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
@@ -146,7 +146,7 @@ Eingehende Zuordnungen steuern, welche CRM-Felder vom Marketo-Qualifizierer impo
    | **[!UICONTROL Opportunities]** | Die Opportunity-Details des Kontos. |
 
 1. Geben Sie einen **[!UICONTROL Abschnittsnamen“]** eine optionale **[!UICONTROL Beschreibung]** ein. Klicken Sie dann auf **[!UICONTROL Weiter]**.
-1. Suchen Sie im Schritt **[!UICONTROL Feld hinzufügen]** nach den zu importierenden CRM-Feldern und wählen Sie diese aus. Klicken Sie dann auf **[!UICONTROL Weiter]**. Jedes Feld zeigt seinen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]**.
+1. Suchen Sie im Schritt **[!UICONTROL Feld hinzufügen]** nach CRM-Feldern und wählen Sie diese aus, um sie zu importieren. Um fortzufahren, klicken Sie auf **[!UICONTROL Weiter]**. Jedes Feld zeigt seinen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]**.
 1. Aktivieren **[!UICONTROL in]** Abschnitten **[!UICONTROL Kontakte]** und **[!UICONTROL Opportunities]** für jedes Feld, das die [&#x200B; in der Liste Interessenten](prospects.md) benötigen, **[!UICONTROL Filterable]**.
 
    Ein Feld kann nicht als filterbar festgelegt werden, wenn sein Datentyp keine Filterung unterstützt oder wenn es bereits in einem anderen Abschnitt verwendet wird.
@@ -159,13 +159,13 @@ Um einen Abschnitt später zu ändern, wählen **[!UICONTROL auf]** Abschnittska
 
 ## Aktivitätssynchronisierung konfigurieren (ausgehende Zuordnung) {#configure-activity-sync-outbound-mapping}
 
-Aktivitätssynchronisierung schreibt Outreach-Aktivitäten des Marketo-Qualifizierers in Ihr CRM und Marketo. Die Aktivitäten „Gesendet“, „Geöffnet“, „Klickt“ und „Antwort“ enthalten den Namen des ausgehenden Workflows. Vertriebsmitarbeiter können die Aktivitäten im CRM sehen, während Marketing-Teams die Marketo-Aktivitäten in den Timelines für Lead-Bewertung und Interaktion verwenden können.
+Die Aktivitätssynchronisierung schreibt Outreach-Aktivitäten von Marketo Qualifier in Ihr CRM und Marketo. Die Aktivitäten „Gesendet“, „Geöffnet“, „Klickt“ und „Antwort“ enthalten den Namen des ausgehenden Workflows. Vertriebsmitarbeiter können die Aktivitäten im CRM sehen, während Marketing-Teams die Marketo-Aktivitäten in den Timelines für Lead-Bewertung und Interaktion verwenden können.
 
 1. Wählen Sie auf der verbundenen CRM-Karte **[!UICONTROL Verwalten]** aus.
 1. Öffnen Sie die Registerkarte **[!UICONTROL Ausgehende Zuordnung]** .
 1. Aktivieren Sie **[!UICONTROL Aktivitätssynchronisierung]**. Die Einstellung wird sofort gespeichert.
 
-Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet der Marketo-Qualifizierer weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit dem CRM oder Marketo.
+Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Marketo Qualifier weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit dem CRM oder Marketo.
 
 >[!NOTE]
 >
@@ -175,7 +175,7 @@ Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet der Marketo-Qual
 
 Mit den Marketing-Highlights können Mitarbeiter Interessenten anhand ihrer Live-[!DNL Marketo]-Interaktionen wie E-Mail-Öffnungen und -Klicks finden und priorisieren. Siehe [Filtern nach Marketing-Highlights](prospects.md#filter-by-marketing-highlights).
 
-Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit dem Marketo-Qualifizierer für die entsprechende Organisation und Sandbox verbindet. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [&#x200B; Schritte finden Sie unter „Einrichten &#x200B;](marketing-highlights-setup.md) Marketing-Highlights“.
+Ein Administrator führt ein einmaliges Setup durch, bei dem [!DNL Marketo] für die entsprechende Organisation und Sandbox mit Marketo Qualifier verbunden wird. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [&#x200B; Schritte finden Sie unter „Einrichten &#x200B;](marketing-highlights-setup.md) Marketing-Highlights“.
 
 Marketing-Highlights sind in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
 

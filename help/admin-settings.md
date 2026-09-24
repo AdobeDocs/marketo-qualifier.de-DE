@@ -1,6 +1,6 @@
 ---
 title: Admin-Einstellungen
-description: Erfahren Sie, wie Sie CRM-Felder, Aktivitätssynchronisierung, E-Mail-Opt-out und andere Verwaltungseinstellungen für Adobe Marketo Qualifier verwalten.
+description: Erfahren Sie, wie Sie CRM-Felder, Aktivitätssynchronisierung, E-Mail-Opt-out und andere Einstellungen für die [!DNL Adobe Marketo Qualifier]-Administration verwalten.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
@@ -14,9 +14,9 @@ feature_v2:
     internal-label: Administration
 
 internal-label: Administration
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1221'
 ht-degree: 0%
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Verwenden Sie **[!UICONTROL Admin-Einstellungen]** um CRM-Integrationen zu konfigurieren, das Wissenscenter zu verwalten und E-Mail-Opt-outs zu konfigurieren.
 
-Adobe Marketo Qualifier stellt eine Verbindung zu Salesforce oder Microsoft Dynamics 365 her. Durch diese Verbindung erhält die Account Qualification Agent (AQA) eine konsistente Ansicht von Leads, Konten, Kontakten, Aktivitäten und Eigentümern. Der Marketo-Qualifizierer kann auch Outreach-Aktivitäten und den Opt-out-Status zurück in das CRM schreiben und Outreach-Aktivitäten mit Marketo synchronisieren.
+[!DNL Adobe Marketo Qualifier] stellt eine Verbindung zu Salesforce oder Microsoft Dynamics 365 her. Durch diese Verbindung erhält die Account Qualification Agent (AQA) eine konsistente Ansicht von Leads, Konten, Kontakten, Aktivitäten und Eigentümern. Marketo Qualifier kann auch Outreach-Aktivitäten und den Opt-out-Status zurück in das CRM schreiben und Outreach-Aktivitäten mit Marketo synchronisieren.
 
 Die CRM-Verbindungen, die Feldzuordnung und die Aktivitätssynchronisierung konfigurieren Sie unter **[!UICONTROL Administration]** > **[!UICONTROL Admin-Einstellungen]** > **[!UICONTROL CRM-Verbindungen]**. Standardbenutzer können die konfigurierten CRM-Daten und -Filter verwenden, diese Einstellungen jedoch nicht ändern. Informationen zum erstmaligen Verbinden eines CRM-Systems finden Sie unter [Erste Schritte](getting-started.md#connect-your-crm).
 
@@ -34,11 +34,24 @@ Die CRM-Verbindungen, die Feldzuordnung und die Aktivitätssynchronisierung konf
 
 ## CRM MCP und das eingebettete Plug-in
 
-Marketo Qualifier arbeitet auf folgende Weise mit Ihrem CRM:
+Marketo Qualifier arbeitet auf folgende Weise mit Ihrem CRM-System:
 
 * **CRM-MCP** Abfragen: Live-CRM-Daten von Account Qualification Agent werden abgefragt, damit Antworten und Einblicke den aktuellen Status Ihrer Datensätze widerspiegeln.
-* **Eingebettetes Plug-in** - Das CRM-Plug-in zeigt [!DNL Marketo Sales Insights] (MSI)-Einblicke und agentische Daten in Ihrem CRM an. Verwenden Sie das Plug-in, um einen Interessenten zum Marketo-Qualifizierer hinzuzufügen.
+* **Eingebettetes Plug-in** - Das CRM-Plug-in zeigt [!DNL Marketo Sales Insights] (MSI)-Einblicke und agentische Daten in Ihrem CRM an. Verwenden Sie das Plug-in, um [!DNL Marketo Qualifier] einen Interessenten hinzuzufügen.
 * **Aktivitätssynchronisierung** Wenn ein Administrator die Option **[!UICONTROL Aktivitätssynchronisierung]** aktiviert, werden die Outreach-Aktivitäten mit dem CRM und Marketo synchronisiert.
+
+### Priorisieren von Leads im CRM-Plug-in
+
+Das CRM-Plug-in bietet eine standardmäßige Startseite, in der Vertreter Leads priorisieren können, ohne das CRM verlassen zu müssen. Die verfügbaren Registerkarten organisieren die Arbeit nach Quelle und Zweck:
+
+* **[!UICONTROL Best Bets]** - Lead-Empfehlungen, die bereit zum Handeln sind.
+* **[!UICONTROL Meine Überwachungsliste]** - Leads, die Sie nachverfolgen.
+* **[!UICONTROL Web-Aktivität]** - Letzte Site-Besuche bekannter Leads.
+* **[!UICONTROL Anonyme Web-Aktivität]** - Besuche von nicht identifizierten Besuchern.
+* **[!UICONTROL Meine E-Mail]** - Mit Ihren Leads verknüpfte E-Mail-Interaktion.
+* **[!UICONTROL Webinar]** - Registrierung und Teilnahme an Webinaren.
+
+Jeder Lead kann eine [!DNL Marketo] E-Mail-Vorschau, einen Link zu den Lead-Details und eine LinkedIn-Recherche enthalten. Die Registerkarten und Daten, auf die Sie zugreifen können, hängen von Ihrer CRM-Plug-in-Konfiguration ab.
 
 ## CRM-Zugriffsbereich
 
@@ -50,12 +63,12 @@ Marketo Qualifier liest Benutzer, Kontakte, Besitzerzuordnungen, Leads, Konten, 
 
 ## CRM-Felder zuordnen (eingehende Zuordnung)
 
-Nachdem das CRM verbunden ist, wählen Sie **[!UICONTROL Verwalten]** für die Verbindung aus und öffnen Sie **[!UICONTROL Eingehende Zuordnung]**. Eingehende Zuordnungen steuern, welche CRM-Felder vom Marketo-Qualifizierer in die Anwendung gezogen werden.
+Nachdem das CRM verbunden ist, wählen Sie **[!UICONTROL Verwalten]** für die Verbindung aus und öffnen Sie **[!UICONTROL Eingehende Zuordnung]**. Eingehende Zuordnungen steuern, welche CRM-Felder Marketo Qualifier in die Anwendung holt.
 
 1. Wählen Sie **[!UICONTROL Abschnitt hinzufügen]** aus.
 1. Geben Sie einen Namen und eine Beschreibung für den Abschnitt ein.
 1. Einen Entitätstyp auswählen. **[!UICONTROL Interessenten]** ist standardmäßig ausgewählt. **[!UICONTROL Kontakte]**, **[!UICONTROL Konten]** und **[!UICONTROL Opportunities]** sind ebenfalls verfügbar.
-1. CRM-Felder zum Importieren auswählen.
+1. Wählen Sie die Felder aus, um CRM-Felder zu importieren.
 
    Jede Feldzeile zeigt ihren **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]** an.
 
@@ -110,13 +123,14 @@ Das **[!UICONTROL Knowledge Center]** bietet der Account Qualification Agent (AQ
 
 ![Wissenszentrum](assets/knowledge-center.png){width="800" zoomable="yes"}
 
-1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** wählen Sie **[!UICONTROL Admin-Einstellungen]** und wählen Sie **[!UICONTROL Wissenszentrum]**
-1. u
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** wählen Sie **[!UICONTROL Admin-Einstellungen]** und wählen Sie **[!UICONTROL Wissenszentrum]**.
 1. Legen Sie die **[!UICONTROL Firmenname]** und **[!UICONTROL Unternehmens-URL]** fest, die Marketo Qualifier verwendet, um Ihr Unternehmen zu durchsuchen und E-Mails zu entwerfen.
 1. Laden Sie Vertriebsmitteilungen, ideale Kundenprofile (ICPs), Positionierungsleitfäden und anderes Vertriebsmaterial im PDF-, PPTX- oder DOCX-Format hoch.
 1. Wählen Sie **[!UICONTROL Playbook erstellen]** aus.
 
-Jedes hochgeladene Dokument zeigt seinen Verarbeitungsstatus an, z **[!UICONTROL B. &quot;]**&quot; und den Zeitpunkt der letzten Aktualisierung.
+Auf der Seite wird der Status des zuletzt erstellten Playbooks angezeigt und die nächste Aktion nach dem Hochladen von Inhalten bereitgestellt. Um den neuesten Status nach einem Build abzurufen, wählen Sie **[!UICONTROL Aktualisieren]**.
+
+Jedes hochgeladene Dokument zeigt auch seinen Verarbeitungsstatus an, z **[!UICONTROL B. &quot;]**&quot; und den Zeitpunkt der letzten Aktualisierung.
 
 >[!NOTE]
 >
@@ -138,7 +152,7 @@ In beiden Fällen spiegelt der generierte Inhalt die Botschaft in Ihrem Playbook
 
 Die Einstellungen werden automatisch gespeichert.
 
-Wenn ein Interessent den Link auswählt, sendet der Marketo-Qualifizierer keine E-Mails mehr an diesen Interessenten und synchronisiert den Opt-out-Status mit dem verbundenen CRM.
+Wenn ein Interessent den Link auswählt, sendet Marketo Qualifier keine E-Mails mehr an diesen Interessenten und synchronisiert den Opt-out-Status mit dem verbundenen CRM.
 
 ## Referenz: Beispiel-API-Parameter
 

@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe Marketo-Qualifizierer
-user-guide-description: Erfahren Sie, wie Sie mit dem Adobe Marketo Qualifier die Qualifizierung von Interessenten, die Kontaktaufnahme und die Kaufinteraktion für B2B-Vertriebsteams automatisieren können.
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+user-guide-title: '[!DNL Adobe Marketo Qualifier]'
+user-guide-description: Erfahren Sie, wie Sie mit [!DNL Adobe Marketo Qualifier] die Qualifizierung, Kontaktaufnahme und Käuferinteraktion von Interessenten für B2B-Vertriebsteams automatisieren können.
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '42'
+ht-degree: 26%
 ---
-# Adobe Marketo-Qualifiziererhandbuch {#using}
+# [!DNL Adobe Marketo Qualifier] {#using}
 
 + [Übersicht](home.md)
 + [Versionshinweise](release-notes.md)

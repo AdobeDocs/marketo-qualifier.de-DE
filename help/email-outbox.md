@@ -11,7 +11,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -33,10 +33,10 @@ Wenn Sie keine E-Mails gesendet haben, wird die Liste angezeigt _Ihr Postausgang
 
 ## Lesen einer E-Mail und ihrer Antworten
 
-Wählen Sie eine E-Mail in der Liste aus, um sie auf der rechten Seite zu öffnen. Die Leseansicht besteht aus drei Teilen:
+Um eine E-Mail auf der rechten Seite zu öffnen, wählen Sie sie in der Liste aus. Die Leseansicht besteht aus drei Teilen:
 
 * **Empfänger** - Name, Stellenbezeichnung und Konto des Empfängers, sofern verfügbar.
-* **Betreff und ausgehender Workflow** - Der Betreff, der Name des [ausgehenden Workflows](outbound-workflows.md) der die E-Mail gesendet hat, und der Status des ausgehenden Workflows. Wählen Sie den Namen des ausgehenden Workflows aus, um ihn zu öffnen.
+* **Betreff und ausgehender Workflow** - Der Betreff, der Name des [ausgehenden Workflows](outbound-workflows.md) der die E-Mail gesendet hat, und der Status des ausgehenden Workflows. Um den ausgehenden Workflow zu öffnen, wählen Sie seinen Namen aus.
 * **Konversation** - Die gesendete E-Mail und alle Antworten in einem Thread. Jeder Eintrag gibt an, ob die Nachricht gesendet oder empfangen wurde, und enthält einen Zeitstempel.
 
 E-Mails werden so wiedergegeben, wie sie gesendet wurden, einschließlich personalisierter Inhalte. Wenn der Textkörper einer Nachricht nicht verfügbar ist, zeigt der Marketo-Qualifizierer an _Stelle einen kurzen_ E-Mail-Inhalt nicht verfügbar“ an.
