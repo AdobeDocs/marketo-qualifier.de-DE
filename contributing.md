@@ -19,7 +19,7 @@ Sie erklären sich damit einverstanden, diesen Kodex aufrechtzuerhalten. Inakzep
 
 ## Handbuch für Mitwirkende
 
-Siehe das [Handbuch für Mitwirkende an Adobe-Dokumenten](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Siehe das [Handbuch für Mitwirkende an Adobe-Dokumenten](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction).
 
 ## Frage stellen
 
