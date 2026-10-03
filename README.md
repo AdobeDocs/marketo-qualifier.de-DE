@@ -31,7 +31,7 @@ Wenn Sie eine geringfügige Aktualisierung beitragen:
 1. Im **War dieser Inhalt hilfreich?** -Banner am unteren Rand der Seite wählen Sie **Detaillierte Feedback-Optionen**.
 1. Wählen Sie **Bearbeitung vorschlagen** und senden Sie eine Pull-Anfrage (PR) mit Ihren Änderungen.
 
-   Weitere Informationen finden Sie im Adobe-Handbuch für Mitwirkende [&#128279;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) Dokumenten .
+   Weitere Informationen finden Sie im Adobe-Handbuch für Mitwirkende [&#128279;](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction) Dokumenten .
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Symbolbeispiele in diesem Repository senden, sind durch die Nutzungsbedingungen von Adobe abgedeckt.
 
@@ -47,7 +47,7 @@ Um ein Thema zu erstellen oder eine größere Änderung vorzuschlagen, senden Si
 
 Verwenden der GitHub-Schnittstelle für grundlegende Bearbeitungen. Für wichtige Beiträge müssen Sie das Repository verlassen.
 
-Weitere Informationen finden Sie im Adobe-Handbuch für Mitwirkende [&#128279;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) Dokumenten .
+Weitere Informationen finden Sie im Adobe-Handbuch für Mitwirkende [&#128279;](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction) Dokumenten .
 
 ## Interne Mitwirkende
 
