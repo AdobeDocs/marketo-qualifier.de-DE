@@ -1,20 +1,19 @@
 ---
 title: Konten in Adobe Marketo Qualifier
-description: Erfahren Sie, wie Sie die Account Intelligence in Adobe Marketo Qualifier überprüfen können, einschließlich KI-Forschung, aktueller Nachrichten, Chancen und Kontakten mit Top-Engagement, um die Kontaktaufnahme zu priorisieren.
+description: Erfahren Sie, wie Sie Account Intelligence in Adobe Marketo Qualifier überprüfen können, einschließlich KI-Forschung, aktueller Nachrichten, Chancen und engagierter Kontakte, um die Kontaktaufnahme zu priorisieren.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
+autotag-review: '2026-10-08T17:56:44.977Z'
+TQID: 'https://experienceleague.adobe.com/MQxeaEGw7q8rv57xKg1f-3LahWx1laiawyvaY3n6Ri8'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -33,7 +32,7 @@ Eröffnen Sie ein Konto über das Profil eines Interessenten, der mit ihm verkn�
 
 ![Prospect-Detailseite mit den Registerkarten „Person“ und „Konto“](./assets/account-home.png){width="800" zoomable="yes"}
 
-Adobe Marketo Qualifier identifiziert das Konto aus dem CRM-Datensatz des Interessenten. Dieselbe Kontoansicht ist für jeden Interessenten verfügbar, der mit diesem Konto verknüpft ist. Wenn der Marketo-Qualifizierer kein Konto zuordnen kann, wird auf der Registerkarte &quot;_Konto gefunden“_.
+Adobe Marketo Qualifier identifiziert das Konto anhand des CRM-Eintrags des potenziellen Kunden. Dieselbe Kontoansicht ist für jeden Interessenten verfügbar, der mit diesem Konto verknüpft ist. Wenn Marketo Qualifier kein Konto zuordnen kann, wird auf der Registerkarte _Kein Konto gefunden_ angezeigt.
 
 >[!NOTE]
 >

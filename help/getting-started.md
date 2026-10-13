@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Nachdem Adobe Marketo Qualifier für Ihr Unternehmen bereitgestellt hat, muss ei
 
 Benutzergruppen in Adobe Admin Console werden verwendet, um den Zugriff auf Marketo Qualifier zu steuern. Beide Gruppen müssen erstellt werden, bevor sich Benutzer anmelden können.
 
-Informationen zum Einrichten von Gruppen finden [&#128279;](https://helpx.adobe.com/de/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu Adobe Admin Console .
+Informationen zum Einrichten von Gruppen finden ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu [Adobe Admin Console .
 
 >[!PREREQUISITES]
 >
 >Der Administrator, der die Gruppen erstellt, muss die beiden folgenden Anforderungen erfüllen:
 >
->* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-**Zugriff auf** Admin Console hat.
+>* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-]**Zugriff auf**[!UICONTROL  Admin Console hat.
 >* Sie müssen das Adobe Experience Platform-Produkt verwenden oder Systemadministrator sein. Andernfalls wird Adobe Experience Platform nicht in der Produktliste angezeigt.
 
 ### Marketo Qualifier-Benutzer
@@ -77,7 +77,7 @@ Sie können auch eine optionale `Marketo Qualifier BDR managers` erstellen. Mitg
 
 ## CRM verbinden
 
-Marketo Qualifier stellt eine Verbindung zu Salesforce oder Microsoft Dynamics 365 her, um BDRs eine einheitliche Ansicht von Benutzern, Leads, Kontakten, Konten, Opportunitys, Eigentümerzuordnungen und zugehörigen Aktivitäten zu bieten. Für die erstmalige Verbindung ist ein schreibgeschützter Zugriff auf diese CRM-Daten erforderlich. Wenden Sie sich an Ihren CRM-Administrator, um Anmeldeinformationen vorzubereiten, bevor Sie Marketo Qualifier verbinden. Siehe [Integrationen](integrations.md) für Integrationsdetails.
+Marketo Qualifier stellt eine Verbindung zu Salesforce oder Microsoft Dynamics 365 her, um BDRs eine einheitliche Ansicht von Benutzern, Leads, Kontakten, Konten, Opportunities, Eigentümerzuordnungen und zugehörigen Aktivitäten zu bieten. Für die erstmalige Verbindung ist ein schreibgeschützter Zugriff auf diese CRM-Daten erforderlich. Wenden Sie sich an Ihren CRM-Administrator, um Anmeldeinformationen vorzubereiten, bevor Sie Marketo Qualifier verbinden. Siehe [Integrationen](integrations.md) für Integrationsdetails.
 
 >[!PREREQUISITES]
 >
@@ -123,7 +123,7 @@ Ein Salesforce-Systemadministrator erstellt eine externe Client-Anwendung (auch 
    * Callback-URL
    * Salesforce-Instanz-URL
 
-Die Schritte unterscheiden sich geringfügig von den hier beschriebenen. Weitere Informationen finden Sie in der [&#128279;](https://help.salesforce.com/s/?language=en_US) zu Salesforce.
+Die Schritte unterscheiden sich geringfügig von den hier beschriebenen. Weitere Informationen finden Sie in der ](https://help.salesforce.com/s/?language=en_US) zu [Salesforce.
 
 ### Suchen der Salesforce-Instanz-URL
 

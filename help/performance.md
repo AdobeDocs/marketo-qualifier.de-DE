@@ -1,20 +1,20 @@
 ---
-title: Ausgehende Leistung im Adobe Marketo Qualifier
-description: Erfahren Sie, wie Sie die Berichte zur Organisationsleistung und Kampagnenleistung in Adobe Marketo Qualifier überprüfen, um ausgehende Aktivitäten und Ergebnisse zu verfolgen.
+title: Ausgehende Leistung in Adobe Marketo Qualifier
+description: Erfahren Sie, wie Sie in Adobe Marketo Qualifier Berichte zur Organisationsleistung und Kampagnenleistung überprüfen können, um ausgehende Aktivitäten und Ergebnisse zu verfolgen.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 Outbound Workflows    internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
 ---
 
-# Ausgehende Leistung im Adobe Marketo Qualifier
+# Ausgehende Leistung in Adobe Marketo Qualifier
 
 Um ausgehende Aktivitäten und Ergebnisse in Ihrem gesamten Team zu verfolgen, wählen Sie **[!UICONTROL Ausgehende Leistung]** im linken Navigationsbereich aus. Das Dashboard hat zwei Ansichten: **[!UICONTROL Organisationsleistung]** und **[!UICONTROL Kampagnenleistung]**.
 
@@ -48,7 +48,7 @@ Die Registerkarte **[!UICONTROL E]** Mails) enthält Berichte zum E-Mail-Volumen
 * **Trenddiagramm für die wöchentliche E-Mail**: E-Mail-Aktivität nach Woche.
 * Tabelle der E-Mail-Leistung pro Vertreter
 
-Der Marketo-Qualifizierer weist Abwesenheitsantworten und Bounces separate Status zu, damit Sie sie von Interessenteninteraktionen unterscheiden können.
+Marketo Qualifier weist Abwesenheitsantworten und Bounces separate Status zu, damit Sie sie von Interessenteninteraktionen unterscheiden können.
 
 ### Registerkarte „Aufgaben“
 
@@ -66,7 +66,7 @@ Die Registerkarte **[!UICONTROL Aufgaben]** enthält Berichte zur manuellen Kont
 * **Diagramm zur Entwicklung der Kampagnenmetriken**: Kampagnen-KPIs über den ausgewählten Zeitraum.
 * **[!UICONTROL Kampagnen]** Tabelle: E-Mail-, Meeting-, Aufruf- und LinkedIn-Nachrichtenaktivität für jede Kampagne. Um Details auf repräsentativer Ebene für eine Kampagne anzuzeigen, erweitern Sie deren Zeile.
 
-Informationen [&#x200B; Generierung von Buchungen &#x200B;](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
+Informationen [ Generierung von Buchungen ](outbound-workflows.md#meeting-booking) Sie unter „Besprechungsbuchung“.
 
 >[!MORELIKETHIS]
 >
