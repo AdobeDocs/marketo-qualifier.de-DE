@@ -37,13 +37,13 @@ Nachdem Adobe Marketo Qualifier für Ihr Unternehmen bereitgestellt hat, muss ei
 
 Benutzergruppen in Adobe Admin Console werden verwendet, um den Zugriff auf Marketo Qualifier zu steuern. Beide Gruppen müssen erstellt werden, bevor sich Benutzer anmelden können.
 
-Informationen zum Einrichten von Gruppen finden ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu [Adobe Admin Console .
+Informationen zum Einrichten von Gruppen finden [&#128279;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) in der Dokumentation zu Adobe Admin Console .
 
 >[!PREREQUISITES]
 >
 >Der Administrator, der die Gruppen erstellt, muss die beiden folgenden Anforderungen erfüllen:
 >
->* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-]**Zugriff auf**[!UICONTROL  Admin Console hat.
+>* Sie müssen ein Organisationsadministrator sein, der über den Adobe-App-**Zugriff auf** Admin Console hat.
 >* Sie müssen das Adobe Experience Platform-Produkt verwenden oder Systemadministrator sein. Andernfalls wird Adobe Experience Platform nicht in der Produktliste angezeigt.
 
 ### Marketo Qualifier-Benutzer
@@ -123,7 +123,7 @@ Ein Salesforce-Systemadministrator erstellt eine externe Client-Anwendung (auch 
    * Callback-URL
    * Salesforce-Instanz-URL
 
-Die Schritte unterscheiden sich geringfügig von den hier beschriebenen. Weitere Informationen finden Sie in der ](https://help.salesforce.com/s/?language=en_US) zu [Salesforce.
+Die Schritte unterscheiden sich geringfügig von den hier beschriebenen. Weitere Informationen finden Sie in der [&#128279;](https://help.salesforce.com/s/?language=en_US) zu Salesforce.
 
 ### Suchen der Salesforce-Instanz-URL
 

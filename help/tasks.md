@@ -111,7 +111,7 @@ Um einen Vorschlag im Arbeitsbereich zu überprüfen, wählen Sie ihn aus:
 
 Es stehen zwei Aktionen zur Verfügung:
 
-* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung ](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung &#x200B;](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Als abgeschlossen markieren]** - Schließen Sie den Vorschlag ab, nachdem Sie ihn überprüft haben.
 
 Die **[!UICONTROL Agentenvorschläge]** enthält die Statusfilter **[!UICONTROL Aktuell]**, **[!UICONTROL Abgeschlossen]** und **[!UICONTROL Abgebrochen]**, einen Filter für ausgehende Workflows und eine Sortierung nach Erstellungsdatum.

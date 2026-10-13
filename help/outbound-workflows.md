@@ -264,7 +264,7 @@ Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese autom
 
 Wenn ein potenzieller Kunde mit einer klaren Aufforderung antwortet, keine E-Mails mehr zu erhalten, wie etwa „Bitte keine E-Mails mehr an mich senden“, „Abmelden“, „Mich aus dieser Liste entfernen“ oder „Mich von Ihrer Liste nehmen“, markiert [!DNL Marketo Qualifier] den potenziellen Kunden automatisch als abgemeldet. Dies entspricht dem **[!UICONTROL Opt-out]**-Status und -Badge wie bei Auswahl des Opt-out-Links. Es werden keine weiteren Touchpoints gesendet. Jede konfigurierte CRM-Statusaktualisierung funktioniert wie bei einem Opt-out-Link.
 
-Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert ](admin-settings.md#configure-global-email-opt-out).
+Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert &#x200B;](admin-settings.md#configure-global-email-opt-out).
 
 ## Duplizieren eines ausgehenden Workflows
 
