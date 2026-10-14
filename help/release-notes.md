@@ -3,12 +3,22 @@ title: '[!DNL Adobe Marketo Qualifier] – Versionshinweise'
 description: Erfahren Sie mehr über die neuen Funktionen in [!DNL Adobe Marketo Qualifier].
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 12%
 ---
 # [!DNL Adobe Marketo Qualifier] – Versionshinweise
+
+## 10-08-2026
+
+Diese Version umfasst:
+
+* Verwenden Sie einen ausgehenden Workflow erneut oder ändern Sie die Touchpoints eines laufenden Workflows, duplizieren Sie ihn und bearbeiten Sie die Kopie. Die Kopie beginnt als privater Entwurf ohne Interessenten, und der ursprüngliche Workflow bleibt unverändert. [Weitere Informationen](outbound-workflows.md#duplicate-an-outbound-workflow).
+* Konfigurieren Sie ausgehende Workflows in einem kompakten Layout mit Navigation zwischen Ziel, Targeting, Touchpoints und Einstellungen. [Weitere Informationen](outbound-workflows.md#create-an-outbound-workflow).
+* Anfragen zum Löschen von Opt-outs in E-Mail-Antworten werden automatisch erkannt. Der Interessent wird als „Opt-out“ markiert und es werden keine weiteren Touchpoints gesendet. [Weitere Informationen](outbound-workflows.md#opt-out-requests-in-replies).
+* Bereiten Sie sich auf Meetings mit einem einzigen Brief vor, der Web-Recherche und produktspezifische Fallstudien mit Gesprächspunkten kombiniert, die nach Relevanz und Quellen sortiert sind. [Weitere Informationen](prospects.md#generate-meeting-prep).
+* Generierte E-Mails werden anhand von Qualitätsrichtlinien geprüft und bei Bedarf neu geschrieben, bevor Sie sie überprüfen. Sie überprüfen, bearbeiten und genehmigen weiterhin jede E-Mail, bevor sie gesendet wird. [Weitere Informationen](outbound-workflows.md#review-and-refine-generated-emails).
 
 ## 09-22-2026
 

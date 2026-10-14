@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2124387555f5fb08ea19eaf121fc87aa66d66de2
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '852'
 ht-degree: 1%
 ---
 
@@ -106,8 +106,12 @@ Um das Profil eines Interessenten zu öffnen, wählen Sie den Interessenten aus.
 
 Zusätzlich zur stehenden KI-Personenzusammenfassung können Sie auf der Registerkarte **[!UICONTROL Meeting-Recherche]** neben **[!UICONTROL Account-Recherche]** eine Besprechungsvorbereitung generieren, die auf einen bestimmten bevorstehenden Aufruf zugeschnitten ist.
 
+Meetingvorbereitung kombiniert Web-Recherchen zum Interessenten und seinem Unternehmen mit Beweisen aus Fallstudien zu Peer-Kunden, die das von Ihnen verkaufte Produkt verwenden. Fallstudien-Talking können messbare Kundenergebnisse umfassen. Die Quellen werden zu einer Zusammenfassung zusammengefasst, wobei die Gesprächsthemen nach Relevanz geordnet werden. Jeder Gesprächspunkt identifiziert, ob er aus Fallstudien, Web-Forschung oder beidem stammt. Wenn keine relevanten Fallstudien-Nachweise verfügbar sind, nutzt Meeting Prep Web-Forschung.
+
 * **Zielbasiert: Wenn** Interessent in einem laufenden ausgehenden Workflow registriert ist, wählen Sie ihn aus. Die Vorbereitung ist auf das Ziel dieses ausgehenden Workflows abgestimmt, z. B. auf die Buchung eines Meetings oder die erneute Interaktion des potenziellen Kunden.
 * **Benutzerdefinierte Eingabeaufforderung** Geben Sie ein, worauf Sie sich vorbereiten möchten, z. B. `Focus on renewal risk` oder `Prepare for a technical deep dive with their IT lead`. Die Vorbereitung entspricht Ihrer Eingabeaufforderung. Die benutzerdefinierte Eingabeaufforderungsoption ist immer dann verfügbar, wenn sich der Interessent nicht in einem laufenden ausgehenden Workflow befindet.
+
+Die Zusammenfassung folgt weiterhin dem von Ihnen ausgewählten Ziel eines ausgehenden Workflows oder einer benutzerdefinierten Eingabeaufforderung. Die Art und Weise, wie Sie die Besprechungsvorbereitung generieren, ändert sich nicht.
 
 >[!MORELIKETHIS]
 >

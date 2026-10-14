@@ -1,11 +1,11 @@
 ---
 title: Einrichten von Marketing-Highlights
-description: Erfahren Sie, wie Sie Marketo mit dem Adobe Marketo Qualifier verbinden, damit Repräsentanten potenzielle Kunden in den Marketing-Highlights nach Marketo-Live-Aktivitäten anzeigen und filtern können.
+description: Erfahren Sie, wie Sie Marketo mit Adobe Marketo Qualifier verbinden, damit Kundenbetreuer in den Marketing-Highlights Interessenten nach Marketo-Live-Aktivitäten anzeigen und filtern können.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -43,7 +43,7 @@ Nach Abschluss des Setups können Benutzer diese Aktivität unter **[!UICONTROL 
 
 ## Teil A: Erstellen von API-Anmeldeinformationen {#part-a-create-api-credentials}
 
-Mit diesen Anmeldeinformationen können [!DNL Marketo] sich sicher beim Marketo-Qualifizierer authentifizieren.
+Mit diesen Anmeldeinformationen können [!DNL Marketo] sich sicher bei Marketo Qualifier authentifizieren.
 
 So erstellen Sie die Anmeldeinformationen:
 
@@ -67,9 +67,9 @@ So erstellen Sie die Anmeldeinformationen:
 
 Sie benötigen drei Werte für [Teil C](#part-c-configure-the-marketo-webhook):
 
-* **Endpunkt-URL** - Die Webhook-Adresse für den Marketo-Qualifizierer für Ihre Region.
+* **Endpunkt-URL** - Die Webhook-Adresse für Marketo Qualifier für Ihre Region.
 * **imsOrg ID** - Die Kennung Ihres Unternehmens im Adobe Identity Management System (IMS) in der `{ORG_ID}@AdobeOrg`.
-* **Sandbox-Name** - Der Name Ihrer AEP-Sandbox entspricht genau dem in der Marketo Qualifier-URL angezeigten Namen (dem `sname`), nicht dem in der Benutzeroberfläche angezeigten Anzeigenamen. Verwenden Sie den URL-Wert in Kleinbuchstaben, z. B. `prod`, nicht `Prod`.
+* **Sandbox-Name** - Der Name Ihrer AEP-Sandbox entspricht exakt der in der Marketo Qualifier-URL angezeigten Darstellung (dem `sname`), nicht dem in der Benutzeroberfläche angezeigten Anzeigenamen. Verwenden Sie den URL-Wert in Kleinbuchstaben, z. B. `prod`, nicht `Prod`.
 
 | Region | Webhook-Endpunkt-URL |
 | --- | --- |
@@ -170,7 +170,7 @@ So erstellen Sie den Webhook:
 
 ## Teil D: Hinzufügen des Webhooks zu einer intelligenten Trigger-Kampagne {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
-Fügen Sie **[!UICONTROL Trigger-Smart]** Kampagne einen Flussschritt „Webhook aufrufen“ hinzu, entweder eine vorhandene oder eine neue. Die Trigger der Smart List für diese Kampagne entscheiden, welche Aktivitäten an den Marketo-Qualifizierer gesendet werden.
+Fügen Sie **[!UICONTROL Trigger-Smart]** Kampagne einen Flussschritt „Webhook aufrufen“ hinzu, entweder eine vorhandene oder eine neue. Die Trigger der Smart List für diese Kampagne entscheiden, welche Aktivitäten an Marketo Qualifier gesendet werden.
 
 So fügen Sie den Webhook hinzu:
 
@@ -179,7 +179,7 @@ So fügen Sie den Webhook hinzu:
 1. Fügen Sie auf der Registerkarte **[!UICONTROL Fluss]** den Schritt **[!UICONTROL Webhook aufrufen]** hinzu und wählen Sie den Webhook aus, den Sie in [Teil C](#part-c-configure-the-marketo-webhook) erstellt haben.
 1. Aktivieren Sie die Smart-Kampagne.
 
-Die Aktivität aus dieser Smart Campaign fließt jetzt in den Marketo-Qualifizierer. Mitarbeiter können diese Aktivität unter „Interessenten **[!UICONTROL > „Marketing]** Highlights“ anzeigen **[!UICONTROL filtern]**.
+Die Aktivität dieser Smart Campaign fließt jetzt in Marketo Qualifier. Mitarbeiter können diese Aktivität unter „Interessenten **[!UICONTROL > „Marketing]** Highlights“ anzeigen **[!UICONTROL filtern]**.
 
 >[!MORELIKETHIS]
 >

@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie in Adobe Marketo Qualifier eine Verbindung zu
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1456'
 ht-degree: 1%
 ---
 
@@ -192,7 +192,7 @@ Mit der Opt-out-Einstellung wird an jede ausgehende E-Mail eine Fußzeile zur Ab
 
 Einstellung und Vorlage werden automatisch gespeichert.
 
-Wenn ein Interessent den Link auswählt, sendet der Marketo-Qualifizierer keine E-Mails mehr an diesen Interessenten und synchronisiert den Opt-out-Status mit dem verbundenen CRM.
+Wenn ein Interessent den Link auswählt, sendet Marketo Qualifier keine E-Mails mehr an diesen Interessenten und synchronisiert den Opt-out-Status mit dem verbundenen CRM. Marketo Qualifier erkennt auch die Löschanfragen in der E-Mail-Antwort eines Interessenten, z. B. „Bitte hören Sie auf, mir eine E-Mail zu senden“ oder „Abmelden“, und markiert den Interessenten automatisch als abgemeldet. Es gelten derselbe **[!UICONTROL Opt-out]**-Status und dasselbe Abzeichen, und es werden keine weiteren Touchpoints gesendet. Es ist keine zusätzliche Einrichtung erforderlich. Antworten, bei denen nicht eindeutig um einen Stopp gebeten wird, wie beispielsweise „Jetzt nicht“, werden nicht als Opt-outs behandelt. Siehe [Opt-out-Anfragen in Antworten](outbound-workflows.md#opt-out-requests-in-replies).
 
 ## CRM-Zugriffsbereich
 
@@ -201,7 +201,7 @@ Marketo Qualifier liest die erforderlichen CRM-Entitäten und schreibt nur einen
 * **Lesen** - Benutzer, Kontakte, Besitzerzuordnungen, Leads, Konten, Chancen und Aktivitäten.
 * **Write** - Protokollierte Outreach-Aktivitäten (wenn [Aktivitätssynchronisierung](#configure-activity-sync-outbound-mapping) aktiviert ist) und Abmeldestatus.
 
-Ihr CRM-Administrator bereitet den API-Zugriff in Salesforce oder Dynamics vor. Ein Marketo-Qualifizierer-Administrator verbindet dann das CRM, ordnet eingehende Felder zu und entscheidet, ob die Aktivitäten synchronisiert werden sollen. Für die erstmalige Verbindung ist ein schreibgeschützter Zugriff erforderlich. Aktivitätssynchronisierung und Opt-out-Writeback erfordern den entsprechenden Schreibzugriff.
+Ihr CRM-Administrator bereitet den API-Zugriff in Salesforce oder Dynamics vor. Ein Marketo Qualifier-Administrator verbindet dann das CRM, ordnet eingehende Felder zu und entscheidet, ob die Aktivitäten synchronisiert werden sollen. Für die erstmalige Verbindung ist ein schreibgeschützter Zugriff erforderlich. Aktivitätssynchronisierung und Opt-out-Writeback erfordern den entsprechenden Schreibzugriff.
 
 >[!MORELIKETHIS]
 >

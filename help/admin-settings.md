@@ -3,20 +3,26 @@ title: Admin-Einstellungen
 description: Erfahren Sie, wie Sie CRM-Felder, Aktivitätssynchronisierung, E-Mail-Opt-out und andere Einstellungen für die [!DNL Adobe Marketo Qualifier]-Administration verwalten.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-    internal-label: Administration
-
 internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+autotag-review: '2026-10-08T17:58:28.029Z'
+TQID: 'https://experienceleague.adobe.com/2eccZWj1XY7qP20n6GcnBe6PZwNkp0ALhZfOhljwZF8'
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1292'
 ht-degree: 0%
 ---
 
@@ -55,7 +61,7 @@ Jeder Lead kann eine [!DNL Marketo] E-Mail-Vorschau, einen Link zu den Lead-Deta
 
 ## CRM-Zugriffsbereich
 
-Marketo Qualifier liest Benutzer, Kontakte, Besitzerzuordnungen, Leads, Konten, Chancen und Aktivitäten aus dem CRM. Es werden nur protokollierte Outreach-Aktivitäten und der Opt-out-Status in das CRM geschrieben und Outreach-Aktivitäten werden mit Marketo synchronisiert. Ihr CRM-Administrator bereitet den API-Zugriff in Salesforce oder Dynamics vor. Ein Marketo-Qualifizierer-Administrator verbindet dann das CRM, ordnet eingehende Felder zu und entscheidet, ob die Aktivitäten synchronisiert werden sollen.
+Marketo Qualifier liest Benutzer, Kontakte, Besitzerzuordnungen, Leads, Konten, Chancen und Aktivitäten aus dem CRM. Es werden nur protokollierte Outreach-Aktivitäten und der Opt-out-Status in das CRM geschrieben und Outreach-Aktivitäten werden mit Marketo synchronisiert. Ihr CRM-Administrator bereitet den API-Zugriff in Salesforce oder Dynamics vor. Ein Marketo Qualifier-Administrator verbindet dann das CRM, ordnet eingehende Felder zu und entscheidet, ob die Aktivitäten synchronisiert werden sollen.
 
 >[!NOTE]
 >
@@ -85,13 +91,13 @@ Zugeordnete Felder werden in den entsprechenden Bereichen von Marketo Qualifier 
 
 1. Wählen Sie **[!UICONTROL CRM-Verbindungen]** die Option **[!UICONTROL Verwalten]** für das verbundene CRM aus.
 1. Öffnen Sie **[!UICONTROL Ausgehende Zuordnung]**.
-1. Aktivieren Sie **[!UICONTROL Aktivitätssynchronisierung]** um die Outreach-Aktivitäten des Marketo-Qualifizierers wieder mit dem CRM und Marketo zu synchronisieren.
+1. Aktivieren Sie **[!UICONTROL Aktivitätssynchronisierung]** um die Outreach-Aktivitäten von Marketo Qualifier wieder mit dem CRM und Marketo zu synchronisieren.
 
-Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet der Marketo-Qualifizierer weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit Ihrem CRM oder Marketo.
+Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Marketo Qualifier weiterhin eingehende CRM-Daten, synchronisiert jedoch keine Outreach-Aktivitäten mit Ihrem CRM oder Marketo.
 
 ## Konfigurieren von CRM-Synchronisierungsregeln
 
-Der Marketo-Qualifizierer kann Lead-Status-Aktualisierungen automatisch in Salesforce und Microsoft Dynamics zurückschreiben, wenn ein potenzieller Kunde einen ausgehenden Workflow durchläuft, sodass er das CRM-System nicht mehr manuell aktualisiert.
+Marketo Qualifier kann Lead-Statusaktualisierungen automatisch zurück in Salesforce und Microsoft Dynamics schreiben, wenn ein potenzieller Kunde einen ausgehenden Workflow durchläuft, sodass er das CRM-System nicht mehr manuell aktualisiert.
 
 ### Funktionsweise von CRM-Synchronisierungsregeln
 
@@ -119,7 +125,7 @@ Wenn CRM-Synchronisierungsregeln konfiguriert sind, können Vertriebs-Teams in j
 
 ## Erstellen eines Playbooks für Wissenszentren {#knowledge-center}
 
-Das **[!UICONTROL Knowledge Center]** bietet der Account Qualification Agent (AQA) Zugriff auf Ihre Verkaufsunterlagen. Marketo Qualifier verwendet diese Materialien, um Analysen, Qualifikationserkenntnisse und Öffentlichkeitsarbeit zu generieren, die widerspiegeln, wie Ihr Unternehmen verkauft. Nur Administratoren können das Playbook erstellen und verwalten.
+Das **[!UICONTROL Knowledge Center]** bietet der Account Qualification Agent (AQA) Zugriff auf Ihre Verkaufsunterlagen. Marketo Qualifier verwendet diese Materialien, um Forschungen, Qualifizierungseinblicke und Öffentlichkeitsarbeit zu generieren, die widerspiegeln, wie Ihr Unternehmen verkauft. Nur Administratoren können das Playbook erstellen und verwalten.
 
 ![Wissenszentrum](assets/knowledge-center.png){width="800" zoomable="yes"}
 
@@ -138,7 +144,7 @@ Jedes hochgeladene Dokument zeigt auch seinen Verarbeitungsstatus an, z **[!UICO
 
 Wenn das Playbook fertig ist, können Vertreter es an zwei Stellen verwenden:
 
-* **Ausgehende E-Mail-Eingabeaufforderungen** - Benennen Sie in einer Touchpoint-Eingabeaufforderung das Dokument und beschreiben Sie den zu verwendenden Kontext. Geben Sie beispielsweise `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition` ein. Siehe [Erstellen und Überprüfen von Touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **Ausgehende E-Mail-Eingabeaufforderungen** - Benennen Sie in einer Touchpoint-Eingabeaufforderung das Dokument und beschreiben Sie den zu verwendenden Kontext. Geben Sie beispielsweise `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition` ein. Siehe [Konfigurieren von Touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
 * **AI Chat**: Wenden Sie sich in Ihrer Frage an das Knowledge Center. Geben Sie beispielsweise `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call` ein. Siehe [KI-Chat](ai-assistant.md).
 
 In beiden Fällen spiegelt der generierte Inhalt die Botschaft in Ihrem Playbook wider und nicht die allgemeine Forschung.
@@ -152,7 +158,7 @@ In beiden Fällen spiegelt der generierte Inhalt die Botschaft in Ihrem Playbook
 
 Die Einstellungen werden automatisch gespeichert.
 
-Wenn ein Interessent den Link auswählt, sendet Marketo Qualifier keine E-Mails mehr an diesen Interessenten und synchronisiert den Opt-out-Status mit dem verbundenen CRM.
+Wenn ein Interessent den Link auswählt, sendet Marketo Qualifier keine E-Mails mehr an diesen Interessenten und synchronisiert den Opt-out-Status mit dem verbundenen CRM. Marketo Qualifier erkennt auch die Löschanfragen in der E-Mail-Antwort eines Interessenten, z. B. „Bitte hören Sie auf, mir eine E-Mail zu senden“ oder „Abmelden“, und markiert den Interessenten automatisch als abgemeldet. Es gelten derselbe **[!UICONTROL Opt-out]**-Status und dasselbe Abzeichen, und es werden keine weiteren Touchpoints gesendet. Es ist keine zusätzliche Einrichtung erforderlich. Antworten, bei denen nicht eindeutig um einen Stopp gebeten wird, wie beispielsweise „Jetzt nicht“, werden nicht als Opt-outs behandelt. Siehe [Opt-out-Anfragen in Antworten](outbound-workflows.md#opt-out-requests-in-replies).
 
 ## Referenz: Beispiel-API-Parameter
 

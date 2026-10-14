@@ -4,14 +4,14 @@ description: Erfahren Sie, wie Sie die E-Mails, die Adobe Marketo Qualifier in I
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Die Seite hat zwei Bereiche: eine Liste von E-Mails auf der linken Seite und ein
 
 Die Liste **[!UICONTROL Alle E]** Mails“ enthält eine Zeile für jede gesendete E-Mail, wobei die neueste E-Mail zuerst angezeigt wird. Jede Zeile zeigt den Namen, den Betreff und das Sendedatum des Empfängers an. Eine E-Mail ohne Betreff zeigt _(Kein Betreff)_. Scrollen Sie zu Ältere E-Mails laden.
 
-Wenn Sie die Seite öffnen, wählt Adobe Marketo Qualifier automatisch die erste E-Mail aus, damit ihr Inhalt auf der rechten Seite angezeigt wird.
+Wenn Sie die Seite öffnen, wählt Adobe Marketo Qualifier die erste E-Mail automatisch aus, damit ihr Inhalt auf der rechten Seite angezeigt wird.
 
 Wenn Sie keine E-Mails gesendet haben, wird die Liste angezeigt _Ihr Postausgang ist leer_. Nachdem Sie eine E-Mail über einen ausgehenden Workflow gesendet oder geplant haben, wird sie hier angezeigt.
 
@@ -39,7 +39,7 @@ Um eine E-Mail auf der rechten Seite zu öffnen, wählen Sie sie in der Liste au
 * **Betreff und ausgehender Workflow** - Der Betreff, der Name des [ausgehenden Workflows](outbound-workflows.md) der die E-Mail gesendet hat, und der Status des ausgehenden Workflows. Um den ausgehenden Workflow zu öffnen, wählen Sie seinen Namen aus.
 * **Konversation** - Die gesendete E-Mail und alle Antworten in einem Thread. Jeder Eintrag gibt an, ob die Nachricht gesendet oder empfangen wurde, und enthält einen Zeitstempel.
 
-E-Mails werden so wiedergegeben, wie sie gesendet wurden, einschließlich personalisierter Inhalte. Wenn der Textkörper einer Nachricht nicht verfügbar ist, zeigt der Marketo-Qualifizierer an _Stelle einen kurzen_ E-Mail-Inhalt nicht verfügbar“ an.
+E-Mails werden so wiedergegeben, wie sie gesendet wurden, einschließlich personalisierter Inhalte. Wenn der Textkörper einer Nachricht nicht verfügbar ist, zeigt Marketo Qualifier einen kurzen _E-Mail-Inhalt nicht verfügbar_ an seiner Stelle an.
 
 >[!NOTE]
 >

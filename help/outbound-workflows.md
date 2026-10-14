@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2692'
 ht-degree: 0%
 ---
 
@@ -56,27 +56,27 @@ In den folgenden Abschnitten wird beschrieben, wie Sie einen ausgehenden Workflo
 
 ## Ausgehenden Workflow erstellen
 
-Der Assistent für ausgehende Workflows umfasst fünf Schritte: **[!UICONTROL Ziel]**, **[!UICONTROL Targeting]**, **[!UICONTROL Touchpoints generieren]**, **[!UICONTROL Einstellungen]** und **[!UICONTROL Interessenten hinzufügen]**. Ihr Ziel formt die verbleibenden Schritte.
+Durch die kompakte Konfiguration wird die Workflow-Einrichtung rund um das Ziel, die Zielgruppenbestimmung, die Touchpoints und die Einstellungen organisiert. Verwenden Sie die Abschnittsnavigation, um zwischen ihnen zu wechseln. Fügen Sie nach dem Speichern des Workflows Interessenten hinzu, um ihre E-Mails zu generieren.
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Ausgehende Workflows]** aus.
 1. Wählen Sie auf **[!UICONTROL Registerkarte]** Durchsuchen“ **[!UICONTROL + Ausgehenden Workflow erstellen]** in der oberen rechten Ecke aus.
 
 Admins können den ausgehenden Workflow einem Teamkollegen anstelle sich selbst zuweisen. Wählen Sie vor dem Starten des Workflows **[!UICONTROL Benutzer zuweisen]** aus der Dropdown-Liste aus und wählen Sie den Teamkollegen aus.
 
-### Schritt 1: Definieren Sie Ihr Ziel
+### Definieren des Ziels {#step-1-define-your-goal}
 
 Das Ziel definiert das beabsichtigte Ergebnis und leitet Targeting, Kadenz und E-Mail-Generierung an.
 
 1. Um Ihr eigenes Ziel zu schreiben, wählen **[!UICONTROL Von Grund auf neu beginnen]** oder um eine gespeicherte Vorlage zu verwenden, wählen Sie **[!UICONTROL Von Vorlage starten]** aus.
 
 1. Wählen Sie eines der **[!UICONTROL empfohlenen Ziele]** das Ihrem Unternehmen entspricht. Jede Empfehlung enthält eine kurze Erklärung, warum sie passt. Um das Ziel auszufüllen, wählen Sie eine Empfehlung aus. Um alle Empfehlungen zu durchsuchen, wählen Sie **[!UICONTROL Alle anzeigen]** oder geben Sie Ihr eigenes Ziel ein. Sie können auch aus der Liste **[!UICONTROL Beliebte Ziele]** auswählen.
-1. Wählen Sie **[!UICONTROL Weiter: Zielgruppenbestimmung]**.
+1. Mit der Zielgruppenbestimmung fortfahren.
 
 Geben Sie ein spezifisches Ergebnis im Ziel an. Geben Sie beispielsweise `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` anstelle von `Promote campaign automation` ein.
 
 Die KI behält Anforderungen im Ziel genau in den generierten Touchpoints bei. Schließen Sie exakte Sätze, erforderliche Anfangs- oder Schlusszeilen, benannte Sitzungen und Datumsangaben oder eine bestimmte Struktur ein, wenn der generierte Inhalt diese beibehalten muss.
 
-### Schritt 2: Zielgruppenbestimmungsfilter konfigurieren
+### Zielgruppenbestimmungsfilter konfigurieren {#step-2-configure-targeting-filters}
 
 Zielgruppenbestimmungsfilter definieren, welche potenziellen Kunden infrage kommen. Wenn Sie später Interessenten hinzufügen, werden nur die Interessenten in der Auswahlliste angezeigt, die diesen Filtern entsprechen.
 
@@ -89,7 +89,7 @@ Beschreiben Sie Ihre ideale Perspektive in natürlicher Sprache. Geben Sie beisp
 1. Legen Sie Werte für den Filter fest.
 1. Fügen Sie weitere Filter hinzu, wenn Sie die Zielgruppe eingrenzen möchten.
 
-1. Wählen Sie **[!UICONTROL Weiter: Touchpoints generieren]**.
+1. Weiter zu Touchpoints.
 
 Beim Targeting können Aktivitätstyp, Score, Bewertung und andere verfügbare Attribute verwendet werden. Kombinieren Sie Kriterien mit [!DNL AND] oder [!DNL OR] und verwenden Sie Operatoren wie „ist gleich“, „enthält“, „größer als“, „kleiner als“ und „zwischen“.
 
@@ -106,9 +106,11 @@ Die automatische Registrierung folgt dieser Sequenz:
 
 Wenn sich bereits ein anderer Mitarbeiter an den Interessenten wendet, wird [!DNL Marketo Qualifier] eine Warnung angezeigt, bevor die doppelte Kontaktaufnahme beginnt.
 
-### Schritt 3: Erstellen und Überprüfen von Touchpoints
+### Konfigurieren von Touchpoints {#step-3-generate-and-review-touchpoints}
 
 Nach der Konfiguration analysiert die KI das Ziel und die Kriterien für die Zielgruppenbestimmung, definiert die Kadenz und gibt für jeden Touchpoint eine Eingabeaufforderung aus. Die Kadenz kann E-Mail-, Telefonanruf- und LinkedInMail-Schritte umfassen.
+
+Die Touchpoints verwenden ein Sequenz-Layout, das die Reihenfolge der Schritte einfach zu scannen macht.
 
 ![Touchpoints](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
@@ -132,11 +134,11 @@ Festlegen einer Touchpoint-Verzögerung in Tagen, Stunden und Minuten. Legen Sie
 
 Wenn Ihr Unternehmen ein Playbook für [Wissenscenter](admin-settings.md#knowledge-center) erstellt hat, verweisen Sie in der Eingabeaufforderung darauf. Benennen Sie das Dokument und beschreiben Sie den zu verwendenden Kontext. Geben Sie beispielsweise `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition` ein.
 
-Wenn die Kadenz und die Eingabeaufforderungen fertig sind, wählen Sie **[!UICONTROL Weiter: Einstellungen]**.
+Wenn Kadenz und Eingabeaufforderungen fertig sind, fahren Sie mit den Einstellungen fort.
 
 Verfeinern Sie die Touchpoint-Eingabeaufforderungen vor dem Generieren von E-Mails potenzieller Kundinnen und Kunden. KI verwendet diese Eingabeaufforderungen für jeden ausgewählten Interessenten.
 
-### Schritt 4: Einstellungen für ausgehende Workflows konfigurieren
+### Konfigurieren der Einstellungen für ausgehende Workflows {#step-4-configure-outbound-workflow-settings}
 
 Der **[!UICONTROL Einstellungen]** steuert, wie der ausgehende Workflow ausgeführt wird.
 
@@ -150,15 +152,15 @@ Der **[!UICONTROL Einstellungen]** steuert, wie der ausgehende Workflow ausgefü
 1. Um Follow-up-Touchpoints automatisch zu stoppen, sobald ein Interessent ein Meeting bucht, aktivieren Sie **[!UICONTROL Meeting-Buchungspause]**.
 1. Wählen Sie aus, ob die Zeitzone jedes Interessenten oder der ausgehende Workflow (Zeitzone **[!UICONTROL für]** Versandzeitpunkt verwendet werden soll. Wenn Sie die Zeitzone des ausgehenden Workflows verwenden, vergewissern Sie sich, dass sie mit Ihrer Audience übereinstimmt.
 1. Behalten **[!UICONTROL unter]** die Option **[!UICONTROL Privat]** (Standard) bei oder wählen Sie **[!UICONTROL Für alle freigegeben]**. Weitere Informationen finden Sie unter [Freigeben eines ausgehenden Workflows](#share-an-outbound-workflow).
-1. Wählen Sie **[!UICONTROL Speichern und Interessenten hinzufügen]** aus.
+1. Wählen Sie **[!UICONTROL Speichern und Interessenten hinzufügen]**, um die Ansicht zur Interessentenauswahl zu öffnen.
 
 Um das Sendefenster, die Zeitzone, die Tage, die Folge- und Abwesenheitsregeln, die Sichtbarkeit und die Vorschlagskadenz auf ihre Standardwerte zurückzusetzen, aktivieren Sie **[!UICONTROL Auf Standardeinstellungen zurücksetzen]**. Der Name des ausgehenden Workflows bleibt unverändert.
 
 Admins konfigurieren die Opt-out-Fußzeile global, was unabhängig von den Einstellungen des ausgehenden Workflows für ausgehende E-Mails gilt. Siehe [Konfigurieren einer globalen E-Mail-Abmeldung](integrations.md#configure-global-email-opt-out).
 
-### Schritt 5: Interessenten hinzufügen und E-Mail-Generierung starten
+### Interessenten hinzufügen und E-Mail-Generierung starten {#step-5-add-prospects-and-start-email-generation}
 
-Beim Speichern wird die Perspektivauswahl-Ansicht mit angewendeten Targeting-Filtern aus Schritt 2 geöffnet.
+Fügen Sie nach dem Speichern Interessenten aus der Auswahlansicht hinzu. Die konfigurierten Zielgruppenfilter werden angewendet.
 
 1. Überprüfen Sie die Liste.
 
@@ -179,6 +181,15 @@ E-Mails können auch in der Sprache des Interessenten generiert werden, mit korr
 ## Überprüfen und Verfeinern generierter E-Mails
 
 Nach Abschluss der Generierung werden Sie in der Detailansicht des ausgehenden Workflows aufgefordert, die Entwürfe zu überprüfen. [!DNL Marketo Qualifier] sendet keine E-Mail, bis Sie sie genehmigt haben.
+
+Bevor ein Entwurf zur Überprüfung angezeigt wird, prüft [!DNL Marketo Qualifier] ihn anhand von Qualitätsrichtlinien. Wenn er nicht ausreicht, wird der Entwurf mithilfe bestimmter Rückmeldungen neu geschrieben und erneut überprüft. Dieselben Richtlinien fließen in den ersten Entwurf ein, sodass die meisten E-Mails sie beim ersten Durchlauf erfüllen. Die Prüfungen stellen sicher, dass:
+
+* Der Textkörper der E-Mail enthält nur die Nachricht für den Interessenten, ohne interne Hinweise, Begründungen oder Quellenverweise.
+* Eine Besprechungsanfrage wird nur angezeigt, wenn Ihr Kalender in [Profileinstellungen](profile-settings.md) verbunden ist, ein Buchungslink verfügbar ist und die Touchpoint-Eingabeaufforderung nach einer Besprechungsanfrage fragt.
+* Aufzählungslisten sind korrekt formatiert.
+* Die E-Mail vermeidet gängige KI-Klangmuster, einschließlich AEM-Bindestriche, Listen von drei für den Rhythmus verwendeten Mustern, Formulierungen mit „nicht nur X, sondern Y“ und übermäßig genutzte Klischees.
+
+Sie überprüfen, bearbeiten und genehmigen weiterhin jede E-Mail, bevor sie gesendet wird. Denken, direkte Bearbeitungen und **[!UICONTROL Mit KI generieren]** funktionieren wie zuvor.
 
 1. Wählen Sie in der Detailansicht „Ausgehender Workflow **[!UICONTROL im Banner die Option]** Entwürfe überprüfen“ aus.
 1. Der Schritt **[!UICONTROL Touchpoints überprüfen]** umfasst zwei Registerkarten:
@@ -233,7 +244,7 @@ Jeder ausgehende Workflow verfügt über eine **[!UICONTROL Berechtigungen]**. A
 >
 >Die Freigabe ist dauerhaft. Nachdem ein ausgehender Workflow auf „Für alle freigegeben **[!UICONTROL festgelegt wurde]** kann er nicht mehr in &quot;**[!UICONTROL &quot;]** werden.
 
-In einem gemeinsamen ausgehenden Workflow können sich Teammitglieder für ihre eigenen potenziellen Kunden registrieren. Jede Person kann nur die Interessenten verwalten oder pausieren, die sie registriert hat, auch bei der Verwendung von Massenaktionen. Der Inhaber des ausgehenden Workflows kann allein Einstellungen auf Planebene bearbeiten, einschließlich Zeitplan, Zeitzone und Kadenz. Diese Einstellungen sind für Teammitglieder schreibgeschützt.
+In einem gemeinsamen ausgehenden Workflow können sich Teammitglieder für ihre eigenen potenziellen Kunden registrieren. Jede Person kann nur die Interessenten verwalten oder pausieren, die sie registriert hat, auch bei der Verwendung von Massenaktionen. Der Eigentümer des ausgehenden Workflows kann allein Einstellungen auf Planebene bearbeiten, z. B. das Versandfenster und die Zeitzone. Diese Einstellungen sind für Teammitglieder schreibgeschützt. Um Touchpoints für einen laufenden ausgehenden Workflow zu ändern, duplizieren Sie ihn und bearbeiten Sie die Kopie.
 
 Wählen Sie bei der Registrierung eines potenziellen Kunden für einen freigegebenen ausgehenden Workflow aus, ob die E-Mail als Workflow-Eigentümer oder als zugewiesener Vertreter jedes Leads gesendet werden soll.
 
@@ -249,9 +260,23 @@ Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese autom
 * **Automatische Wiederaufnahme**: Standardmäßig aktiviert. Wenn die Abwesenheitsantwort ein Rückgabedatum enthält, setzt der ausgehende Workflow die Kadenz an diesem Datum fort. Wenn kein Rückgabedatum angegeben wird, wird der ausgehende Workflow nach einem Puffer für die Wiederaufnahme nach fortgesetzt, den Ihr Team konfigurieren kann.
 * **Manuelle Optionen**: Ein Vertriebsmitarbeiter kann weiterhin „Jetzt **[!UICONTROL &quot;]** oder ein bestimmtes Wiederaufnahmedatum planen. Siehe [Verwalten vorhandener ausgehender Workflows](#manage-existing-outbound-workflows).
 
+### Opt-out-Anfragen in Antworten
+
+Wenn ein potenzieller Kunde mit einer klaren Aufforderung antwortet, keine E-Mails mehr zu erhalten, wie etwa „Bitte keine E-Mails mehr an mich senden“, „Abmelden“, „Mich aus dieser Liste entfernen“ oder „Mich von Ihrer Liste nehmen“, markiert [!DNL Marketo Qualifier] den potenziellen Kunden automatisch als abgemeldet. Dies entspricht dem **[!UICONTROL Opt-out]**-Status und -Badge wie bei Auswahl des Opt-out-Links. Es werden keine weiteren Touchpoints gesendet. Jede konfigurierte CRM-Statusaktualisierung funktioniert wie bei einem Opt-out-Link.
+
+Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert &#x200B;](admin-settings.md#configure-global-email-opt-out).
+
+## Duplizieren eines ausgehenden Workflows
+
+Sie können einen von Ihnen erstellten oder für Sie freigegebenen ausgehenden Workflow duplizieren. Duplizieren Sie sie in der **[!UICONTROL Durchsuchen]** der Registerkarte Ausgehende Workflows oder in der Detailansicht des Workflows.
+
+Die Kopie enthält das ursprüngliche Ziel, die Zielgruppenbestimmung, Touchpoints und Einstellungen, aber nicht ihre potenziellen Kunden. Die Kopie beginnt als **[!UICONTROL Entwurf]** mit **[!UICONTROL Privat]**-Berechtigungen, sodass Sie sie überprüfen und bearbeiten können, bevor Sie Interessenten hinzufügen oder sie freigeben. Der ursprüngliche Workflow und seine potenziellen Kunden sind davon nicht betroffen.
+
+Um die Touchpoints eines laufenden ausgehenden Workflows zu ändern, duplizieren Sie ihn und bearbeiten Sie die Kopie. Der Kopie Interessenten hinzufügen. Im Original registrierte Interessenten setzen ihren Kadenz ohne Unterbrechung fort. Jeder Workflow hat seine eigenen Ergebnisse in [Outbound-Leistung](performance.md).
+
 ## Verwalten vorhandener ausgehender Workflows
 
-Auf der Seite **[!UICONTROL Ausgehende Workflows]** werden auf der Registerkarte **[!UICONTROL Durchsuchen]** alle ausgehenden Workflows aufgelistet, die für Sie verfügbar sind. Jede Karte zeigt das Ziel, konfigurierte Touchpoints und Leistungsmetriken. Verwenden Sie diese Ansicht, um ausgehende Workflows zu überwachen, Entwürfe zu überprüfen oder Interessenten hinzuzufügen.
+Auf der Seite **[!UICONTROL Ausgehende Workflows]** werden auf der Registerkarte **[!UICONTROL Durchsuchen]** alle ausgehenden Workflows aufgelistet, die für Sie verfügbar sind. Jede Karte zeigt das Ziel, konfigurierte Touchpoints und Leistungsmetriken. Verwenden Sie diese Ansicht, um ausgehende Workflows zu überwachen, Entwürfe zu überprüfen, Interessenten hinzuzufügen oder einen Workflow zu duplizieren.
 
 ## E-Mail-Postausgang
 
@@ -262,7 +287,7 @@ Im [E-Mail-Postausgang](email-outbox.md) werden die in Ihrem Namen gesendeten au
 Wenn Sie Ihren Kalender verbinden, generiert Marketo Qualifier einen persönlichen Buchungslink, über den Interessenten Zeit mit Ihnen planen können.
 
 * **Buchungslinks** - Konfigurieren Sie Ihre Kalenderverbindung und -verfügbarkeit in [Profileinstellungen](profile-settings.md). Fügen Sie den Buchungs-Link zu Ihrer E-Mail-Signatur hinzu, damit sie in ausgehenden E-Mails angezeigt wird.
-* **Kadenzplatzierung** - Marketo Qualifier fügt Ihren Buchungslink an relevanten Punkten in einer Kadenz ein. Sie können die Platzierung ändern.
+* **Kadenzplatzierung** - Marketo Qualifier fügt Ihren Buchungslink an relevanten Stellen in einer Kadenz ein. Sie können die Platzierung ändern.
 * **Buchungspause**: Wenn ein potenzieller Kunde ein Meeting bucht, **[!UICONTROL Buchungspause für das Meeting]** werden keine weiteren Folgemaßnahmen mehr durchgeführt. Siehe [Schritt 4: Einstellungen für ausgehende Workflows konfigurieren](#step-4-configure-outbound-workflow-settings).
 
 Tracking von Buchungsergebnissen auf der Seite [Ausgehende Leistung](performance.md).
