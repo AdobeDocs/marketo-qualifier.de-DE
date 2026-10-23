@@ -13,15 +13,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: 30abc8c57bb9b7a57f68c8e7daecc1bf3ac36567
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '703'
 ht-degree: 0%
 ---
 
 # Konten
 
 Die Account-Ansicht kombiniert KI-generierte Forschung, aktuelle Nachrichten, offene Chancen, Pipeline-Wert und engagierte Kontakte. Verwenden Sie diese Informationen, um ein Konto zu verstehen und zu priorisieren, bevor Sie sich melden.
+
+Um mehrere Konten gleichzeitig zu finden und zu priorisieren, verwenden Sie [Smart Audience (Beta)](smart-audience.md). Erstellen Sie eine Kontenliste, verfeinern Sie sie mit CRM-Daten und Wachstumssignalen und finden Sie Leads, um sie einem ausgehenden Workflow hinzuzufügen.
 
 ## Konto eröffnen
 
@@ -66,7 +68,9 @@ Verwenden Sie die Schaltflächen unter der Übersicht, um zwischen Kontoansichte
 | **[!UICONTROL Top-Mitglieder]** | Die am häufigsten kontaktierten Kontakte des Kontos, sortiert nach Interaktion. Jeder Kontakt zeigt seinen Jobtitel, seine E-Mail-Adresse, seinen Interaktionswert und die Dringlichkeitsanzeige an. |
 | **[!UICONTROL Intent-Daten]** | Kaufabsichtssignale für das Konto, z. B. die Produkte und Themen, nach denen das Konto sucht. |
 | **[!UICONTROL Mitglieder des Konto-Teams]** | Dem Konto zugewiesene Personen mit ihrer E-Mail-Adresse, ihrer Stellenbezeichnung, ihrem Gebiet und ihrer Produktgruppe. |
-| **[!UICONTROL CRM-Felder]** | Kontofelder aus Ihrem CRM importiert, wie in der eingehenden Zuordnung konfiguriert. Siehe [Integrationen](integrations.md#map-crm-fields-inbound-mapping). |
+| **[!UICONTROL CRM-Felder]** | Kontofelder aus Ihrem CRM importiert, wie in der eingehenden Zuordnung konfiguriert. |
+
+Felder, die ein Administrator filterbar macht, können auch verwendet werden, um Kontakte nach ihrem zugehörigen Konto zu filtern und Kriterien für die Zielgruppenbestimmung ausgehender Workflows zu definieren. Siehe [Integrationen](integrations.md#map-crm-fields-inbound-mapping).
 
 Führen Sie in **[!UICONTROL Ansicht]** Top-Mitglieder“ eine der folgenden Aktionen für einen Kontakt aus:
 
