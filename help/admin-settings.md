@@ -78,7 +78,7 @@ Nachdem das CRM verbunden ist, wählen Sie **[!UICONTROL Verwalten]** für die V
 
    Jede Feldzeile zeigt ihren **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]** an.
 
-1. Aktivieren **[!UICONTROL Filterbar]** für jedes Feld eines Interessenten, Kontakts, Kontos oder einer Opportunity, das bzw. die Sie als Filter in der Liste **[!UICONTROL Interessenten]** und im [Zielgruppenbestimmungs-Workflow) ](outbound-workflows.md#step-2-configure-targeting-filters).
+1. Aktivieren **[!UICONTROL Filterbar]** für jedes Feld eines Interessenten, Kontakts, Kontos oder einer Opportunity, das bzw. die Sie als Filter in der Liste **[!UICONTROL Interessenten]** und im [Zielgruppenbestimmungs-Workflow) &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters).
 1. Zeigen Sie eine Vorschau des Abschnitts an und wählen Sie **[!UICONTROL Hinzufügen]**.
 
 Zugeordnete Felder werden in den entsprechenden Bereichen von Marketo Qualifier angezeigt:

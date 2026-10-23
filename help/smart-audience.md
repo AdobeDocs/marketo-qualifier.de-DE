@@ -132,7 +132,7 @@ Fügen Sie nach der Überprüfung der Leads die Leads, die Sie einem vorhandenen
 
 Sie können auch den Chat bitten, die Leads anhand des Namens zu einem Workflow hinzuzufügen. Wenn Sie den Namen nicht kennen, bitten Sie Chat, Ihre verfügbaren Workflows aufzulisten. Überprüfen Sie den Namen des Workflows und die Anzahl der Leads in der Antwort.
 
-Das Hinzufügen von Leads ersetzt nicht die Überprüfung und Genehmigung von E-Mails. Führen Sie die Schritte aus[ um generierte E](outbound-workflows.md#review-and-refine-generated-emails)Mails zu überprüfen und [Interessenten zu genehmigen und ](outbound-workflows.md#approve-and-enroll-prospects) registrieren), bevor die Kontaktaufnahme gesendet wird.
+Das Hinzufügen von Leads ersetzt nicht die Überprüfung und Genehmigung von E-Mails. Führen Sie die Schritte aus[&#x200B; um generierte E](outbound-workflows.md#review-and-refine-generated-emails)Mails zu überprüfen und [Interessenten zu genehmigen und &#x200B;](outbound-workflows.md#approve-and-enroll-prospects) registrieren), bevor die Kontaktaufnahme gesendet wird.
 
 ## Derzeitiger Umfang und Einschränkungen
 
