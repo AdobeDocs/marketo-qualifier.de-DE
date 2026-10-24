@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1510'
 ht-degree: 1%
 ---
 
@@ -147,9 +147,11 @@ Eingehende Zuordnungen steuern, welche CRM-Felder Marketo Qualifier importiert u
 
 1. Geben Sie einen **[!UICONTROL Abschnittsnamen“]** eine optionale **[!UICONTROL Beschreibung]** ein. Klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Suchen Sie im Schritt **[!UICONTROL Feld hinzufügen]** nach CRM-Feldern und wählen Sie diese aus, um sie zu importieren. Um fortzufahren, klicken Sie auf **[!UICONTROL Weiter]**. Jedes Feld zeigt seinen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]**.
-1. Aktivieren **[!UICONTROL in]** Abschnitten **[!UICONTROL Kontakte]** und **[!UICONTROL Opportunities]** für jedes Feld, das die [&#x200B; in der Liste Interessenten](prospects.md) benötigen, **[!UICONTROL Filterable]**.
+1. Aktivieren Sie für **&#x200B;**, **[!UICONTROL Kontakte]**, **[!UICONTROL Konten]** und **[!UICONTROL Opportunities]** für jedes Feld **[!UICONTROL Filterable]**, das die Repräsentanten auf der [prospects](prospects.md#filter-and-find-prospects)-Liste oder beim [Outbound Workflow-Targeting](outbound-workflows.md#step-2-configure-targeting-filters) benötigen.
 
    Ein Feld kann nicht als filterbar festgelegt werden, wenn sein Datentyp keine Filterung unterstützt oder wenn es bereits in einem anderen Abschnitt verwendet wird.
+
+   Mit filterbaren Kontofeldern können Kundenbetreuer Kontakte nach den Attributen ihres jeweiligen Kontos filtern, z. B. Branche, Region oder Kontotyp. Sie können Konto-, Kontakt- und Opportunity-Filter kombinieren, um zu definieren, welche Kontakte für einen ausgehenden Workflow infrage kommen. Die Filterung von Kontofeldern ist für Salesforce und Microsoft Dynamics 365 verfügbar.
 
    In **[!UICONTROL Meine Opportunity-Kontakte]** werden filterbare Opportunity-Felder als separate Spalten mit Bezeichnungen wie &quot;**[!UICONTROL (Opportunity)]** angezeigt. Das Suffix unterscheidet Opportunity-Attribute von Feldern des zugehörigen Kontakts.
 

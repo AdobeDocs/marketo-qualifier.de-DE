@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2776'
 ht-degree: 0%
 ---
 
@@ -93,6 +93,8 @@ Beschreiben Sie Ihre ideale Perspektive in natürlicher Sprache. Geben Sie beisp
 
 Beim Targeting können Aktivitätstyp, Score, Bewertung und andere verfügbare Attribute verwendet werden. Kombinieren Sie Kriterien mit [!DNL AND] oder [!DNL OR] und verwenden Sie Operatoren wie „ist gleich“, „enthält“, „größer als“, „kleiner als“ und „zwischen“.
 
+Bei Salesforce und Microsoft Dynamics 365 kann Targeting auch Konto-, Kontakt- und Opportunity-Felder kombinieren, die ein Administrator in der [eingehenden Zuordnung) &#x200B;](integrations.md#map-crm-fields-inbound-mapping). Kombinieren Sie beispielsweise die Rolle eines Kontakts mit der Branche seines zugehörigen Kontos und die Phase der Gelegenheit, die richtigen Kontakte anzusprechen.
+
 ### Interessenten automatisch über Marketing-Highlights registrieren
 
 Ein ausgehender Workflow kann die Aktivität „Live-Marketing-Highlights“ anhand der Zielgruppenkriterien bewerten. Wenn die Aktivität übereinstimmt, löst [!DNL Marketo Qualifier] den CRM-Inhaber des Interessenten per E-Mail auf und registriert den Interessenten nur in einem geeigneten Workflow, der zu diesem Mitarbeiter gehört.
@@ -161,6 +163,8 @@ Admins konfigurieren die Opt-out-Fußzeile global, was unabhängig von den Einst
 ### Interessenten hinzufügen und E-Mail-Generierung starten {#step-5-add-prospects-and-start-email-generation}
 
 Fügen Sie nach dem Speichern Interessenten aus der Auswahlansicht hinzu. Die konfigurierten Zielgruppenfilter werden angewendet.
+
+Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) &#x200B;](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
 
 1. Überprüfen Sie die Liste.
 

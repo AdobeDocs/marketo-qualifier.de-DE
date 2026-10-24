@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1356'
 ht-degree: 0%
 ---
 
@@ -78,14 +78,16 @@ Nachdem das CRM verbunden ist, wählen Sie **[!UICONTROL Verwalten]** für die V
 
    Jede Feldzeile zeigt ihren **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]** an.
 
-1. Aktivieren **[!UICONTROL Filterbar]** für jedes Feld eines Interessenten, Kontakts oder einer Opportunity, das bzw. die Sie als Filter in der Liste **[!UICONTROL Interessenten]** verfügbar machen möchten.
+1. Aktivieren **[!UICONTROL Filterbar]** für jedes Feld eines Interessenten, Kontakts, Kontos oder einer Opportunity, das bzw. die Sie als Filter in der Liste **[!UICONTROL Interessenten]** und im [Zielgruppenbestimmungs-Workflow) &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters).
 1. Zeigen Sie eine Vorschau des Abschnitts an und wählen Sie **[!UICONTROL Hinzufügen]**.
 
 Zugeordnete Felder werden in den entsprechenden Bereichen von Marketo Qualifier angezeigt:
 
 * Felder für Interessenten werden auf der Registerkarte **[!UICONTROL Person]** angezeigt.
-* Kontofelder werden auf der Registerkarte **[!UICONTROL Konto]** angezeigt.
+* Kontofelder werden auf der Registerkarte **[!UICONTROL Konto]** angezeigt. Definieren Sie in einem Abschnitt mit dem Entitätstyp **[!UICONTROL Konten]** Felder als filterbar, damit Vertreter Kontakte nach den Attributen ihres zugehörigen Kontos filtern können, z. B. Branche, Region oder Kontotyp.
 * Die Felder für die Opportunity werden im Abschnitt **[!UICONTROL Account-Opportunity]** angezeigt. Filterbare Opportunity-Felder werden auch als eigene Spalten in **[!UICONTROL Meine Opportunity-Kontakte]** mit Bezeichnungen wie **[!UICONTROL Phase (Opportunity)]** angezeigt, um sie von Kontaktfeldern zu unterscheiden.
+
+Die Filterung von Kontofeldern ist für Salesforce und Microsoft Dynamics 365 verfügbar. Repräsentanten können filterbare Konto-, Kontakt- und Opportunity-Felder kombinieren, um Kontakte zu finden und Kriterien für die Zielgruppenbestimmung ausgehender Workflows zu definieren.
 
 ## Aktivitätssynchronisierung konfigurieren (ausgehende Zuordnung)
 

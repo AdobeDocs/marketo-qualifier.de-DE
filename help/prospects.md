@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '953'
 ht-degree: 1%
 ---
 
@@ -28,7 +28,7 @@ Um die Leads und Kontakte anzuzeigen, auf die Sie zugreifen können, wählen Sie
 ![Tabelle mit Interessenten, in der der Lead-Status und die letzte Aktivität für das Interessenten-Management angezeigt werden](./assets/prospects.png){width="800" zoomable="yes"}
 
 * **[!UICONTROL Leads]** Leads, die Ihnen im verbundenen CRM zugewiesen sind.
-* **[!UICONTROL Kontakte]** Kontakte, die Ihnen im verbundenen CRM zugewiesen sind.
+* **[!UICONTROL Kontakte]** Kontakte, die Ihnen im verbundenen CRM zugewiesen sind, mit ihrem zugehörigen Konto. Die Kontaktdaten enthalten auch den Namen des Inhabers. Diese Details sind für Salesforce und Microsoft Dynamics 365 verfügbar.
 * **[!UICONTROL Marketing-Highlights]** Interessenten mit Live-Marketo-Aktivität, wie z. B. Öffnungen oder Klicks von E-Mails.
 * **[!UICONTROL Personenliste]** Interessenten, die Sie manuell importieren oder hinzufügen.
 
@@ -80,6 +80,8 @@ Administratoren können auch zugeordnete CRM-Felder als Filter verfügbar machen
 
 In **[!UICONTROL Meine Opportunity-Kontakte]** können Sie Kontakte auch nach Feldern aus den zugehörigen Opportunities filtern, wie Stadium, Typ und Abschlussdatum. Opportunity-Felder haben Bezeichnungen wie **[!UICONTROL Phase (Opportunity)]** die sie von Kontaktfeldern unterscheiden. Ihr Administrator steuert, welche Opportunity-Felder als Filter verfügbar sind.
 
+Sie können Kontakte auch nach Feldern aus ihrem zugehörigen Konto filtern, z. B. Branche, Region oder Kontotyp. Ihr Administrator legt fest, welche Kontofelder gefiltert werden können. Kombinieren Sie Konto-, Kontakt- und Opportunity-Filter, um beispielsweise Kontakte mit einer bestimmten Funktion bei Accounts in einer bestimmten Branche zu finden. Die Filterung der Kontofelder ist für Salesforce und Microsoft Dynamics 365 verfügbar. Dieselben Felder können beim „Zielgruppenbestimmung [&#x200B; ausgehenden Workflows“ verwendet &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters).
+
 ### Nach Marketing-Highlights filtern
 
 Überprüfen und priorisieren Sie potenzielle Kunden anhand ihrer Live-[!DNL Marketo]-Interaktion, z. B. E-Mail-Aktivität, Web-Besuche und Formularausfüllungen. Die Interaktion erfolgt praktisch in Echtzeit.
@@ -98,8 +100,8 @@ Marketing-Highlights sind in allen Produktionsregionen verfügbar. Ein Administr
 Um das Profil eines Interessenten zu öffnen, wählen Sie den Interessenten aus. Überprüfen Sie die wichtigen Signale, bevor Sie sich melden:
 
 * **KI-Personenübersicht** - Ein von KI geschriebener Schnappschuss des Leads oder Kontakts und der aktuellen Interaktion. Verwenden Sie die Zusammenfassung, um die Person schnell zu verstehen, bevor Sie einzelne Aktivitäten überprüfen. Personenzusammenfassungen zu KI sind auf Instanzen verfügbar, die [!DNL Marketo Optimizer] Prime oder Ultimate ausgeführt werden.
-* **Aktivitätsliste** - Eine chronologische Liste der Aktivitäten und des aktuellen Verhaltens.
-* **Zeitleisten-Ansicht** - Eine visuelle Zeitleiste der Interaktion über alle Kanäle hinweg.
+* **Aktivitätsliste** - Eine chronologische Liste, die die letzten 90 Tage der Marketing-Aktivität anzeigt.
+* **Zeitleisten-Ansicht** - Eine visuelle Zeitleiste, die die letzten 90 Tage der Marketing-Interaktion kanalübergreifend anzeigt.
 * **Angezeigte Inhalte** - Web-Seiten und Assets, die der potenzielle Kunde angesehen hat. Um ein Element zu öffnen, wählen Sie es aus.
 
 ### Vorbereitung für Besprechung generieren

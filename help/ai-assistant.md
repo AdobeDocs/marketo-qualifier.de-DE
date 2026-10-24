@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '754'
 ht-degree: 1%
 ---
 
@@ -58,7 +58,7 @@ Verwenden Sie den KI-Chat für diese Arten von Aufgaben:
 
 ## Ask AI Chat über Ihre verbundenen Daten hinweg
 
-Der KI-Chat kann Fragen in Ihren [!DNL Marketo Qualifier]-, CRM-, [!DNL Marketo]-, [!DNL Marketo Optimizer]- und Unternehmensdaten beantworten. Stellen Sie eine Frage in einfacher Sprache, um Informationen nachzuschlagen oder den Kontext abzurufen. Der KI-Chat liest und erstellt Berichte zu Ihren Daten. Er erstellt, bearbeitet oder startet nichts.
+Der KI-Chat kann Fragen in Ihren [!DNL Marketo Qualifier]-, CRM-, [!DNL Marketo]-, [!DNL Marketo Optimizer]- und Unternehmensdaten beantworten. Stellen Sie eine Frage in einfacher Sprache, um Informationen nachzuschlagen oder den Kontext abzurufen. Diese Connected-Data-Lookups lesen und berichten über Ihre Daten. Sie erstellen, bearbeiten oder starten keine Programme oder Kampagnen.
 
 Im Folgenden finden Sie einige Beispielaufforderungen. Je genauer Sie Ihre Eingabeaufforderung anzeigen, desto zielgerichteter sind die Ergebnisse.
 
@@ -106,7 +106,8 @@ Informationen zum Unternehmen:
 
 ### Derzeitiger Umfang und Einschränkungen
 
-* AI Chat liest und berichtet über Ihre Daten. Es werden keine Elemente erstellt, bearbeitet oder gestartet. Sie erstellt beispielsweise kein Programm, startet keine Kampagne oder bearbeitet keine Liste.
+* Connected-Data-Lookups lesen Ihre Daten und erstellen Berichte dazu. Sie erstellen kein Programm, starten keine Kampagne oder bearbeiten keinen CRM-Datensatz.
+* In [Smart Audience (Beta)](smart-audience.md) unterstützt der Chat Aktionen in der Audience-Liste, einschließlich des Speicherns einer Liste, des Hinzufügens von Informationsspalten, des Filterns und Priorisierens von Konten und Leads und des Hinzufügens ausgewählter Leads zu einem bestehenden ausgehenden Workflow. Dies schreibt nicht in das CRM oder ersetzt E-Mail-Überprüfung und -Genehmigung.
 * Der KI-Chat sucht nach Informationen; er ist kein Reporting-Tool. Es werden keine Analysen oder Trends im [!DNL Marketo]-Stil im Zeitverlauf erstellt, wie z. B. der E-Mail-Status für das Quartal oder eine Liste der Leads, die in den letzten 10 Tagen erstellt wurden. Verwenden Sie native [!DNL Marketo] für diese Aufgaben.
 
 ## Grundlegende Antworten in Ihrem Playbook

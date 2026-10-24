@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 17%
 ---
 
 # [!DNL Adobe Marketo Qualifier]
@@ -32,6 +32,7 @@ Die App ist neben [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Mark
 ## Was Sie in [!DNL Marketo Qualifier] tun können
 
 * **Priorisieren Sie Interessenten und Konten** mit KI-generierten Aktivitätszusammenfassungen und signalbasierter Priorisierung.
+* **Erstellen Sie Ziellisten mit [Smart Audience (Beta)](smart-audience.md)** indem Sie Accounts in einfacher Sprache beschreiben, CRM-Daten und Wachstumssignale hinzufügen und bewertete Leads für einen ausgehenden Workflow überprüfen.
 * **Erstellen zielgesteuerter Outbound-Workflows** in denen KI eine Kadenz vorschlägt und für jeden Interessenten personalisierte E-Mails entwirft.
 * **Kontaktaufnahme in einer Warteschlange verarbeiten** für Telefonanrufe, LinkedInMails und E-Mail-Überprüfungen.
 * **Buchen Sie Meetings automatisch** indem Sie Ihren Kalender verbinden und einen persönlichen Buchungslink in Ihre Kadenz einfügen.
@@ -78,6 +79,16 @@ Konten
 Priorisieren Sie die Kontaktaufnahme mit Pipeline- und Interaktionsdaten auf Kontoebene.
 
 [Konten](accounts.md)
+:::
+
+:::card
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+
+Intelligente Zielgruppe (Beta)
+
+Konto- und Lead-Listen erstellen und priorisieren und dann ausgewählte Leads zu einem ausgehenden Workflow hinzufügen.
+
+[Intelligente Zielgruppe (Beta)](smart-audience.md)
 :::
 
 :::card
