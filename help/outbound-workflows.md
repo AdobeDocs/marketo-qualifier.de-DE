@@ -6,20 +6,22 @@ role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: abf46024-b86e-4240-96ee-3f23636dfc27
+    internal-label: Outbound Workflows
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '2776'
 ht-degree: 0%
@@ -93,7 +95,7 @@ Beschreiben Sie Ihre ideale Perspektive in natürlicher Sprache. Geben Sie beisp
 
 Beim Targeting können Aktivitätstyp, Score, Bewertung und andere verfügbare Attribute verwendet werden. Kombinieren Sie Kriterien mit [!DNL AND] oder [!DNL OR] und verwenden Sie Operatoren wie „ist gleich“, „enthält“, „größer als“, „kleiner als“ und „zwischen“.
 
-Bei Salesforce und Microsoft Dynamics 365 kann Targeting auch Konto-, Kontakt- und Opportunity-Felder kombinieren, die ein Administrator in der [eingehenden Zuordnung) &#x200B;](integrations.md#map-crm-fields-inbound-mapping). Kombinieren Sie beispielsweise die Rolle eines Kontakts mit der Branche seines zugehörigen Kontos und die Phase der Gelegenheit, die richtigen Kontakte anzusprechen.
+Bei Salesforce und Microsoft Dynamics 365 kann Targeting auch Konto-, Kontakt- und Opportunity-Felder kombinieren, die ein Administrator in der [eingehenden Zuordnung) ](integrations.md#map-crm-fields-inbound-mapping). Kombinieren Sie beispielsweise die Rolle eines Kontakts mit der Branche seines zugehörigen Kontos und die Phase der Gelegenheit, die richtigen Kontakte anzusprechen.
 
 ### Interessenten automatisch über Marketing-Highlights registrieren
 
@@ -164,7 +166,7 @@ Admins konfigurieren die Opt-out-Fußzeile global, was unabhängig von den Einst
 
 Fügen Sie nach dem Speichern Interessenten aus der Auswahlansicht hinzu. Die konfigurierten Zielgruppenfilter werden angewendet.
 
-Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) &#x200B;](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
+Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) ](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
 
 1. Überprüfen Sie die Liste.
 
@@ -268,7 +270,7 @@ Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese autom
 
 Wenn ein potenzieller Kunde mit einer klaren Aufforderung antwortet, keine E-Mails mehr zu erhalten, wie etwa „Bitte keine E-Mails mehr an mich senden“, „Abmelden“, „Mich aus dieser Liste entfernen“ oder „Mich von Ihrer Liste nehmen“, markiert [!DNL Marketo Qualifier] den potenziellen Kunden automatisch als abgemeldet. Dies entspricht dem **[!UICONTROL Opt-out]**-Status und -Badge wie bei Auswahl des Opt-out-Links. Es werden keine weiteren Touchpoints gesendet. Jede konfigurierte CRM-Statusaktualisierung funktioniert wie bei einem Opt-out-Link.
 
-Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert &#x200B;](admin-settings.md#configure-global-email-opt-out).
+Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert ](admin-settings.md#configure-global-email-opt-out).
 
 ## Duplizieren eines ausgehenden Workflows
 

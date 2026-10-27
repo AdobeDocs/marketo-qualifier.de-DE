@@ -6,18 +6,22 @@ role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: ace0d1fc-8e69-4e6a-a442-37fc40985eea
+    internal-label: Account Qualification Agent
+  - id: abf46024-b86e-4240-96ee-3f23636dfc27
+    internal-label: Outbound Workflows
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 17%
@@ -40,7 +44,7 @@ Die App ist neben [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Mark
 * **Stellen Sie Fragen in natürlicher Sprache** mit AI Chat, der Ihre CRM-, Interaktions- und Wissenscenter-Daten verwendet.
 * **Verfolgen der Outreach-** mit E-Mail- und Besprechungsbuchungsberichten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3505339)
 
 ## Verwenden der Startseite
 
@@ -52,7 +56,7 @@ Auf der Startseite werden auch anstehende Aufgaben und ausgehende Workflows ange
 
 ::::landing-cards-container
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
@@ -62,7 +66,7 @@ Schließen Sie die einmalige Administratoreinrichtung für Benutzergruppen und e
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prospects
 
@@ -72,7 +76,7 @@ Interessentenliste erstellen, filtern und überprüfen.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konten
 
@@ -82,7 +86,7 @@ Priorisieren Sie die Kontaktaufnahme mit Pipeline- und Interaktionsdaten auf Kon
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Intelligente Zielgruppe (Beta)
 
@@ -92,7 +96,7 @@ Konto- und Lead-Listen erstellen und priorisieren und dann ausgewählte Leads zu
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ausgehende Workflows
 
@@ -102,7 +106,7 @@ Erstellen Sie zielgesteuerte Kadenzen mit KI-generierten, personalisierten E-Mai
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Aufgaben
 
@@ -112,7 +116,7 @@ Telefonanruf, LinkedInMail und E-Mail-Prüfungsaufgaben in einer Warteschlange v
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Leistung
 
@@ -122,7 +126,7 @@ Leistung
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Knowledge Center
 
@@ -132,7 +136,7 @@ Erstellen Sie ein Playbook, das KI-Reichweite und Hilfe in Ihren Materialien erm
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Integrationen
 
@@ -142,7 +146,7 @@ Verbinden Sie Salesforce oder Microsoft Dynamics 365 und ordnen Sie Ihre Felder 
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Profileinstellungen
 
@@ -152,7 +156,7 @@ Konfigurieren Sie die Verfügbarkeit Ihrer E-Mails, Signaturen und Kalender.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 KI-Chat
 
