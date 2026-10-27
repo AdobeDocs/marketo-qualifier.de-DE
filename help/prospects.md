@@ -91,7 +91,7 @@ Administratoren können auch zugeordnete CRM-Felder als Filter verfügbar machen
 
 In **[!UICONTROL Meine Opportunity-Kontakte]** können Sie Kontakte auch nach Feldern aus den zugehörigen Opportunities filtern, wie Stadium, Typ und Abschlussdatum. Opportunity-Felder haben Bezeichnungen wie **[!UICONTROL Phase (Opportunity)]** die sie von Kontaktfeldern unterscheiden. Ihr Administrator steuert, welche Opportunity-Felder als Filter verfügbar sind.
 
-Sie können Kontakte auch nach Feldern aus ihrem zugehörigen Konto filtern, z. B. Branche, Region oder Kontotyp. Ihr Administrator legt fest, welche Kontofelder gefiltert werden können. Kombinieren Sie Konto-, Kontakt- und Opportunity-Filter, um beispielsweise Kontakte mit einer bestimmten Funktion bei Accounts in einer bestimmten Branche zu finden. Die Filterung der Kontofelder ist für Salesforce und Microsoft Dynamics 365 verfügbar. Dieselben Felder können beim „Zielgruppenbestimmung [ ausgehenden Workflows“ verwendet ](outbound-workflows.md#step-2-configure-targeting-filters).
+Sie können Kontakte auch nach Feldern aus ihrem zugehörigen Konto filtern, z. B. Branche, Region oder Kontotyp. Ihr Administrator legt fest, welche Kontofelder gefiltert werden können. Kombinieren Sie Konto-, Kontakt- und Opportunity-Filter, um beispielsweise Kontakte mit einer bestimmten Funktion bei Accounts in einer bestimmten Branche zu finden. Die Filterung der Kontofelder ist für Salesforce und Microsoft Dynamics 365 verfügbar. Dieselben Felder können beim „Zielgruppenbestimmung [&#x200B; ausgehenden Workflows“ verwendet &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters).
 
 ### Nach Marketing-Highlights filtern
 
