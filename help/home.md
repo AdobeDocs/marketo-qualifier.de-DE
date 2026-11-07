@@ -44,7 +44,7 @@ Die App ist neben [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Mark
 * **Stellen Sie Fragen in natürlicher Sprache** mit AI Chat, der Ihre CRM-, Interaktions- und Wissenscenter-Daten verwendet.
 * **Verfolgen der Outreach-** mit E-Mail- und Besprechungsbuchungsberichten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505339)
+>[!VIDEO](https://video.tv.adobe.com/v/3505356?captions=ger)
 
 ## Verwenden der Startseite
 
