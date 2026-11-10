@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '554'
 ht-degree: 17%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 [!DNL Adobe Marketo Qualifier] ist eine KI-gestützte App, die die Qualifizierung, Kontaktaufnahme und kanalübergreifende Interaktion von Käufern für Vertreter der Geschäftsentwicklung (BDRs) automatisiert. Der Account Qualification Agent analysiert Ihre Kunden und potenziellen Kunden, priorisiert diejenigen, die für den nächsten Schritt bereit sind, und entwirft personalisierte Maßnahmen auf der Grundlage Ihrer CRM-Daten.
 
-Die App ist neben [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Marketo Measure] Teil der [!DNL Marketo] Produktfamilie. BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intelligence direkt in ihrem CRM oder Outlook aufzurufen.
+Die App ist neben [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Marketo Measure] Teil der [!DNL Marketo] Produktfamilie. BDRs können das [CRM-Plug-](crm-plugin-setup.md) verwenden, um direkt in Salesforce oder Microsoft Dynamics 365 auf Business Intelligence zuzugreifen, und das E-Mail-Plug-in, um in Outlook darauf zuzugreifen.
 
 ## Was Sie in [!DNL Marketo Qualifier] tun können
 
@@ -143,6 +143,16 @@ Integrationen
 Verbinden Sie Salesforce oder Microsoft Dynamics 365 und ordnen Sie Ihre Felder zu.
 
 [Integrationen](integrations.md)
+:::
+
+:::card
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+
+CRM-Plug-in-Einrichtung
+
+Installieren Sie das CRM-Plug-in und konfigurieren Sie Salesforce-Aktionen für ausgehende Workflows und Marketo-Kampagnen.
+
+[Marketo Qualifier in CRM einbetten](crm-plugin-setup.md)
 :::
 
 :::card

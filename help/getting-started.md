@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1063'
 ht-degree: 0%
 ---
 
@@ -179,6 +179,8 @@ Nachdem Sie das CRM verbunden haben, konfigurieren Sie die eingehende Zuordnung,
 Siehe [Zuordnen von CRM-Feldern (eingehende Zuordnung)](integrations.md#map-crm-fields-inbound-mapping) für vollständige Schritte, einschließlich der Bereitstellung importierter Felder als Filter.
 
 ## Nächste Schritte
+
+Administratoren können optional [&#x200B; CRM-Plug-in installieren](crm-plugin-setup.md) sodass sie Marketo Qualifier Insights in Salesforce oder Microsoft Dynamics 365 verwenden können. In Salesforce können Admins auch Aktionen für ausgehende Workflows und Marketo-Kampagnen zu Lead- und Kontaktlistenansichten und Datensatzseiten hinzufügen.
 
 >[!MORELIKETHIS]
 >

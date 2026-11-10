@@ -9,15 +9,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 11%
+source-wordcount: '767'
+ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] – Versionshinweise
 
 ## Bevorstehende Version
 
+* Beschreiben Sie, wen Sie im Klartext erreichen möchten, und verwandeln Sie ihn in CRM-Lead- und Kontaktfilter, verwenden Sie jeden Lead- und Kontaktfilter beim ausgehenden Workflow-Targeting und zeigen Sie vor dem Speichern eine Vorschau der passenden Interessenten an. [Weitere Informationen](outbound-workflows.md#step-2-configure-targeting-filters).
+* Filtern Sie Interessenten in Textfeldern wie Auftragstitel und E-Mail nach mehreren Werten gleichzeitig, mit bis zu fünf Werten pro Filter. [Weitere Informationen](prospects.md#filter-and-find-prospects).
+* KI-Antwortentwürfe für Interessentenantworten direkt von einem ausgehenden Workflow aus überprüfen, bearbeiten und senden oder Entwürfe ablehnen, die nicht passen. [Weitere Informationen](outbound-workflows.md#review-and-send-ai-draft-replies).
+* Installieren Sie [!DNL Adobe Marketo Qualifier] in Salesforce oder Microsoft Dynamics 365 und fügen Sie potenziellen Kunden ausgehende Workflows oder Marketo-Kampagnen über Salesforce-Listenansichten und -Datensatzseiten hinzu. [Weitere Informationen](crm-plugin-setup.md).
+* Schnellere ersten Schritte mit Smart Audience (Beta): Eine Einführung, Optionen zum schnellen Hinzufügen beim Erstellen einer Zielgruppe und klarere Listen mit Datensatzzählungen, einer Kontospalte, die angezeigt wird, und farbcodierten Scores. [Weitere Informationen](smart-audience.md).
 * Finden und priorisieren Sie die richtigen Accounts und Leads mit Smart Audience (Beta). Beschreiben Sie die gewünschten Konten in verständlicher Sprache, fügen Sie CRM-Daten und Wachstumssignale hinzu, prüfen Sie bewertete Leads und fügen Sie sie einem ausgehenden Workflow hinzu. [Weitere Informationen](smart-audience.md).
 * Filtern Sie Kontakte nach Account-Feldern neben Kontakt- und Opportunity-Feldern, um die richtigen Kontakte zu finden und Outbound-Workflows genauer anzusprechen. [Weitere Informationen](prospects.md#filter-and-find-prospects).
 * Kontakte zeigen den zugehörigen Konto- und Eigentümernamen an, und die Seite eines Interessenten zeigt jetzt 90 Tage Marketing-Aktivität an, von 30 Tagen. [Weitere Informationen](prospects.md#review-prospect-details).
