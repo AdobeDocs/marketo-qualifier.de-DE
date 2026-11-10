@@ -9,14 +9,14 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '768'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] – Versionshinweise
 
-## Bevorstehende Version
+## Version November 2026
 
 * Beschreiben Sie, wen Sie im Klartext erreichen möchten, und verwandeln Sie ihn in CRM-Lead- und Kontaktfilter, verwenden Sie jeden Lead- und Kontaktfilter beim ausgehenden Workflow-Targeting und zeigen Sie vor dem Speichern eine Vorschau der passenden Interessenten an. [Weitere Informationen](outbound-workflows.md#step-2-configure-targeting-filters).
 * Filtern Sie Interessenten in Textfeldern wie Auftragstitel und E-Mail nach mehreren Werten gleichzeitig, mit bis zu fünf Werten pro Filter. [Weitere Informationen](prospects.md#filter-and-find-prospects).
