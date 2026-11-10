@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1105'
 ht-degree: 0%
 ---
 
@@ -109,7 +109,7 @@ Abgeschlossene, übersprungene und abgebrochene Aufgaben sind endgültig. Ihre A
 
 ## Agent-Vorschläge
 
-Auf **[!UICONTROL Registerkarte]** Agentenvorschläge“ werden Interessenten aufgelistet, die den Targeting-Kriterien eines ausgehenden Workflows entsprechen und für die Registrierung empfohlen werden. Informationen zum Aktivieren von Recommendations finden Sie [Ausgehende Workflows](outbound-workflows.md).
+Die **[!UICONTROL Agentenvorschläge]** enthält Interessenten, die für die Registrierung empfohlen werden, und nutzt einen vollständigen Satz konfigurierter [Zielgruppenbestimmungsfilter für ausgehende Workflows](outbound-workflows.md#step-2-configure-targeting-filters). Informationen zum Aktivieren von Recommendations finden Sie [Ausgehende Workflows](outbound-workflows.md).
 
 Um einen Vorschlag im Arbeitsbereich zu überprüfen, wählen Sie ihn aus:
 
@@ -118,7 +118,7 @@ Um einen Vorschlag im Arbeitsbereich zu überprüfen, wählen Sie ihn aus:
 
 Es stehen zwei Aktionen zur Verfügung:
 
-* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung &#x200B;](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung ](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Als abgeschlossen markieren]** - Schließen Sie den Vorschlag ab, nachdem Sie ihn überprüft haben.
 
 Die **[!UICONTROL Agentenvorschläge]** enthält die Statusfilter **[!UICONTROL Aktuell]**, **[!UICONTROL Abgeschlossen]** und **[!UICONTROL Abgebrochen]**, einen Filter für ausgehende Workflows und eine Sortierung nach Erstellungsdatum.
@@ -139,6 +139,8 @@ Preisangaben, rechtliche oder Sicherheitsanforderungen, feindselige Reaktionen u
 1. Öffnen Sie den Antwortvorschlag und überprüfen Sie den vollständigen Thread und die entworfene Antwort.
 1. Um einen weiteren Entwurf zu erstellen, bearbeiten Sie die Antwort oder wählen Sie **[!UICONTROL Mit KI generieren]** aus.
 1. Um die Antwort zu senden und den ausgehenden Workflow des Interessenten fortzusetzen, wählen Sie **[!UICONTROL Genehmigen und senden]** aus.
+
+Sie können KI[Entwurfsantworten auch in der Ansicht „Interessenten“ des ausgehenden Workflows ](outbound-workflows.md#review-and-send-ai-draft-replies)prüfen, bearbeiten **[!UICONTROL senden oder]**.
 
 ## Abschließen von Aufgaben aus einem ausgehenden Workflow
 

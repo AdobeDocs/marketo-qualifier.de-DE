@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Smart Audience (Beta) Account-Listen erst
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 badgeBeta: label="Beta" type="Informative"
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1313'
 ht-degree: 1%
 ---
 
@@ -17,6 +17,8 @@ Smart Audience (Beta) hilft Ihnen, die Konten und Personen zu finden, die als N�
 Arbeiten Sie in der Listenansicht mit dem Raster, den Filtern und den Schaltflächen oder verwenden Sie den Chat, um zu beschreiben, was Sie möchten. Beide arbeiten auf derselben Liste: Änderungen in einer Liste werden in der anderen angezeigt. Wenn eine Änderung nicht sofort angezeigt wird, wählen Sie **[!UICONTROL Aktualisieren]**.
 
 Die Fortschrittsverfolgung am Anfang jeder Liste zeigt drei Schritte an: **[!UICONTROL Smart-Audience-Liste erstellen]**, **[!UICONTROL Leads priorisieren]** und **[!UICONTROL Zum ausgehenden Workflow hinzufügen]**.
+
+Die Landingpage enthält ein Beispiel für die automatische Wiedergabe des vollständigen fünfstufigen Flusses, von der Beschreibung von Konten bis zum Hinzufügen von Leads zu einem ausgehenden Workflow. In **[!UICONTROL Anleitung wird]** Journey Schritt für Schritt erläutert und automatisch geöffnet, wenn keine Listen vorhanden sind. Sie können die exemplarische Vorgehensweise überspringen und sie jederzeit erneut öffnen, indem Sie **[!UICONTROL Funktionsweise]** auswählen.
 
 ## Voraussetzungen
 
@@ -29,7 +31,10 @@ Sie können bis zu 100 Listen erstellen. Jede Liste enthält bis zu 500 Accounts
 Beginnen Sie mit einer Beschreibung der Konten, die Sie erreichen möchten. In der Vorschau wird keine Liste gespeichert.
 
 1. Öffnen Sie **[!UICONTROL Intelligente Zielgruppe]** und wählen Sie **[!UICONTROL Neue intelligente Zielgruppe]** oder **[!UICONTROL Liste erstellen]** aus.
-1. Beschreiben Sie im Chat die gewünschten Konten. Geben Sie beispielsweise `Find healthcare accounts with revenue over $50M` ein.
+1. Verwenden Sie die Schnelleinfügeoptionen und Beispielaufforderungen auf der Seite zur Zielgruppenerstellung, um Ihre Anfrage zu starten, oder beschreiben Sie die Konten, die Sie im Chat verwenden möchten.
+
+   Geben Sie beispielsweise `Find healthcare accounts with revenue over $50M` ein.
+
 1. Überprüfen Sie die Anzahl der übereinstimmenden Konten und die Stichprobe in der Vorschau.
 
 Ihre Anfrage kann die folgenden Kriterien enthalten:
@@ -58,6 +63,8 @@ Speichern Sie die Vorschau, wenn sie Ihrer gewünschten Zielgruppe entspricht.
 1. Wenn die Vorschau fertig ist, bitten Sie den Chat, sie als Liste zu speichern und der Liste einen Namen zu geben.
 1. Überprüfen Sie die gespeicherten Konten auf der Registerkarte **[!UICONTROL Konten]** .
 
+Gespeicherte Listen werden als Karten mit Konto-, Lead- und Anreicherungsdetails angezeigt, damit Sie auswählen können, welche Liste geöffnet werden soll.
+
 Sie können eine Liste auf der zugehörigen Seite umbenennen. Um eine Liste zu löschen, öffnen Sie sie und wählen Sie **[!UICONTROL Smart-Audience-Liste löschen]** aus.
 
 >[!CAUTION]
@@ -82,7 +89,9 @@ Um Wachstumssignale hinzuzufügen, wählen Sie **[!UICONTROL Konten anreichern]*
 
 Geben Sie beispielsweise `Which of these accounts have raised funding recently?` oder `Which of these accounts have had layoffs?` ein.
 
-Bei großen Listen kann das Hinzufügen eines Signals einige Minuten dauern. Folgen Sie dem in der Liste angezeigten Fortschritt, überprüfen Sie jede neue Spalte und behalten oder verwerfen Sie sie.
+Bei großen Listen kann das Hinzufügen eines Signals einige Minuten dauern. Folgen Sie dem in der Liste angezeigten Fortschritt, überprüfen Sie jede neue Spalte und behalten oder verwerfen Sie sie. Nachdem Sie eine Anreicherungsspalte hinzugefügt haben, wählen Sie **[!UICONTROL Spalte anzeigen]** aus, um sie anzuzeigen. Die Spalte wird kurz hervorgehoben, sodass Sie sie finden können, ohne die Spaltenreihenfolge zu ändern.
+
+Die **[!UICONTROL Konten]** und **[!UICONTROL Leads]** zeigen ihre Datensatzanzahl an. Die Spalte **[!UICONTROL Konto]** bleibt beim horizontalen Scrollen durch die Liste in der Ansicht.
 
 So grenzen Sie die Konten ein und haben Prioritäten:
 
@@ -109,9 +118,13 @@ Geben Sie für eine Chat-Anfrage `Find VP and Director level people at these acc
 
 Überprüfen Sie die Ergebnisse auf der Registerkarte **[!UICONTROL Leads]** . Jeder Lead zeigt seinen Namen, Titel, Konto, E-Mail-Adresse, Inhaber und Score an. Filtern Sie nach der Priorität, ob eine E-Mail-Adresse verfügbar ist, die Mindest- oder Höchstpunktzahl oder ob sich der Lead in einem Workflow befindet. In **[!UICONTROL Spalte &quot;]**&quot; wird erläutert, warum jeder Lead dort eingestuft wird, wo er sich befindet.
 
+Wenn die Registerkarte **[!UICONTROL Leads]** leer ist, befolgen Sie die Anleitungen, um Leads für Ihre in die engere Wahl gezogenen Konten zu finden.
+
 ### Funktionsweise von Scores
 
 Die Scores reichen von 0 bis 100. Eine höhere Punktzahl bedeutet eine bessere Passform und mehr Bereitschaft, sich zu engagieren. Dieselben Daten erzeugen denselben Wert.
+
+Die Punktzahlen sind farbcodiert, damit sich bessere Übereinstimmungen besser abheben. Prüfen Sie die numerische Bewertung und das Denken beim Vergleichen von Konten oder Leads, anstatt sich allein auf die Farbe zu verlassen.
 
 Eine Punktzahl kombiniert:
 
@@ -132,7 +145,7 @@ Fügen Sie nach der Überprüfung der Leads die Leads, die Sie einem vorhandenen
 
 Sie können auch den Chat bitten, die Leads anhand des Namens zu einem Workflow hinzuzufügen. Wenn Sie den Namen nicht kennen, bitten Sie Chat, Ihre verfügbaren Workflows aufzulisten. Überprüfen Sie den Namen des Workflows und die Anzahl der Leads in der Antwort.
 
-Das Hinzufügen von Leads ersetzt nicht die Überprüfung und Genehmigung von E-Mails. Führen Sie die Schritte aus[&#x200B; um generierte E](outbound-workflows.md#review-and-refine-generated-emails)Mails zu überprüfen und [Interessenten zu genehmigen und &#x200B;](outbound-workflows.md#approve-and-enroll-prospects) registrieren), bevor die Kontaktaufnahme gesendet wird.
+Das Hinzufügen von Leads ersetzt nicht die Überprüfung und Genehmigung von E-Mails. Führen Sie die Schritte aus[ um generierte E](outbound-workflows.md#review-and-refine-generated-emails)Mails zu überprüfen und [Interessenten zu genehmigen und ](outbound-workflows.md#approve-and-enroll-prospects) registrieren), bevor die Kontaktaufnahme gesendet wird.
 
 ## Derzeitiger Umfang und Einschränkungen
 

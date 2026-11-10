@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '3086'
 ht-degree: 0%
 ---
 
@@ -82,20 +82,21 @@ Die KI behält Anforderungen im Ziel genau in den generierten Touchpoints bei. S
 
 Zielgruppenbestimmungsfilter definieren, welche potenziellen Kunden infrage kommen. Wenn Sie später Interessenten hinzufügen, werden nur die Interessenten in der Auswahlliste angezeigt, die diesen Filtern entsprechen.
 
-![Zielgruppenfilter](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+Beschreiben Sie die CRM-Leads oder -Kontakte, die Sie erreichen möchten, in einfacher Sprache. Geben Sie beispielsweise `Contacts with open opportunities closing in the next 30 days` ein, oder verwenden Sie eine integrierte Beispielaufforderung, um zu beginnen. [!DNL Adobe Marketo Qualifier] konvertiert die Beschreibung in Filter, die Sie vor dem Speichern überprüfen und bearbeiten können. Wenn ein Teil der Beschreibung nicht in einen Filter konvertiert werden kann, wird er so gekennzeichnet, dass Sie die Bedingung überprüfen können, anstatt sie unwissentlich auszuschließen.
 
-Beschreiben Sie Ihre ideale Perspektive in natürlicher Sprache. Geben Sie beispielsweise `Hot leads at companies with 500 or more employees who requested a demo` ein. [!DNL Adobe Marketo Qualifier] konvertiert die Beschreibung in Zielgruppenkriterien, die Sie überprüfen und verfeinern können.
+Der Filter-Builder verwendet dasselbe Erlebnis wie [Marketing-Filter](prospects.md#filter-by-marketing-highlights) auf der Seite „Interessenten“. Verwenden Sie sie, um Bedingungen hinzuzufügen, zu bearbeiten oder zu löschen.
 
-1. Um die Liste **[!UICONTROL Filter hinzufügen]** zu öffnen, klicken Sie auf den Pfeil nach unten und wählen Sie dann einen Filter aus.
-
-1. Legen Sie Werte für den Filter fest.
-1. Fügen Sie weitere Filter hinzu, wenn Sie die Zielgruppe eingrenzen möchten.
-
-1. Weiter zu Touchpoints.
+1. Überprüfen Sie die aus Ihrer Beschreibung generierten Filter oder wählen Sie einen Filter aus, um eine Bedingung manuell hinzuzufügen.
+1. Wählen Sie den Operator und geben Sie die Werte für jede Bedingung ein oder wählen Sie sie aus.
+1. Bedingungen hinzufügen, bearbeiten oder löschen, um die Audience einzugrenzen.
+1. Wählen Sie **[!UICONTROL Vorschau von Leads]** oder **[!UICONTROL Vorschau von Kontakten]**, um zu sehen, welche Interessenten übereinstimmen.
+1. Überprüfen Sie die Vorschau und passen Sie die Filter bei Bedarf an, bevor Sie mit den Touchpoints fortfahren.
 
 Beim Targeting können Aktivitätstyp, Score, Bewertung und andere verfügbare Attribute verwendet werden. Kombinieren Sie Kriterien mit [!DNL AND] oder [!DNL OR] und verwenden Sie Operatoren wie „ist gleich“, „enthält“, „größer als“, „kleiner als“ und „zwischen“.
 
-Bei Salesforce und Microsoft Dynamics 365 kann Targeting auch Konto-, Kontakt- und Opportunity-Felder kombinieren, die ein Administrator in der [eingehenden Zuordnung) &#x200B;](integrations.md#map-crm-fields-inbound-mapping). Kombinieren Sie beispielsweise die Rolle eines Kontakts mit der Branche seines zugehörigen Kontos und die Phase der Gelegenheit, die richtigen Kontakte anzusprechen.
+Jeder Filter aus den **[!UICONTROL Leads]** und **[!UICONTROL Kontakte]** Listen kann bei der Zielgruppenbestimmung verwendet werden, einschließlich Kontofeldern, Opportunity-Feldern, Status ausgehender Workflows und Kontaktkategorien wie **[!UICONTROL Meine Opportunity-Kontakte]**. Administratoren wählen aus, welche CRM-Felder in der [-Zuordnung gefiltert werden ](integrations.md#map-crm-fields-inbound-mapping).
+
+Alle Zielgruppenfilter werden im Workflow gespeichert und beim Hinzufügen von potenziellen Kunden automatisch angewendet. [Agentenvorschläge](tasks.md#agent-suggestions) Verwenden Sie denselben vollständigen Satz von Filtern, sodass die empfohlenen potenziellen Kunden Ihren Zielgruppenkriterien entsprechen.
 
 ### Interessenten automatisch über Marketing-Highlights registrieren
 
@@ -166,7 +167,7 @@ Admins konfigurieren die Opt-out-Fußzeile global, was unabhängig von den Einst
 
 Fügen Sie nach dem Speichern Interessenten aus der Auswahlansicht hinzu. Die konfigurierten Zielgruppenfilter werden angewendet.
 
-Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) &#x200B;](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
+Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) ](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
 
 1. Überprüfen Sie die Liste.
 
@@ -259,6 +260,25 @@ Verwenden Sie diese Filter, um freigegebene ausgehende Workflows und Ergebnisse 
 * Verwenden Sie **[!UICONTROL Engagierte Interessenten]** und **[!UICONTROL Leistung]** die Option **[!UICONTROL Registriert von]**, um Interessenten nach der Person zu filtern, die sie registriert hat. Der Filter bezieht sich standardmäßig auf die von Ihnen registrierten potenziellen Kunden.
 * Verwenden Sie auf der Registerkarte **[!UICONTROL Durchsuchen]** den Freigabefilter, um **[!UICONTROL Von mir]**, **[!UICONTROL Für mich freigegeben]**, **[!UICONTROL Privat]** oder **[!UICONTROL Alle]** auszuwählen.
 
+## KI-Antwortentwürfe überprüfen und senden
+
+Wenn ein Interessent auf eine ausgehende Workflow-E-Mail antwortet, können Sie einen KI-Antwortentwurf direkt in der Ansicht &quot;**[!UICONTROL Interessenten“ des Workflows überprüfen, bearbeiten und]**, ohne zu Aufgaben zu wechseln. Informationen dazu, wie der Konversationskontext des Entwurfs verwendet wird und welche Nachrichten eine persönliche Antwort benötigen, finden Sie [Auf einen potenziellen Kunden mit einem Agentenvorschlag antworten](tasks.md#reply-to-a-prospect-with-an-agent-suggestion).
+
+1. Öffnen Sie den ausgehenden Workflow und wählen Sie &quot;**[!UICONTROL Interessenten“]**.
+1. Wählen Sie das Tag **[!UICONTROL KI-Antwortentwurf zu überprüfen]** neben einem Interessenten aus.
+
+   Über das Informationssymbol des Tags wird erklärt, dass der Interessent geantwortet hat und ein Entwurf bereit ist. Den Entwurf finden Sie auch unter der E-Mail, die er beantwortet, in den Touchpoints des Interessenten mit der Beschriftung **[!UICONTROL Auf diese E-Mail antworten]**.
+
+1. Lesen Sie die Nachricht des Interessenten, die über der vorgeschlagenen Antwort erscheint.
+1. Bearbeiten Sie den Entwurf nach Bedarf.
+1. Wählen Sie **[!UICONTROL Genehmigen und senden]**, um die Antwort zu senden, oder **[!UICONTROL Antwort ablehnen]**, um sie zu verwerfen.
+
+   Nach jeder Aktion wird eine Bestätigung angezeigt.
+
+Um die vollständige E-Mail-Konversation zu öffnen, wählen Sie **[!UICONTROL Thread anzeigen]**.
+
+Jeder Entwurf zeigt seinen Status an: **[!UICONTROL Ausstehende Überprüfung]**, **[!UICONTROL Gesendet]**, **[!UICONTROL Abgelehnt]** oder **[!UICONTROL Abgebrochen]**. Nur der Besitzer des potenziellen Kunden kann einen Entwurf genehmigen oder ablehnen. Wenn auf einen Entwurf nicht reagiert werden kann, sind die Schaltflächen nicht verfügbar und eine Meldung erläutert, warum.
+
 ## Bearbeitung von Abwesenheitsanfragen
 
 Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese automatisch vom ausgehenden Workflow verarbeitet.
@@ -270,7 +290,7 @@ Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese autom
 
 Wenn ein potenzieller Kunde mit einer klaren Aufforderung antwortet, keine E-Mails mehr zu erhalten, wie etwa „Bitte keine E-Mails mehr an mich senden“, „Abmelden“, „Mich aus dieser Liste entfernen“ oder „Mich von Ihrer Liste nehmen“, markiert [!DNL Marketo Qualifier] den potenziellen Kunden automatisch als abgemeldet. Dies entspricht dem **[!UICONTROL Opt-out]**-Status und -Badge wie bei Auswahl des Opt-out-Links. Es werden keine weiteren Touchpoints gesendet. Jede konfigurierte CRM-Statusaktualisierung funktioniert wie bei einem Opt-out-Link.
 
-Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert &#x200B;](admin-settings.md#configure-global-email-opt-out).
+Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert ](admin-settings.md#configure-global-email-opt-out).
 
 ## Duplizieren eines ausgehenden Workflows
 
