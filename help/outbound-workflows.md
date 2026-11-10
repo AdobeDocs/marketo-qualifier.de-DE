@@ -94,7 +94,7 @@ Der Filter-Builder verwendet dasselbe Erlebnis wie [Marketing-Filter](prospects.
 
 Beim Targeting können Aktivitätstyp, Score, Bewertung und andere verfügbare Attribute verwendet werden. Kombinieren Sie Kriterien mit [!DNL AND] oder [!DNL OR] und verwenden Sie Operatoren wie „ist gleich“, „enthält“, „größer als“, „kleiner als“ und „zwischen“.
 
-Jeder Filter aus den **[!UICONTROL Leads]** und **[!UICONTROL Kontakte]** Listen kann bei der Zielgruppenbestimmung verwendet werden, einschließlich Kontofeldern, Opportunity-Feldern, Status ausgehender Workflows und Kontaktkategorien wie **[!UICONTROL Meine Opportunity-Kontakte]**. Administratoren wählen aus, welche CRM-Felder in der [-Zuordnung gefiltert werden ](integrations.md#map-crm-fields-inbound-mapping).
+Jeder Filter aus den **[!UICONTROL Leads]** und **[!UICONTROL Kontakte]** Listen kann bei der Zielgruppenbestimmung verwendet werden, einschließlich Kontofeldern, Opportunity-Feldern, Status ausgehender Workflows und Kontaktkategorien wie **[!UICONTROL Meine Opportunity-Kontakte]**. Administratoren wählen aus, welche CRM-Felder in der [-Zuordnung gefiltert werden &#x200B;](integrations.md#map-crm-fields-inbound-mapping).
 
 Alle Zielgruppenfilter werden im Workflow gespeichert und beim Hinzufügen von potenziellen Kunden automatisch angewendet. [Agentenvorschläge](tasks.md#agent-suggestions) Verwenden Sie denselben vollständigen Satz von Filtern, sodass die empfohlenen potenziellen Kunden Ihren Zielgruppenkriterien entsprechen.
 
@@ -167,7 +167,7 @@ Admins konfigurieren die Opt-out-Fußzeile global, was unabhängig von den Einst
 
 Fügen Sie nach dem Speichern Interessenten aus der Auswahlansicht hinzu. Die konfigurierten Zielgruppenfilter werden angewendet.
 
-Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) ](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
+Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) &#x200B;](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
 
 1. Überprüfen Sie die Liste.
 
@@ -290,7 +290,7 @@ Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese autom
 
 Wenn ein potenzieller Kunde mit einer klaren Aufforderung antwortet, keine E-Mails mehr zu erhalten, wie etwa „Bitte keine E-Mails mehr an mich senden“, „Abmelden“, „Mich aus dieser Liste entfernen“ oder „Mich von Ihrer Liste nehmen“, markiert [!DNL Marketo Qualifier] den potenziellen Kunden automatisch als abgemeldet. Dies entspricht dem **[!UICONTROL Opt-out]**-Status und -Badge wie bei Auswahl des Opt-out-Links. Es werden keine weiteren Touchpoints gesendet. Jede konfigurierte CRM-Statusaktualisierung funktioniert wie bei einem Opt-out-Link.
 
-Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert ](admin-settings.md#configure-global-email-opt-out).
+Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert &#x200B;](admin-settings.md#configure-global-email-opt-out).
 
 ## Duplizieren eines ausgehenden Workflows
 

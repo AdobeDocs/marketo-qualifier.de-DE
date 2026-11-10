@@ -118,7 +118,7 @@ Um einen Vorschlag im Arbeitsbereich zu überprüfen, wählen Sie ihn aus:
 
 Es stehen zwei Aktionen zur Verfügung:
 
-* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung ](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung &#x200B;](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Als abgeschlossen markieren]** - Schließen Sie den Vorschlag ab, nachdem Sie ihn überprüft haben.
 
 Die **[!UICONTROL Agentenvorschläge]** enthält die Statusfilter **[!UICONTROL Aktuell]**, **[!UICONTROL Abgeschlossen]** und **[!UICONTROL Abgebrochen]**, einen Filter für ausgehende Workflows und eine Sortierung nach Erstellungsdatum.
@@ -140,7 +140,7 @@ Preisangaben, rechtliche oder Sicherheitsanforderungen, feindselige Reaktionen u
 1. Um einen weiteren Entwurf zu erstellen, bearbeiten Sie die Antwort oder wählen Sie **[!UICONTROL Mit KI generieren]** aus.
 1. Um die Antwort zu senden und den ausgehenden Workflow des Interessenten fortzusetzen, wählen Sie **[!UICONTROL Genehmigen und senden]** aus.
 
-Sie können KI[Entwurfsantworten auch in der Ansicht „Interessenten“ des ausgehenden Workflows ](outbound-workflows.md#review-and-send-ai-draft-replies)prüfen, bearbeiten **[!UICONTROL senden oder]**.
+Sie können KI[Entwurfsantworten auch in der Ansicht „Interessenten“ des ausgehenden Workflows &#x200B;](outbound-workflows.md#review-and-send-ai-draft-replies)prüfen, bearbeiten **[!UICONTROL senden oder]**.
 
 ## Abschließen von Aufgaben aus einem ausgehenden Workflow
 
