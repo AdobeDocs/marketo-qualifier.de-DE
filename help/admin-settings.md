@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1368'
 ht-degree: 0%
 ---
 
@@ -49,7 +49,7 @@ Die CRM-Verbindungen, die Feldzuordnung und die Aktivitätssynchronisierung konf
 Marketo Qualifier arbeitet auf folgende Weise mit Ihrem CRM-System:
 
 * **CRM-MCP** Abfragen: Live-CRM-Daten von Account Qualification Agent werden abgefragt, damit Antworten und Einblicke den aktuellen Status Ihrer Datensätze widerspiegeln.
-* **Eingebettetes Plug-in** - Das CRM-Plug-in zeigt [!DNL Marketo Sales Insights] (MSI)-Einblicke und agentische Daten in Ihrem CRM an. Verwenden Sie das Plug-in, um [!DNL Marketo Qualifier] einen Interessenten hinzuzufügen. Informationen zur Installation und Einrichtung von Salesforce-Aktionen finden Sie unter [Marketo Qualifier in Ihr CRM einbetten](crm-plugin-setup.md).
+* **Eingebettetes Plug-in** - Das CRM-Plug-in zeigt [!DNL Marketo Sales Insights] (MSI)-Einblicke und agentische Daten in Ihrem CRM an. Verwenden Sie das Plug-in, um [!DNL Marketo Qualifier] einen Interessenten hinzuzufügen. Informationen zur Installation und Einrichtung von Salesforce-Aktionen finden Sie [Einrichten des CRM-Plug-ins](crm-plugin-setup.md).
 * **Aktivitätssynchronisierung** Wenn ein Administrator die Option **[!UICONTROL Aktivitätssynchronisierung]** aktiviert, werden die Outreach-Aktivitäten mit dem CRM und Marketo synchronisiert.
 
 ### Priorisieren von Leads im CRM-Plug-in
@@ -84,7 +84,7 @@ Nachdem das CRM verbunden ist, wählen Sie **[!UICONTROL Verwalten]** für die V
 
    Jede Feldzeile zeigt ihren **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]** an.
 
-1. Aktivieren **[!UICONTROL Filterbar]** für jedes Feld eines Interessenten, Kontakts, Kontos oder einer Opportunity, das bzw. die Sie als Filter in der Liste **[!UICONTROL Interessenten]** und im [Zielgruppenbestimmungs-Workflow) &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters).
+1. Aktivieren **[!UICONTROL Filterbar]** für jedes Feld eines Interessenten, Kontakts, Kontos oder einer Opportunity, das bzw. die Sie als Filter in der Liste **[!UICONTROL Interessenten]** und im [Zielgruppenbestimmungs-Workflow) ](outbound-workflows.md#step-2-configure-targeting-filters).
 1. Zeigen Sie eine Vorschau des Abschnitts an und wählen Sie **[!UICONTROL Hinzufügen]**.
 
 Zugeordnete Felder werden in den entsprechenden Bereichen von Marketo Qualifier angezeigt:

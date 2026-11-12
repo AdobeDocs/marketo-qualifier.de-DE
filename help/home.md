@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '553'
 ht-degree: 17%
 ---
 
@@ -44,7 +44,7 @@ Die App ist neben [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Mark
 * **Stellen Sie Fragen in natürlicher Sprache** mit AI Chat, der Ihre CRM-, Interaktions- und Wissenscenter-Daten verwendet.
 * **Verfolgen der Outreach-** mit E-Mail- und Besprechungsbuchungsberichten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505356?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3505339)
 
 ## Verwenden der Startseite
 
@@ -56,7 +56,7 @@ Auf der Startseite werden auch anstehende Aufgaben und ausgehende Workflows ange
 
 ::::landing-cards-container
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
@@ -66,7 +66,7 @@ Schließen Sie die einmalige Administratoreinrichtung für Benutzergruppen und e
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prospects
 
@@ -76,7 +76,7 @@ Interessentenliste erstellen, filtern und überprüfen.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konten
 
@@ -86,7 +86,7 @@ Priorisieren Sie die Kontaktaufnahme mit Pipeline- und Interaktionsdaten auf Kon
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Intelligente Zielgruppe (Beta)
 
@@ -96,7 +96,7 @@ Konto- und Lead-Listen erstellen und priorisieren und dann ausgewählte Leads zu
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ausgehende Workflows
 
@@ -106,7 +106,7 @@ Erstellen Sie zielgesteuerte Kadenzen mit KI-generierten, personalisierten E-Mai
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Aufgaben
 
@@ -116,7 +116,7 @@ Telefonanruf, LinkedInMail und E-Mail-Prüfungsaufgaben in einer Warteschlange v
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Leistung
 
@@ -126,7 +126,7 @@ Leistung
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Knowledge Center
 
@@ -136,7 +136,7 @@ Erstellen Sie ein Playbook, das KI-Reichweite und Hilfe in Ihren Materialien erm
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Integrationen
 
@@ -146,17 +146,17 @@ Verbinden Sie Salesforce oder Microsoft Dynamics 365 und ordnen Sie Ihre Felder 
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 CRM-Plug-in-Einrichtung
 
 Installieren Sie das CRM-Plug-in und konfigurieren Sie Salesforce-Aktionen für ausgehende Workflows und Marketo-Kampagnen.
 
-[Marketo Qualifier in CRM einbetten](crm-plugin-setup.md)
+[Einrichten des CRM-Plug-ins](crm-plugin-setup.md)
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Profileinstellungen
 
@@ -166,7 +166,7 @@ Konfigurieren Sie die Verfügbarkeit Ihrer E-Mails, Signaturen und Kalender.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 KI-Chat
 
