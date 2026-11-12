@@ -1,6 +1,6 @@
 ---
-title: CRM-Verbindungen
-description: Erfahren Sie, wie Sie Marketo Qualifier in Salesforce oder Microsoft Dynamics 365 installieren und Salesforce-Aktionen für ausgehende Workflows und Marketo-Kampagnen konfigurieren.
+title: Einrichten des CRM-Plug-ins
+description: Erfahren Sie, wie Sie das Marketo Qualifier CRM-Plug-in in Salesforce oder Microsoft Dynamics 365 installieren. Konfigurieren Sie Salesforce-Aktionen für Workflows und Marketo-Kampagnen.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -17,13 +17,13 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '953'
 ht-degree: 0%
 ---
 
-# CRM-Verbindungen
+# Einrichten des CRM-Plug-ins
 
 Installieren Sie das [!DNL Adobe Marketo Qualifier] CRM-Plug-in, damit die Kundenbetreuer [!DNL Marketo Sales Insights] und KI-generierte Einblicke auf den Datensatzseiten für Leads, Kontakte und Konten verwenden können, ohne Salesforce oder Microsoft Dynamics 365 verlassen zu müssen. Das Plug-in bietet auch eine Startansicht zum [Priorisieren von Leads in Ihrem CRM](admin-settings.md#prioritize-leads-in-the-crm-plugin).
 
