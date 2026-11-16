@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3140'
 ht-degree: 0%
 ---
 
@@ -94,20 +94,23 @@ Der Filter-Builder verwendet dasselbe Erlebnis wie [Marketing-Filter](prospects.
 
 Beim Targeting können Aktivitätstyp, Score, Bewertung und andere verfügbare Attribute verwendet werden. Kombinieren Sie Kriterien mit [!DNL AND] oder [!DNL OR] und verwenden Sie Operatoren wie „ist gleich“, „enthält“, „größer als“, „kleiner als“ und „zwischen“.
 
-Jeder Filter aus den **[!UICONTROL Leads]** und **[!UICONTROL Kontakte]** Listen kann bei der Zielgruppenbestimmung verwendet werden, einschließlich Kontofeldern, Opportunity-Feldern, Status ausgehender Workflows und Kontaktkategorien wie **[!UICONTROL Meine Opportunity-Kontakte]**. Administratoren wählen aus, welche CRM-Felder in der [-Zuordnung gefiltert werden &#x200B;](integrations.md#map-crm-fields-inbound-mapping).
+Jeder Filter aus den **[!UICONTROL Leads]** und **[!UICONTROL Kontakte]** Listen kann bei der Zielgruppenbestimmung verwendet werden, einschließlich Kontofeldern, Opportunity-Feldern, Status ausgehender Workflows und Kontaktkategorien wie **[!UICONTROL Meine Opportunity-Kontakte]**. Administratoren wählen aus, welche CRM-Felder in der [-Zuordnung gefiltert werden ](integrations.md#map-crm-fields-inbound-mapping).
 
 Alle Zielgruppenfilter werden im Workflow gespeichert und beim Hinzufügen von potenziellen Kunden automatisch angewendet. [Agentenvorschläge](tasks.md#agent-suggestions) Verwenden Sie denselben vollständigen Satz von Filtern, sodass die empfohlenen potenziellen Kunden Ihren Zielgruppenkriterien entsprechen.
 
-### Interessenten automatisch über Marketing-Highlights registrieren
+### Abrufen von Empfehlungen aus Marketing-Highlights {#automatically-enroll-prospects-from-marketing-highlights}
 
-Ein ausgehender Workflow kann die Aktivität „Live-Marketing-Highlights“ anhand der Zielgruppenkriterien bewerten. Wenn die Aktivität übereinstimmt, löst [!DNL Marketo Qualifier] den CRM-Inhaber des Interessenten per E-Mail auf und registriert den Interessenten nur in einem geeigneten Workflow, der zu diesem Mitarbeiter gehört.
+Ein ausgehender Workflow kann Leads und Aktivitäten aus Marketing-Highlights anhand der Zielgruppenkriterien auswerten. Senden Sie Leads von einer Smart-Trigger- oder Batch-Kampagne mit dem **[!UICONTROL An Marketo Qualifier senden]** Flussschritt in [!DNL Marketo Engage]. Siehe [Einrichten von Marketing-](marketing-highlights-setup.md)&quot;.
 
-Die automatische Registrierung folgt dieser Sequenz:
+Wenn die Kriterien übereinstimmen, löst [!DNL Marketo Qualifier] den Verantwortlichen des Leads von Salesforce oder Microsoft Dynamics 365 auf und empfiehlt den Lead nur diesem Verantwortlichen. Leads werden nicht automatisch registriert.
+
+Die Empfehlungen folgen dieser Reihenfolge:
 
 1. Ein Mitarbeiter definiert die Zielgruppenkriterien des Workflows.
-1. Live [!DNL Marketo]-Aktivität kommt für einen potenziellen Kunden an.
-1. [!DNL Marketo Qualifier] löst den Besitzenden des potenziellen Kunden aus Salesforce oder Microsoft Dynamics auf und bewertet die Aktivität anhand der zulässigen Workflows des Besitzers.
-1. Wenn die Kriterien erfüllt sind, wird der Interessent registriert und die Kontaktaufnahme beginnt.
+1. Ein Lead kommt in den Marketing-Highlights einer intelligenten Marketo Engage-Kampagne an.
+1. Marketo Qualifier gleicht den Lead mit dem CRM-Besitzer ab und bewertet den Lead und die Aktivität anhand der zulässigen Workflows des Inhabers.
+1. Wenn die Kriterien übereinstimmen, erhält der Inhaber eine Empfehlung unter **[!UICONTROL Aufgaben]** > **[!UICONTROL Agentenvorschläge]**.
+1. Der Inhaber prüft den empfohlenen Interessenten und generiert E-Mails, [genehmigt und registriert den Interessenten](#approve-and-enroll-prospects) bevor die Kontaktaufnahme beginnt.
 
 Wenn sich bereits ein anderer Mitarbeiter an den Interessenten wendet, wird [!DNL Marketo Qualifier] eine Warnung angezeigt, bevor die doppelte Kontaktaufnahme beginnt.
 
@@ -167,7 +170,7 @@ Admins konfigurieren die Opt-out-Fußzeile global, was unabhängig von den Einst
 
 Fügen Sie nach dem Speichern Interessenten aus der Auswahlansicht hinzu. Die konfigurierten Zielgruppenfilter werden angewendet.
 
-Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) &#x200B;](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
+Sie können Leads auch zu einem vorhandenen ausgehenden Workflow aus einer [Liste für intelligente Zielgruppen (Beta)) ](smart-audience.md#add-leads-to-an-outbound-workflow). Überprüfen Sie die ausgewählten Leads und den ausgewählten Workflow, bevor Sie den Vorgang bestätigen. Das Hinzufügen von Leads ersetzt nicht die unten beschriebenen Schritte zur E-Mail-Überprüfung und -Genehmigung.
 
 1. Überprüfen Sie die Liste.
 
@@ -290,7 +293,7 @@ Wenn ein Interessent mit einer Abwesenheitsnachricht antwortet, wird diese autom
 
 Wenn ein potenzieller Kunde mit einer klaren Aufforderung antwortet, keine E-Mails mehr zu erhalten, wie etwa „Bitte keine E-Mails mehr an mich senden“, „Abmelden“, „Mich aus dieser Liste entfernen“ oder „Mich von Ihrer Liste nehmen“, markiert [!DNL Marketo Qualifier] den potenziellen Kunden automatisch als abgemeldet. Dies entspricht dem **[!UICONTROL Opt-out]**-Status und -Badge wie bei Auswahl des Opt-out-Links. Es werden keine weiteren Touchpoints gesendet. Jede konfigurierte CRM-Statusaktualisierung funktioniert wie bei einem Opt-out-Link.
 
-Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert &#x200B;](admin-settings.md#configure-global-email-opt-out).
+Es zählen nur Löschanfragen. Zum Beispiel wird „Ich bin nicht die richtige Person“ oder „Nicht in diesem Moment“ wie jede andere Antwort gehandhabt und nicht als Opt-out. Es ist keine Einrichtung erforderlich. Antwort-Opt-outs funktionieren zusammen mit dem Opt-out-Link, der in [Admin-Einstellungen“ konfiguriert ](admin-settings.md#configure-global-email-opt-out).
 
 ## Duplizieren eines ausgehenden Workflows
 

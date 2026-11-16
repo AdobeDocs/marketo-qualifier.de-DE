@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
@@ -111,6 +111,8 @@ Abgeschlossene, übersprungene und abgebrochene Aufgaben sind endgültig. Ihre A
 
 Die **[!UICONTROL Agentenvorschläge]** enthält Interessenten, die für die Registrierung empfohlen werden, und nutzt einen vollständigen Satz konfigurierter [Zielgruppenbestimmungsfilter für ausgehende Workflows](outbound-workflows.md#step-2-configure-targeting-filters). Informationen zum Aktivieren von Recommendations finden Sie [Ausgehende Workflows](outbound-workflows.md).
 
+Leads, die von [!DNL Marketo Engage] mit dem Flussschritt **[!UICONTROL An Marketo Qualifier senden]** gesendet wurden, können auch hier angezeigt werden, wenn sie den Zielgruppenkriterien eines ausgehenden Workflows entsprechen. Jeder Lead wird nur seinem Eigentümer im verbundenen Salesforce oder Microsoft Dynamics 365 CRM empfohlen. Vor der Registrierung und Kontaktaufnahme prüft und genehmigt der Verantwortliche den Interessenten. Durch das Senden eines Leads von Marketo Engage wird er nicht automatisch registriert. Siehe [Einrichten von Marketing-](marketing-highlights-setup.md)&quot;.
+
 Um einen Vorschlag im Arbeitsbereich zu überprüfen, wählen Sie ihn aus:
 
 * Ein Kürzungs-Badge kennzeichnet jeden Vorschlag als **[!UICONTROL Neu]** oder **[!UICONTROL Zurück]**.
@@ -118,7 +120,7 @@ Um einen Vorschlag im Arbeitsbereich zu überprüfen, wählen Sie ihn aus:
 
 Es stehen zwei Aktionen zur Verfügung:
 
-* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung &#x200B;](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Interessenten überprüfen]** - Öffnen Sie den ausgehenden Workflow, um empfohlene Interessenten zu überprüfen und zu registrieren. Siehe [Interessenten hinzufügen und E-Mail-Generierung ](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Als abgeschlossen markieren]** - Schließen Sie den Vorschlag ab, nachdem Sie ihn überprüft haben.
 
 Die **[!UICONTROL Agentenvorschläge]** enthält die Statusfilter **[!UICONTROL Aktuell]**, **[!UICONTROL Abgeschlossen]** und **[!UICONTROL Abgebrochen]**, einen Filter für ausgehende Workflows und eine Sortierung nach Erstellungsdatum.
@@ -140,7 +142,7 @@ Preisangaben, rechtliche oder Sicherheitsanforderungen, feindselige Reaktionen u
 1. Um einen weiteren Entwurf zu erstellen, bearbeiten Sie die Antwort oder wählen Sie **[!UICONTROL Mit KI generieren]** aus.
 1. Um die Antwort zu senden und den ausgehenden Workflow des Interessenten fortzusetzen, wählen Sie **[!UICONTROL Genehmigen und senden]** aus.
 
-Sie können KI[Entwurfsantworten auch in der Ansicht „Interessenten“ des ausgehenden Workflows &#x200B;](outbound-workflows.md#review-and-send-ai-draft-replies)prüfen, bearbeiten **[!UICONTROL senden oder]**.
+Sie können KI[Entwurfsantworten auch in der Ansicht „Interessenten“ des ausgehenden Workflows ](outbound-workflows.md#review-and-send-ai-draft-replies)prüfen, bearbeiten **[!UICONTROL senden oder]**.
 
 ## Abschließen von Aufgaben aus einem ausgehenden Workflow
 

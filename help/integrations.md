@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1517'
 ht-degree: 1%
 ---
 
@@ -156,7 +156,7 @@ Eingehende Zuordnungen steuern, welche CRM-Felder Marketo Qualifier importiert u
 
 1. Geben Sie einen **[!UICONTROL Abschnittsnamen“]** eine optionale **[!UICONTROL Beschreibung]** ein. Klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Suchen Sie im Schritt **[!UICONTROL Feld hinzufügen]** nach CRM-Feldern und wählen Sie diese aus, um sie zu importieren. Um fortzufahren, klicken Sie auf **[!UICONTROL Weiter]**. Jedes Feld zeigt seinen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Feldname]** und **[!UICONTROL Datentyp]**.
-1. Aktivieren Sie für **&#x200B;**, **[!UICONTROL Kontakte]**, **[!UICONTROL Konten]** und **[!UICONTROL Opportunities]** für jedes Feld **[!UICONTROL Filterable]**, das die Repräsentanten auf der [prospects](prospects.md#filter-and-find-prospects)-Liste oder beim [Outbound Workflow-Targeting](outbound-workflows.md#step-2-configure-targeting-filters) benötigen.
+1. Aktivieren Sie für ****, **[!UICONTROL Kontakte]**, **[!UICONTROL Konten]** und **[!UICONTROL Opportunities]** für jedes Feld **[!UICONTROL Filterable]**, das die Repräsentanten auf der [prospects](prospects.md#filter-and-find-prospects)-Liste oder beim [Outbound Workflow-Targeting](outbound-workflows.md#step-2-configure-targeting-filters) benötigen.
 
    Ein Feld kann nicht als filterbar festgelegt werden, wenn sein Datentyp keine Filterung unterstützt oder wenn es bereits in einem anderen Abschnitt verwendet wird.
 
@@ -186,7 +186,7 @@ Wenn die Aktivitätssynchronisierung deaktiviert ist, verwendet Marketo Qualifie
 
 Mit den Marketing-Highlights können Mitarbeiter Interessenten anhand ihrer Live-[!DNL Marketo]-Interaktionen wie E-Mail-Öffnungen und -Klicks finden und priorisieren. Siehe [Filtern nach Marketing-Highlights](prospects.md#filter-by-marketing-highlights).
 
-Ein Administrator führt ein einmaliges Setup durch, bei dem [!DNL Marketo] für die entsprechende Organisation und Sandbox mit Marketo Qualifier verbunden wird. Die Einrichtung umfasst das Erstellen von API-Anmeldeinformationen in der Adobe Developer Console, das Konfigurieren eines Webhooks in [!DNL Marketo] und das Hinzufügen dieses Webhooks zu einer intelligenten Trigger-Kampagne. Die [&#x200B; Schritte finden Sie unter „Einrichten &#x200B;](marketing-highlights-setup.md) Marketing-Highlights“.
+Fügen Sie den **[!UICONTROL An Marketo Qualifier senden]** Flussschritt einer Smart Campaign des Typs Trigger oder Batch hinzu, [!DNL Marketo Engage] qualifizierte Leads ohne zu konfigurierende Webhook- oder API-Anmeldeinformationen zu senden. Unter [Einrichten von Marketing-Highlights](marketing-highlights-setup.md) finden Sie Voraussetzungen und Schritte.
 
 Marketing-Highlights sind in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
 

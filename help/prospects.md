@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1058'
 ht-degree: 1%
 ---
 
@@ -40,7 +40,7 @@ Um die Leads und Kontakte anzuzeigen, auf die Sie zugreifen können, wählen Sie
 
 * **[!UICONTROL Leads]** Leads, die Ihnen im verbundenen CRM zugewiesen sind.
 * **[!UICONTROL Kontakte]** Kontakte, die Ihnen im verbundenen CRM zugewiesen sind, mit ihrem zugehörigen Konto. Die Kontaktdaten enthalten auch den Namen des Inhabers. Diese Details sind für Salesforce und Microsoft Dynamics 365 verfügbar.
-* **[!UICONTROL Marketing-Highlights]** Interessenten mit Live-Marketo-Aktivität, wie z. B. Öffnungen oder Klicks von E-Mails.
+* **[!UICONTROL Marketing-Highlights]** Interessenten, die über Marketo Engage Trigger- oder Batch-Smart-Kampagnen versendet werden, einschließlich Interaktionen wie E-Mail-Öffnungen oder -Klicks.
 * **[!UICONTROL Personenliste]** Interessenten, die Sie manuell importieren oder hinzufügen.
 
 ## Interessentenkontext überprüfen und Liste exportieren
@@ -87,26 +87,26 @@ Um die Liste einzugrenzen, klicken Sie auf **[!UICONTROL Filter]**. Sie können 
 * Quelle
 * Zuletzt aktualisiert
 
-In den **[!UICONTROL Leads]** und **[!UICONTROL Kontakten]** Listen akzeptieren Textfilter wie **[!UICONTROL Auftragstitel]** und **[!UICONTROL E-Mail]** bis zu fünf Werte mit dem Operator „enthält“. Geben Sie einen Wert ein, drücken Sie die Eingabetaste und fügen Sie dann den nächsten Wert hinzu. Zu den Ergebnissen gehören Interessenten, die einem der Werte entsprechen. Beispiel: Ein Filter für die Auftragstitel, der `manager` und `director` enthält, gibt Interessenten zurück, deren Titel ein Wort enthält. Diese Filterung ist für Salesforce und Microsoft Dynamics 365 verfügbar. Dieselben Filter können beim „Zielgruppenbestimmung [&#x200B; ausgehenden Workflows“ verwendet &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters).
+In den **[!UICONTROL Leads]** und **[!UICONTROL Kontakten]** Listen akzeptieren Textfilter wie **[!UICONTROL Auftragstitel]** und **[!UICONTROL E-Mail]** bis zu fünf Werte mit dem Operator „enthält“. Geben Sie einen Wert ein, drücken Sie die Eingabetaste und fügen Sie dann den nächsten Wert hinzu. Zu den Ergebnissen gehören Interessenten, die einem der Werte entsprechen. Beispiel: Ein Filter für die Auftragstitel, der `manager` und `director` enthält, gibt Interessenten zurück, deren Titel ein Wort enthält. Diese Filterung ist für Salesforce und Microsoft Dynamics 365 verfügbar. Dieselben Filter können beim „Zielgruppenbestimmung [ ausgehenden Workflows“ verwendet ](outbound-workflows.md#step-2-configure-targeting-filters).
 
 Administratoren können auch zugeordnete CRM-Felder als Filter verfügbar machen. Aktivieren Sie **[!UICONTROL Admin]** für jedes Feld, **[!UICONTROL Benutzer verwenden, um potenzielle Kunden]** finden, „Filterbar“. Siehe [Zuordnen von CRM-Feldern](integrations.md#map-crm-fields-inbound-mapping).
 
 In **[!UICONTROL Meine Opportunity-Kontakte]** können Sie Kontakte auch nach Feldern aus den zugehörigen Opportunities filtern, wie Stadium, Typ und Abschlussdatum. Opportunity-Felder haben Bezeichnungen wie **[!UICONTROL Phase (Opportunity)]** die sie von Kontaktfeldern unterscheiden. Ihr Administrator steuert, welche Opportunity-Felder als Filter verfügbar sind.
 
-Sie können Kontakte auch nach Feldern aus ihrem zugehörigen Konto filtern, z. B. Branche, Region oder Kontotyp. Ihr Administrator legt fest, welche Kontofelder gefiltert werden können. Kombinieren Sie Konto-, Kontakt- und Opportunity-Filter, um beispielsweise Kontakte mit einer bestimmten Funktion bei Accounts in einer bestimmten Branche zu finden. Die Filterung der Kontofelder ist für Salesforce und Microsoft Dynamics 365 verfügbar. Dieselben Felder können beim „Zielgruppenbestimmung [&#x200B; ausgehenden Workflows“ verwendet &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters).
+Sie können Kontakte auch nach Feldern aus ihrem zugehörigen Konto filtern, z. B. Branche, Region oder Kontotyp. Ihr Administrator legt fest, welche Kontofelder gefiltert werden können. Kombinieren Sie Konto-, Kontakt- und Opportunity-Filter, um beispielsweise Kontakte mit einer bestimmten Funktion bei Accounts in einer bestimmten Branche zu finden. Die Filterung der Kontofelder ist für Salesforce und Microsoft Dynamics 365 verfügbar. Dieselben Felder können beim „Zielgruppenbestimmung [ ausgehenden Workflows“ verwendet ](outbound-workflows.md#step-2-configure-targeting-filters).
 
 ### Nach Marketing-Highlights filtern
 
-Überprüfen und priorisieren Sie potenzielle Kunden anhand ihrer Live-[!DNL Marketo]-Interaktion, z. B. E-Mail-Aktivität, Web-Besuche und Formularausfüllungen. Die Interaktion erfolgt praktisch in Echtzeit.
+Überprüfen und priorisieren Sie die von [!DNL Marketo Engage] gesendeten potenziellen Kunden, einschließlich E-Mail-Aktivitäten, Web-Besuche und Ausfüllen von Formularen. Trigger-Kampagnen senden Interaktionen sofort und Batch-Kampagnen senden bei jeder Ausführung qualifizierte Leads.
 
 So filtern Sie Interessenten nach Marketing-Highlights:
 
 1. Wählen Sie **[!UICONTROL Filter]** aus.
 1. Fügen Sie einen Filter Marketing-Highlights hinzu und legen Sie den Aktivitätstyp, die Kampagne oder andere Attribute fest, um sich auf die wichtige Interaktion zu konzentrieren.
 
-Jeder Interessent zeigt seine neuesten [!DNL Marketo] Aktivitäten zusammen mit dem aktuellen Verlauf an.
+Jeder Interessent zeigt seine neuesten [!DNL Marketo] Aktivitäten zusammen mit dem aktuellen Verlauf an. Die Aktivität kann zeigen, wie ein Lead eingetroffen ist, z. B. **[!UICONTROL Aus Batch-Kampagne hinzugefügt]**.
 
-Marketing-Highlights sind in allen Produktionsregionen verfügbar. Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit Marketo Qualifier verbindet. Siehe [Einrichten von Marketing-](integrations.md#turn-on-marketo-engagement-filtering)&quot;.
+Marketing-Highlights sind in allen Produktionsregionen verfügbar. Informationen zum Senden von Leads mit dem **[!UICONTROL An Marketo Qualifier senden]** finden Sie unter [Einrichten von Marketing-](marketing-highlights-setup.md)).
 
 ## Details des potenziellen Kunden überprüfen
 

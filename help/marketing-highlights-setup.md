@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Marketing-Highlights
-description: Erfahren Sie, wie Sie Marketo mit Adobe Marketo Qualifier verbinden, damit Kundenbetreuer in den Marketing-Highlights Interessenten nach Marketo-Live-Aktivitäten anzeigen und filtern können.
+description: Erfahren Sie, wie Sie mit einem Workflow-Schritt für intelligente Kampagnen Leads von Marketo Engage an Marketo Qualifier senden und erhalten Sie Empfehlungen zu Marketing-Highlights zur Überprüfung.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -21,30 +21,63 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 3%
+source-wordcount: '1011'
+ht-degree: 2%
 ---
 
 # Einrichten von Marketing-Highlights
 
-Die Marketing-Highlights zeigen die Live-[!DNL Marketo]-Aktivität jedes Interessenten an, z. B. Öffnungen und Klicks von E-Mails, Web-Besuche und ausgefüllte Formulare. In diesem Artikel wird erläutert, wie Sie Ihre [!DNL Marketo]-Instanz verbinden, damit Aktivitäten in fließen.
+Senden Sie Leads von [!DNL Adobe Marketo Engage] an [!DNL Adobe Marketo Qualifier], indem Sie den **[!UICONTROL An Marketo Qualifier senden]** zu einer Smart-Kampagne hinzufügen. Die Mitarbeiter sehen die Leads und die Aktivität, die sie an **[!UICONTROL Interessenten]** > **[!UICONTROL Marketing-Highlights]** gesendet haben.
+
+Der Flussschritt funktioniert mit beiden Arten von Smart Campaign:
+
+* **Trigger-Kampagnen** Versenden Sie Interaktionen sofort, z. B. E-Mail-Öffnungen und -Klicks, Link-Klicks, Ausfüllen von Formularen und Web-Seitenbesuche.
+* **Batch-Kampagnen** Senden Sie bei jeder Ausführung der Kampagne die qualifizierenden Leads.
+
+Wenn ein Lead den Targeting-Kriterien eines ausgehenden Workflows entspricht, empfiehlt Marketo Qualifier den Lead seinem Inhaber in Ihrem verbundenen CRM-System. Der Verantwortliche prüft und genehmigt den Lead vor der Registrierung und der Kontaktaufnahme. Leads werden nicht automatisch registriert.
+
+Marketing-Highlights sind in allen Produktionsregionen verfügbar: Nordamerika, EMEA und Australien.
+
+## Voraussetzungen {#before-you-begin}
+
+Bestätigen Sie diese Voraussetzungen, bevor Sie den Flussschritt hinzufügen:
+
+* Ein Marketo-Administrator hat &quot;**[!UICONTROL an Marketo Qualifier senden]** für Ihre Marketo Engage-Instanz in &quot;**[!UICONTROL &quot;]**.
+* Marketo Qualifier ist [mit Salesforce oder Microsoft Dynamics 365 verbunden](getting-started.md#connect-your-crm) sodass jeder Lead seinem CRM-Besitzer zugeordnet werden kann.
 
 >[!IMPORTANT]
 >
->Für den Abschluss dieses Setups ist der Zugriff auf die Adobe Developer Console und auf **[!UICONTROL Admin]** in [!DNL Marketo] erforderlich. Arbeiten Sie mit Ihrem Adobe-Ansprechpartner und Ihrem [!DNL Marketo]-Administrator zusammen, um die vier folgenden Teile auszufüllen.
+>Für **[!UICONTROL Flussschritt „An Marketo Qualifier]**&quot; ist kein Webhook, keine Endpunkt-URL und keine API-Anmeldeinformationen erforderlich. Sie benötigen keinen Zugriff auf die Adobe Developer Console, um sie verwenden zu können. Wenn der Flussschritt nicht verfügbar ist, wenden Sie sich an den Marketo-Administrator.
 
-Das Setup besteht aus vier Teilen:
+## Senden von Leads mit einer intelligenten Kampagne {#send-leads-with-a-smart-campaign}
 
-* Teil A: Erstellen von API-Anmeldeinformationen in der Adobe Developer Console.
-* Teil B: Erfassen Sie Ihren Adobe Marketo Qualifier-Endpunkt und Ihre Kennungen.
-* Teil C: Konfigurieren eines Webhooks in [!DNL Marketo Engage].
-* Teil D: Hinzufügen des Webhooks zu einer Smart Trigger-Kampagne.
+Verwenden Sie eine vorhandene Smart Campaign oder erstellen Sie eine für die Leads und Aktivitäten, die Sie senden möchten.
 
-Nach Abschluss des Setups können Benutzer diese Aktivität unter **[!UICONTROL Interessenten]** > **[!UICONTROL Marketing-Highlights]** anzeigen und filtern.
+1. Öffnen Sie in Marketo Engage eine Smart Campaign oder wählen Sie **[!UICONTROL Marketing-Aktivitäten]** > **[!UICONTROL Neu]** > **[!UICONTROL Smart Campaign]** aus, um eine Smart Campaign zu erstellen.
+1. Auf der Registerkarte **[!UICONTROL Smart List]** definieren Sie, welche Leads qualifiziert sind.
 
-## Teil A: Erstellen von API-Anmeldeinformationen {#part-a-create-api-credentials}
+   * Fügen Sie für eine Trigger-Kampagne Trigger für die Aktivitäten hinzu, die Sie senden möchten, z. B. **[!UICONTROL Besuche auf]**, **[!UICONTROL Klicks auf Link auf]** oder **[!UICONTROL Klicks auf Link in E-Mail]**.
+   * Fügen Sie für eine Batch-Kampagne Filter für die Leads hinzu, die Sie senden möchten.
+
+1. Fügen Sie auf der **[!UICONTROL Fluss]** den **[!UICONTROL An Marketo Qualifier senden]** Flussschritt hinzu.
+1. Aktivieren Sie die Trigger-Kampagne oder führen Sie die Batch-Kampagne aus bzw. planen Sie sie.
+1. Öffnen Sie in Marketo Qualifier **[!UICONTROL Interessenten]** > **[!UICONTROL Marketing-]**), um die Leads und ihre Aktivitäten zu überprüfen.
+
+   Die Aktivität zeigt an, wie ein Lead ankam, z. B. **[!UICONTROL aus Batch-Kampagne hinzugefügt]**.
+
+Leads, die den Targeting-Kriterien eines ausgehenden Workflows entsprechen, werden nur dem CRM-Besitzer empfohlen. Um Empfehlungen zu überprüfen, öffnen Sie **[!UICONTROL Aufgaben]** > **[!UICONTROL Agentenvorschläge]**. Siehe [Empfehlungen aus Marketing-](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights) abrufen“ und [Agentenvorschläge](tasks.md#agent-suggestions).
+
+## Vorhandene Webhook-Setups {#existing-webhook-setups}
+
+In den folgenden Anweisungen wird die frühere Webhook-Einrichtung beschrieben. Sie sind für den **[!UICONTROL An Marketo Qualifier senden]** nicht erforderlich. Wenn Ihr Unternehmen bereits einen Webhook verwendet, wenden Sie sich an Ihren Marketo-Administrator und Adobe-Ansprechpartner, bevor Sie dieses Setup ändern.
+
++++Webhook-Setup-Anweisungen
+
+Diese Anweisungen erfordern Zugriff auf die Adobe Developer Console und auf **[!UICONTROL Admin]** in Marketo Engage.
+
+### Teil A: Erstellen von API-Anmeldeinformationen {#part-a-create-api-credentials}
 
 Mit diesen Anmeldeinformationen können [!DNL Marketo] sich sicher bei Marketo Qualifier authentifizieren.
 
@@ -66,7 +99,7 @@ So erstellen Sie die Anmeldeinformationen:
 >
 >Den Client-Schlüssel privat halten. Behandeln Sie sie wie ein Passwort und senden Sie sie nicht per E-Mail. Verwenden Sie den genehmigten sicheren Kanal Ihrer Organisation, um ihn für die Person freizugeben, die den Webhook konfiguriert.
 
-## Teil B: Erfassen Sie Ihren Endpunkt und Ihre Kennungen {#part-b-gather-your-endpoint-and-identifiers}
+### Teil B: Erfassen Sie Ihren Endpunkt und Ihre Kennungen {#part-b-gather-your-endpoint-and-identifiers}
 
 Sie benötigen drei Werte für [Teil C](#part-c-configure-the-marketo-webhook):
 
@@ -84,7 +117,7 @@ Sie benötigen drei Werte für [Teil C](#part-c-configure-the-marketo-webhook):
 
 Wenn Sie sich bezüglich Ihrer Region, IMS-Org-ID oder Ihres Sandbox-Namens nicht sicher sind, kann Ihr Adobe-Kontakt sie bestätigen.
 
-## Teil C: Konfigurieren des Marketo-Webhooks {#part-c-configure-the-marketo-webhook}
+### Teil C: Konfigurieren des Marketo-Webhooks {#part-c-configure-the-marketo-webhook}
 
 So erstellen Sie den Webhook:
 
@@ -171,7 +204,7 @@ So erstellen Sie den Webhook:
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-## Teil D: Hinzufügen des Webhooks zu einer intelligenten Trigger-Kampagne {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
+### Teil D: Hinzufügen des Webhooks zu einer intelligenten Trigger-Kampagne {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
 Fügen Sie **[!UICONTROL Trigger-Smart]** Kampagne einen Flussschritt „Webhook aufrufen“ hinzu, entweder eine vorhandene oder eine neue. Die Trigger der Smart List für diese Kampagne entscheiden, welche Aktivitäten an Marketo Qualifier gesendet werden.
 
@@ -183,6 +216,8 @@ So fügen Sie den Webhook hinzu:
 1. Aktivieren Sie die Smart-Kampagne.
 
 Die Aktivität dieser Smart Campaign fließt jetzt in Marketo Qualifier. Mitarbeiter können diese Aktivität unter „Interessenten **[!UICONTROL > „Marketing]** Highlights“ anzeigen **[!UICONTROL filtern]**.
+
++++
 
 >[!MORELIKETHIS]
 >
