@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3140'
 ht-degree: 0%
 ---
 
@@ -98,16 +98,19 @@ Jeder Filter aus den **[!UICONTROL Leads]** und **[!UICONTROL Kontakte]** Listen
 
 Alle Zielgruppenfilter werden im Workflow gespeichert und beim Hinzufügen von potenziellen Kunden automatisch angewendet. [Agentenvorschläge](tasks.md#agent-suggestions) Verwenden Sie denselben vollständigen Satz von Filtern, sodass die empfohlenen potenziellen Kunden Ihren Zielgruppenkriterien entsprechen.
 
-### Interessenten automatisch über Marketing-Highlights registrieren
+### Abrufen von Empfehlungen aus Marketing-Highlights {#automatically-enroll-prospects-from-marketing-highlights}
 
-Ein ausgehender Workflow kann die Aktivität „Live-Marketing-Highlights“ anhand der Zielgruppenkriterien bewerten. Wenn die Aktivität übereinstimmt, löst [!DNL Marketo Qualifier] den CRM-Inhaber des Interessenten per E-Mail auf und registriert den Interessenten nur in einem geeigneten Workflow, der zu diesem Mitarbeiter gehört.
+Ein ausgehender Workflow kann Leads und Aktivitäten aus Marketing-Highlights anhand der Zielgruppenkriterien auswerten. Senden Sie Leads von einer Smart-Trigger- oder Batch-Kampagne mit dem **[!UICONTROL An Marketo Qualifier senden]** Flussschritt in [!DNL Marketo Engage]. Siehe [Einrichten von Marketing-](marketing-highlights-setup.md)&quot;.
 
-Die automatische Registrierung folgt dieser Sequenz:
+Wenn die Kriterien übereinstimmen, löst [!DNL Marketo Qualifier] den Verantwortlichen des Leads von Salesforce oder Microsoft Dynamics 365 auf und empfiehlt den Lead nur diesem Verantwortlichen. Leads werden nicht automatisch registriert.
+
+Die Empfehlungen folgen dieser Reihenfolge:
 
 1. Ein Mitarbeiter definiert die Zielgruppenkriterien des Workflows.
-1. Live [!DNL Marketo]-Aktivität kommt für einen potenziellen Kunden an.
-1. [!DNL Marketo Qualifier] löst den Besitzenden des potenziellen Kunden aus Salesforce oder Microsoft Dynamics auf und bewertet die Aktivität anhand der zulässigen Workflows des Besitzers.
-1. Wenn die Kriterien erfüllt sind, wird der Interessent registriert und die Kontaktaufnahme beginnt.
+1. Ein Lead kommt in den Marketing-Highlights einer intelligenten Marketo Engage-Kampagne an.
+1. Marketo Qualifier gleicht den Lead mit dem CRM-Besitzer ab und bewertet den Lead und die Aktivität anhand der zulässigen Workflows des Inhabers.
+1. Wenn die Kriterien übereinstimmen, erhält der Inhaber eine Empfehlung unter **[!UICONTROL Aufgaben]** > **[!UICONTROL Agentenvorschläge]**.
+1. Der Inhaber prüft den empfohlenen Interessenten und generiert E-Mails, [genehmigt und registriert den Interessenten](#approve-and-enroll-prospects) bevor die Kontaktaufnahme beginnt.
 
 Wenn sich bereits ein anderer Mitarbeiter an den Interessenten wendet, wird [!DNL Marketo Qualifier] eine Warnung angezeigt, bevor die doppelte Kontaktaufnahme beginnt.
 

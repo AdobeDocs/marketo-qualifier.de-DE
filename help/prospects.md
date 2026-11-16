@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1058'
 ht-degree: 1%
 ---
 
@@ -40,7 +40,7 @@ Um die Leads und Kontakte anzuzeigen, auf die Sie zugreifen können, wählen Sie
 
 * **[!UICONTROL Leads]** Leads, die Ihnen im verbundenen CRM zugewiesen sind.
 * **[!UICONTROL Kontakte]** Kontakte, die Ihnen im verbundenen CRM zugewiesen sind, mit ihrem zugehörigen Konto. Die Kontaktdaten enthalten auch den Namen des Inhabers. Diese Details sind für Salesforce und Microsoft Dynamics 365 verfügbar.
-* **[!UICONTROL Marketing-Highlights]** Interessenten mit Live-Marketo-Aktivität, wie z. B. Öffnungen oder Klicks von E-Mails.
+* **[!UICONTROL Marketing-Highlights]** Interessenten, die über Marketo Engage Trigger- oder Batch-Smart-Kampagnen versendet werden, einschließlich Interaktionen wie E-Mail-Öffnungen oder -Klicks.
 * **[!UICONTROL Personenliste]** Interessenten, die Sie manuell importieren oder hinzufügen.
 
 ## Interessentenkontext überprüfen und Liste exportieren
@@ -97,16 +97,16 @@ Sie können Kontakte auch nach Feldern aus ihrem zugehörigen Konto filtern, z. 
 
 ### Nach Marketing-Highlights filtern
 
-Überprüfen und priorisieren Sie potenzielle Kunden anhand ihrer Live-[!DNL Marketo]-Interaktion, z. B. E-Mail-Aktivität, Web-Besuche und Formularausfüllungen. Die Interaktion erfolgt praktisch in Echtzeit.
+Überprüfen und priorisieren Sie die von [!DNL Marketo Engage] gesendeten potenziellen Kunden, einschließlich E-Mail-Aktivitäten, Web-Besuche und Ausfüllen von Formularen. Trigger-Kampagnen senden Interaktionen sofort und Batch-Kampagnen senden bei jeder Ausführung qualifizierte Leads.
 
 So filtern Sie Interessenten nach Marketing-Highlights:
 
 1. Wählen Sie **[!UICONTROL Filter]** aus.
 1. Fügen Sie einen Filter Marketing-Highlights hinzu und legen Sie den Aktivitätstyp, die Kampagne oder andere Attribute fest, um sich auf die wichtige Interaktion zu konzentrieren.
 
-Jeder Interessent zeigt seine neuesten [!DNL Marketo] Aktivitäten zusammen mit dem aktuellen Verlauf an.
+Jeder Interessent zeigt seine neuesten [!DNL Marketo] Aktivitäten zusammen mit dem aktuellen Verlauf an. Die Aktivität kann zeigen, wie ein Lead eingetroffen ist, z. B. **[!UICONTROL Aus Batch-Kampagne hinzugefügt]**.
 
-Marketing-Highlights sind in allen Produktionsregionen verfügbar. Ein Administrator führt eine einmalige Einrichtung durch, die [!DNL Marketo] mit Marketo Qualifier verbindet. Siehe [Einrichten von Marketing-](integrations.md#turn-on-marketo-engagement-filtering)&quot;.
+Marketing-Highlights sind in allen Produktionsregionen verfügbar. Informationen zum Senden von Leads mit dem **[!UICONTROL An Marketo Qualifier senden]** finden Sie unter [Einrichten von Marketing-](marketing-highlights-setup.md)).
 
 ## Details des potenziellen Kunden überprüfen
 

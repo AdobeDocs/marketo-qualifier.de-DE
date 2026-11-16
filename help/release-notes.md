@@ -9,15 +9,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '821'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] – Versionshinweise
 
 ## Version November 2026
 
+* Senden Sie Leads von [!DNL Marketo Engage] an [!DNL Marketo Qualifier], indem Sie den **[!UICONTROL An Marketo Qualifier senden]**-Flussschritt zu einer beliebigen Trigger- oder Batch-Smart-Kampagne hinzufügen, ohne dass ein Webhook oder API-Anmeldeinformationen eingerichtet werden müssen. Leads, die mit einem ausgehenden Workflow übereinstimmen, werden dem Verantwortlichen zur Überprüfung empfohlen. [Weitere Informationen](marketing-highlights-setup.md).
 * Beschreiben Sie, wen Sie im Klartext erreichen möchten, und verwandeln Sie ihn in CRM-Lead- und Kontaktfilter, verwenden Sie jeden Lead- und Kontaktfilter beim ausgehenden Workflow-Targeting und zeigen Sie vor dem Speichern eine Vorschau der passenden Interessenten an. [Weitere Informationen](outbound-workflows.md#step-2-configure-targeting-filters).
 * Filtern Sie Interessenten in Textfeldern wie Auftragstitel und E-Mail nach mehreren Werten gleichzeitig, mit bis zu fünf Werten pro Filter. [Weitere Informationen](prospects.md#filter-and-find-prospects).
 * KI-Antwortentwürfe für Interessentenantworten direkt von einem ausgehenden Workflow aus überprüfen, bearbeiten und senden oder Entwürfe ablehnen, die nicht passen. [Weitere Informationen](outbound-workflows.md#review-and-send-ai-draft-replies).
@@ -43,7 +44,7 @@ Diese Version umfasst:
 
 * Zeigen Sie [!DNL Marketo Sales Insights]- und Agentendaten im eingebetteten CRM-Plug-in an und fügen Sie Interessenten zu [!DNL Marketo Qualifier] hinzu. [Weitere Informationen](admin-settings.md#crm-mcp-and-the-embedded-plugin).
 * Priorisieren Sie CRM-Leads mit Best Bets, „Meine Merkliste“, Web-Aktivität, E-Mail-Interaktion und Webinar-Aktivität. [Weitere Informationen](admin-settings.md#prioritize-leads-in-the-crm-plugin).
-* Interessenten automatisch für ausgehende Workflows registrieren, wenn ihre Live-[!DNL Marketo] den Workflow-Kriterien entspricht. [Weitere Informationen](home.md#automatically-enroll-prospects-from-marketing-highlights).
+* Abrufen von Empfehlungen für potenzielle Kunden, deren [!DNL Marketo] Aktivität den Zielgruppenkriterien eines ausgehenden Workflows entspricht. Der Eigentümer prüft und genehmigt Interessenten vor der Registrierung und der Kontaktaufnahme. [Weitere Informationen](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights).
 * Überprüfen Sie den Interessentenkontext, exportieren Sie die Liste der Interessenten, und zeigen Sie Zusammenfassungen der KI-Personen in [!DNL Marketo Optimizer] Prime- und Ultimate-Instanzen an. [Weitere Informationen](prospects.md#review-prospect-context-and-export-the-list).
 * Überprüfen und validieren Sie generierte E-Mails potenzieller Kundinnen und Kunden aus der Aufgabenwarteschlange und antworten Sie während eines ausgehenden Workflows mit Agentenvorschlägen. [Weitere Informationen](tasks.md).
 
